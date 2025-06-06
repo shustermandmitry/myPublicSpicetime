@@ -1,0 +1,26 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["src/index.ts"],
+  "out": "../../../../docs/api/cat-types",
+  "name": "Cat Types - Categorical Type System",
+  "readme": "README.md",
+  "theme": "default",
+  "includeVersion": true,
+  "excludePrivate": true,
+  "excludeProtected": false,
+  "excludeExternals": true,
+  "excludeInternal": false,
+  "categorizeByGroup": true,
+  "defaultCategory": "Other",
+  "sort": ["source-order"],
+  "searchInComments": true,
+  "searchInDocuments": true,
+  "treatWarningsAsErrors": false,
+  "treatValidationWarningsAsErrors": false,
+  "skipErrorChecking": true,
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noEmit": true
+  }
+}
