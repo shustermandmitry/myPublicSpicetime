@@ -1,0 +1,58 @@
+{
+  "name": "@spicetime/cat.types.dict_of_types",
+  "version": "1.0.0",
+  "description": "Category Types Dictionary - Type categorization and organization system",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./core": {
+      "import": "./dist/core/index.js",
+      "types": "./dist/core/index.d.ts"
+    },
+    "./categories": {
+      "import": "./dist/categories/index.js",
+      "types": "./dist/categories/index.d.ts"
+    },
+    "./registry": {
+      "import": "./dist/registry/index.js",
+      "types": "./dist/registry/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "docs": "typedoc",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@spicetime/base.types": "workspace:*"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "spicetime",
+    "types",
+    "categories",
+    "dictionary",
+    "classification"
+  ],
+  "author": "SpiceTime Architecture",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spicetime/spicetime-architecture.git",
+    "directory": "packages/core/dynamicTypes.dict_of_types/cat.types.dict_of_types"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
