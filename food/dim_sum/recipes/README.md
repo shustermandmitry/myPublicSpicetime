@@ -1,12 +1,23 @@
 # Dim Sum Recipe Collection
 
-*Organized recipe book with ingredient inheritance*
+*Collaborative recipe book for party planning*
 
 ## How This Works
 
 Each recipe folder contains:
 - **recipe.md** - Instructions and techniques
-- **ingredients.md** - Ingredients with inheritance from base categories
+- **ingredients.md** - Detailed shopping and prep guide
+- **votes.md** - Vote for recipes you want to make
+- **commitments.md** - Claim ingredients to bring
+- **expenses.md** - Track costs for expense splitting
+
+## Quick Start for Party Planning
+
+1. **[Read the guide](../HOW-TO-USE.md)** - 5-minute setup
+2. **Browse recipes below** and vote in `votes.md` files
+3. **Claim ingredients** in `commitments.md` files
+4. **Track expenses** in `expenses.md` files
+5. **Party time!** 🥟
 
 ### Ingredient Inheritance Pattern
 Recipes inherit ingredients from parent categories and add their own specific items:
