@@ -1,26 +1,36 @@
 # Har Gow - Ingredients
 
-*Extends: Universal Base + Common Proteins + Har Gow Wrapper*
+## Fresh Ingredients (Day of Cooking)
+- 1 lb raw shrimp (large, 16-20 count)
+- 1/4 cup bamboo shoots, canned
 
-## Inherited from Universal Base
+## Pantry Staples
 - 1 tsp sesame oil
 - 1/2 tsp white pepper
 - 1 tsp cornstarch
 - 1/2 tsp salt
-
-## Inherited from Common Proteins
-- 1 lb raw shrimp (large, peeled and deveined)
-
-## Har Gow Specific Additions
-- 1/4 cup bamboo shoots, finely diced
 - 1/2 tsp sugar
-- Additional cornstarch for binding
 
-## Wrapper Required
-- 1 batch har gow wrapper (see har-gow-wrapper recipe)
+## Prep Required (Can Do Ahead)
+- **Shrimp**: Peel, devein, pat completely dry, dice (keep 1/3 whole for texture)
+- **Bamboo shoots**: Drain, rinse, dice finely
+- **Wrapper**: Make har gow wrapper dough (see har-gow-wrapper recipe)
+
+## Bring With You (If Attending Party)
+- Fresh shrimp (keep cold)
+- Bamboo shoots (small can)
+- Any specialty seasonings you prefer
 
 ## Equipment Needed
 - Sharp knife for shrimp prep
+- Cutting board
 - Mixing bowl
 - Steamer with parchment paper
 - Small spoon for filling
+- Clean kitchen towels
+
+## Shopping Notes
+- **Shrimp**: Buy day of cooking for freshness
+- **Bamboo shoots**: Asian market or international aisle
+- **Sesame oil**: Toasted variety preferred
+- **White pepper**: More traditional than black pepper
