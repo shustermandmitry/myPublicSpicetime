@@ -16,15 +16,24 @@ Each recipe folder contains:
 1. **[Read the guide](../HOW-TO-USE.md)** - 5-minute setup
 2. **Browse recipes below** and vote in `votes.md` files
 3. **Claim ingredients** in `commitments.md` files
-4. **Track expenses** in `expenses.md` files
+4. **Track expenses** in `expenses.md` files (including personal stock)
 5. **Party time!** 🥟
 
-### Ingredient Inheritance Pattern
-Recipes inherit ingredients from parent categories and add their own specific items:
-- **Universal Base** - Core ingredients used across most recipes
-- **Common Proteins** - Standard proteins (pork, shrimp, eggs)
-- **Wrapper Types** - Different dough and wrapper recipes
-- **Specialization Branches** - Recipe-specific additions
+### Personal Stock & Compensation
+- **List estimates** for items from your personal stock in `expenses.md`
+- **We'll compensate** all costs - don't worry about bringing your own stuff
+- **Leftovers shared** in doggy bags - whatever's not eaten gets divided up
+- **Fair splitting** - all expenses divided evenly among attendees
+
+### Ingredient Inheritance Tree
+
+**Visual Guide**: See [INGREDIENT-TREE.md](INGREDIENT-TREE.md) for complete inheritance map
+
+**Organized Structure**: Browse [inheritance-tree/](inheritance-tree/) folder for hierarchical organization:
+- **[universal-base/](inheritance-tree/universal-base/)** - Foundation ingredients enabling all recipes
+- **[wrapper-branch/](inheritance-tree/wrapper-branch/)** - All wrapper types with dependencies
+- **[protein-branch/](inheritance-tree/protein-branch/)** - Protein fillings with specializations
+- **[complete-recipes/](inheritance-tree/complete-recipes/)** - Full recipes showing inheritance chains
 
 ## Recipe Categories
 
