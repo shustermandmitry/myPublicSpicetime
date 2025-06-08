@@ -1,6 +1,6 @@
-# Basic Dumpling Wrapper
+# Basic Dumpling
 
-*Inherits: Universal Base + Hot Water*
+*Inherits: Base + Hot Water*
 
 ## Recipe
 1. Mix 2 cups flour and 1/2 tsp salt
