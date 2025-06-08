@@ -1,22 +1,27 @@
 # Dim Sum Recipe Collection
 
-*Two independent trees for mix-and-match party planning*
+*Three tree system for party planning (serves 5 people)*
 
-## Two Tree System
+## Three Tree System
 
-**Any wrap can be used with any filling!**
-
-### [Wraps](wraps/) 🥟
-Choose your wrap:
+### [wraps.recipes](wraps.recipes/) 🥟
+Choose your wraps:
 - Basic dumpling (most versatile)
 - Har gow (translucent)
 - Char siu bao dough (for buns)
 
-### [Fillings](fillings/) 🥩
-Choose your filling:
-- Pork
-- Shrimp
-- Mixed
+### [fillings.recipes](fillings.recipes/) 🥩
+Choose your fillings:
+- Pork (siu mai, xiao long bao)
+- Shrimp (har gow)
+- Mixed (char siu)
+
+### [dim_sum.recipes](dim_sum.recipes/) 🍽️
+Complete recipes combining trees:
+- Har Gow (har gow wrap + shrimp filling)
+- Siu Mai (basic wrap + pork filling)
+- Xiao Long Bao (basic wrap + pork filling)
+- Char Siu Bao (bao dough + char siu filling)
 
 ## File Structure
 Each node has:
@@ -26,12 +31,18 @@ Each node has:
 - **commitments.list** - Claim ingredients
 - **expenses.ledger** - Track costs
 
-## How to Plan
-1. **Browse both trees** - see the visual structure
-2. **Vote in both trees** - pick wrap(s) AND filling(s)
-3. **Mix and match** - any wrap + any filling works!
-4. **Claim ingredients** - coordinate between trees
-5. **Party time** - combine your choices
+## How to Plan (5 People)
+1. **Vote in all trees** - pick what you want to make
+2. **Vote regardless of volume** - we'll adjust total to meet participation
+3. **Claim ingredients** - use [../commitments.list.md](../commitments.list.md)
+4. **Track costs** - use [../expenses.ledger.md](../expenses.ledger.md)
+5. **Party time** - make your voted recipes!
+
+## Voting Strategy
+- **Vote for what interests you** - don't worry about total volume
+- **We'll adjust quantities** based on final participation count
+- **Each recipe serves 5** - we'll scale up/down as needed
+- **Mix and match possible** - any wrap + any filling works
 
 ## Quick Start for Party Planning
 
