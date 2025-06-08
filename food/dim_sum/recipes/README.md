@@ -4,19 +4,19 @@
 
 ## Two Tree System
 
-**Any wrapper can be used with any protein filling!**
+**Any wrap can be used with any filling!**
 
-### [Wrapper Tree](wrapper-tree/) 🥟
-Choose your wrapper type:
-- Basic dumpling wrapper (most versatile)
-- Har gow wrapper (translucent)
+### [Wraps](wraps/) 🥟
+Choose your wrap:
+- Basic dumpling (most versatile)
+- Har gow (translucent)
 - Char siu bao dough (for buns)
 
-### [Protein Tree](protein-tree/) 🥩
+### [Fillings](fillings/) 🥩
 Choose your filling:
-- Pork fillings
-- Shrimp fillings
-- Mixed fillings
+- Pork
+- Shrimp
+- Mixed
 
 ## File Structure
 Each node has:
@@ -28,8 +28,8 @@ Each node has:
 
 ## How to Plan
 1. **Browse both trees** - see the visual structure
-2. **Vote in both trees** - pick wrapper(s) AND filling(s)
-3. **Mix and match** - any wrapper + any filling works!
+2. **Vote in both trees** - pick wrap(s) AND filling(s)
+3. **Mix and match** - any wrap + any filling works!
 4. **Claim ingredients** - coordinate between trees
 5. **Party time** - combine your choices
 
