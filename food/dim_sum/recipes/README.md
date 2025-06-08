@@ -1,15 +1,28 @@
 # Dim Sum Recipe Collection
 
-*Collaborative recipe book for party planning*
+*Two independent trees for mix-and-match party planning*
 
-## How This Works
+## Two Tree System
 
-Each recipe folder contains:
-- **recipe.md** - Instructions and techniques
-- **ingredients.md** - Detailed shopping and prep guide
-- **votes.md** - Vote for recipes you want to make
-- **commitments.md** - Claim ingredients to bring
-- **expenses.md** - Track costs for expense splitting
+**Any wrapper can be used with any protein filling!**
+
+### [Wrapper Tree](wrapper-tree/) 🥟
+Choose your wrapper type:
+- Basic dumpling wrapper (most versatile)
+- Har gow wrapper (translucent)
+- Char siu bao dough (for buns)
+
+### [Protein Tree](protein-tree/) 🥩
+Choose your filling:
+- Pork fillings
+- Shrimp fillings
+- Mixed fillings
+
+## How to Plan
+1. **Vote in both trees** - pick wrapper(s) AND filling(s)
+2. **Mix and match** - har gow filling can go in basic wrapper too!
+3. **Claim ingredients** - coordinate between trees
+4. **Party time** - combine your choices
 
 ## Quick Start for Party Planning
 
