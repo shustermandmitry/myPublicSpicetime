@@ -18,11 +18,20 @@ Choose your filling:
 - Shrimp fillings
 - Mixed fillings
 
+## File Structure
+Each node has:
+- **recipe.md** - Instructions for this level
+- **ingredients.list** - What you need
+- **votes.list** - Vote to make this
+- **commitments.list** - Claim ingredients
+- **expenses.ledger** - Track costs
+
 ## How to Plan
-1. **Vote in both trees** - pick wrapper(s) AND filling(s)
-2. **Mix and match** - har gow filling can go in basic wrapper too!
-3. **Claim ingredients** - coordinate between trees
-4. **Party time** - combine your choices
+1. **Browse both trees** - see the visual structure
+2. **Vote in both trees** - pick wrapper(s) AND filling(s)
+3. **Mix and match** - any wrapper + any filling works!
+4. **Claim ingredients** - coordinate between trees
+5. **Party time** - combine your choices
 
 ## Quick Start for Party Planning
 

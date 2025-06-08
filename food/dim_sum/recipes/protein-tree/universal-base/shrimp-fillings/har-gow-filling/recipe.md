@@ -1,19 +1,22 @@
 # Har Gow Shrimp Filling
 
-## Inherits ⬆️
-- Universal Base (seasonings)
-
-## Adds
-- 1 lb large raw shrimp
-- 1/4 cup bamboo shoots
-- 1/2 tsp sugar
+*Inherits: Universal Base + Shrimp Base + Bamboo Shoots*
 
 ## Recipe
-1. Peel and devein shrimp, pat dry
-2. Dice 2/3 of shrimp small, leave 1/3 whole
-3. Mix with seasonings and bamboo shoots
-4. Let marinate 15 minutes
+1. Prepare shrimp (2/3 diced, 1/3 whole)
+2. Dice 1/4 cup bamboo shoots finely
+3. Mix shrimp with:
+   - 1 tsp sesame oil
+   - 1/2 tsp white pepper
+   - 1 tsp cornstarch
+   - 1/2 tsp salt
+   - 1/2 tsp sugar
+4. Fold in bamboo shoots gently
+5. Marinate 15 minutes, keep cold
+
+## Makes
+Filling for 20 dumplings
 
 ## Can Be Used With
 - Har gow wrapper (traditional)
-- Basic dumpling wrapper (alternative)
+- Basic dumpling wrapper (easier alternative)
