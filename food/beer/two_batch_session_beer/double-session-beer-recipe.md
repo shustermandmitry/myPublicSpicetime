@@ -1,4 +1,4 @@
-# Double Session Beer Recipe - American & English Styles
+\# Double Session Beer Recipe - American & English Styles
 
 ## Overview
 Two 4-gallon batches of low-alcohol session beers from your current wort:
