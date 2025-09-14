@@ -1,0 +1,54 @@
+global:
+  appName: treenity
+  namespace: default
+  debug: "TRUE"
+  pullKey: eyJhdXRocyI6eyJyZWdpc3RyeS5naXRsYWIuY29tIjp7ImF1dGgiOiJibWxyYVhSaExtMXZjbTk2YjNZNloyeHdZWFF0T0hadmQxTnphSGx0YTJjeFdsZGxUVFIwVEcwPSJ9fX0=
+
+s3:
+  enable: true
+  bucketName: "treenity-images"
+  region: "eu-north-1"
+  defaultRegion: "eu-north-1"
+  accessKeyId: "YOUR_AWS_ACCESS_KEY_ID"
+  secretAccessKey: "YOUR_AWS_SECRET_ACCESS_KEY"
+
+db:
+  local: true
+  postgres:
+    name: treenity
+    user: treenity
+    password: "123456"
+
+redis:
+  serviceType: LoadBalancer
+
+app:
+  enabled: true
+  local: true
+
+translateMs:
+  enabled: true
+
+shortLinkMs:
+  enabled: true
+
+securityMs:
+  enabled: true
+  service:
+    type: LoadBalancer
+
+requestMs:
+  enabled: true
+
+accountsMs:
+  enabled: true
+
+notifyMs:
+  enabled: true
+  service:
+    type: LoadBalancer
+
+fileMs:
+  enabled: true
+  service:
+    type: LoadBalancer
