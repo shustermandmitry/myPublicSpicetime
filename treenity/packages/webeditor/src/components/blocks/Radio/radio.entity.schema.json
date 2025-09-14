@@ -1,0 +1,44 @@
+{
+    "$id": "@treenity/webeditor:form.radio",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "defaultValue": {
+            "title": "Default value"
+        },
+        "options": {
+            "title": "Options",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "label": {
+                        "type": "string"
+                    },
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "label",
+                    "value"
+                ]
+            }
+        },
+        "optionType": {
+            "title": "Options type",
+            "widget": "treenity.select",
+            "enum": [
+                "button",
+                "default"
+            ],
+            "type": "string",
+            "default": "default"
+        }
+    },
+    "required": [
+        "defaultValue",
+        "options"
+    ]
+}
+

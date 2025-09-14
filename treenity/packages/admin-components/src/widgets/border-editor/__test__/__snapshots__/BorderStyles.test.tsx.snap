@@ -1,0 +1,2461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BorderStyles change color 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 4px;
+  line-height: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.emotion-2 {
+  margin: 0;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  font-family: Manrope,sans-serif;
+  font-weight: 700;
+  width: 72px;
+  line-height: 20px;
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+}
+
+.emotion-3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.emotion-5 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-6 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-6 span {
+  padding: 0 4px;
+}
+
+.emotion-8 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-8.emotion-8 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-8.emotion-8 i {
+  font-size: 12px!important;
+}
+
+.emotion-8[type='number']::-webkit-inner-spin-button,
+.emotion-8 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-8.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-8 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-8 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-8.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-8 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-8 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-12 {
+  position: relative;
+  line-height: 1px;
+}
+
+.emotion-12.emotion-12.emotion-12 .ant-collapse-header {
+  display: none;
+}
+
+.emotion-12.emotion-12.emotion-12 .ant-color-picker-color-block.ant-color-picker-presets-color:before {
+  border-radius: 6px;
+}
+
+.emotion-12 .ant-color-picker .ant-color-picker-inner .ant-color-picker-presets .ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
+
+.emotion-13 {
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 6px;
+  background-color: #fff;
+  box-shadow: none!important;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.emotion-13 .ant-color-picker-trigger-text {
+  font-size: 10px;
+}
+
+.emotion-13 .ant-color-picker-color-block {
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.emotion-16 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  color: #27ae60;
+  background: transparent!important;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-16>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-16.ant-btn.ant-btn-round {
+  padding-inline: 12px;
+}
+
+.emotion-16 i {
+  font-size: 16px;
+}
+
+.emotion-16>span {
+  gap: 6px;
+}
+
+.emotion-16 span {
+  font-size: 12px;
+}
+
+.emotion-16.emotion-16>span>span>i {
+  font-size: 16px;
+}
+
+.emotion-16:hover {
+  color: #ababab!important;
+}
+
+.emotion-16:active {
+  color: !important;
+}
+
+.emotion-16:hover {
+  color: #27ae60!important;
+}
+
+.emotion-16.emotion-16 i {
+  font-size: 12px;
+}
+
+.emotion-17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.emotion-18 [class^='icon-'],
+.emotion-18 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-19 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-23 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-23.emotion-23 {
+  border-radius: 6px;
+}
+
+.emotion-23.emotion-23.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-23.emotion-23.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-23 i {
+  font-size: 12px;
+}
+
+.emotion-23 .ant-segmented-item-icon,
+.emotion-23 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Width
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-4"
+      >
+        <div
+          class="emotion-5"
+        >
+          <div
+            class="emotion-6"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-7 ant-input-outlined input-with-units emotion-8"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Color
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-12"
+      >
+        <div
+          class="ant-color-picker-trigger ant-color-picker-sm emotion-13 emotion-7"
+        >
+          <div
+            class="ant-color-picker-color-block"
+          >
+            <div
+              class="ant-color-picker-color-block-inner"
+              style="background: rgb(0, 0, 0);"
+            />
+          </div>
+          <div
+            class="ant-color-picker-trigger-text"
+          >
+            #000000
+          </div>
+        </div>
+        <button
+          class="ant-btn emotion-7 ant-btn-text emotion-16"
+          type="button"
+        >
+          <span>
+            <span
+              class="emotion-17"
+            >
+              <span
+                class="anticon undefined emotion-18"
+              >
+                <i
+                  class="icon-close_outlined emotion-19"
+                />
+              </span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Style
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="ant-segmented emotion-23 ant-segmented-block ant-segmented-sm emotion-7"
+      >
+        <div
+          class="ant-segmented-group"
+        >
+          <label
+            class="ant-segmented-item ant-segmented-item-selected"
+          >
+            <input
+              checked=""
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-x-axis_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-solid_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-dash_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-dotted_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BorderStyles change type 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 4px;
+  line-height: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.emotion-2 {
+  margin: 0;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  font-family: Manrope,sans-serif;
+  font-weight: 700;
+  width: 72px;
+  line-height: 20px;
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+}
+
+.emotion-3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.emotion-5 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-6 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-6 span {
+  padding: 0 4px;
+}
+
+.emotion-8 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-8.emotion-8 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-8.emotion-8 i {
+  font-size: 12px!important;
+}
+
+.emotion-8[type='number']::-webkit-inner-spin-button,
+.emotion-8 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-8.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-8 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-8 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-8.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-8 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-8 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-12 {
+  position: relative;
+  line-height: 1px;
+}
+
+.emotion-12.emotion-12.emotion-12 .ant-collapse-header {
+  display: none;
+}
+
+.emotion-12.emotion-12.emotion-12 .ant-color-picker-color-block.ant-color-picker-presets-color:before {
+  border-radius: 6px;
+}
+
+.emotion-12 .ant-color-picker .ant-color-picker-inner .ant-color-picker-presets .ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
+
+.emotion-13 {
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 6px;
+  background-color: #fff;
+  box-shadow: none!important;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.emotion-13 .ant-color-picker-trigger-text {
+  font-size: 10px;
+}
+
+.emotion-13 .ant-color-picker-color-block {
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.emotion-16 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  color: #27ae60;
+  background: transparent!important;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-16>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-16.ant-btn.ant-btn-round {
+  padding-inline: 12px;
+}
+
+.emotion-16 i {
+  font-size: 16px;
+}
+
+.emotion-16>span {
+  gap: 6px;
+}
+
+.emotion-16 span {
+  font-size: 12px;
+}
+
+.emotion-16.emotion-16>span>span>i {
+  font-size: 16px;
+}
+
+.emotion-16:hover {
+  color: #ababab!important;
+}
+
+.emotion-16:active {
+  color: !important;
+}
+
+.emotion-16:hover {
+  color: #27ae60!important;
+}
+
+.emotion-16.emotion-16 i {
+  font-size: 12px;
+}
+
+.emotion-17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.emotion-18 [class^='icon-'],
+.emotion-18 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-19 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-23 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-23.emotion-23 {
+  border-radius: 6px;
+}
+
+.emotion-23.emotion-23.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-23.emotion-23.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-23 i {
+  font-size: 12px;
+}
+
+.emotion-23 .ant-segmented-item-icon,
+.emotion-23 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Width
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-4"
+      >
+        <div
+          class="emotion-5"
+        >
+          <div
+            class="emotion-6"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-7 ant-input-outlined input-with-units emotion-8"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Color
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-12"
+      >
+        <div
+          class="ant-color-picker-trigger ant-color-picker-sm emotion-13 emotion-7"
+        >
+          <div
+            class="ant-color-picker-color-block"
+          >
+            <div
+              class="ant-color-picker-color-block-inner"
+              style="background: rgb(0, 0, 0);"
+            />
+          </div>
+          <div
+            class="ant-color-picker-trigger-text"
+          >
+            #000000
+          </div>
+        </div>
+        <button
+          class="ant-btn emotion-7 ant-btn-text emotion-16"
+          type="button"
+        >
+          <span>
+            <span
+              class="emotion-17"
+            >
+              <span
+                class="anticon undefined emotion-18"
+              >
+                <i
+                  class="icon-close_outlined emotion-19"
+                />
+              </span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Style
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="ant-segmented emotion-23 ant-segmented-block ant-segmented-sm emotion-7"
+      >
+        <div
+          class="ant-segmented-group"
+        >
+          <label
+            class="ant-segmented-item ant-segmented-item-selected"
+          >
+            <input
+              checked=""
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-x-axis_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-solid_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-dash_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-dotted_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BorderStyles change width 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 4px;
+  line-height: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.emotion-2 {
+  margin: 0;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  font-family: Manrope,sans-serif;
+  font-weight: 700;
+  width: 72px;
+  line-height: 20px;
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+}
+
+.emotion-3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.emotion-5 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-6 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-6 span {
+  padding: 0 4px;
+}
+
+.emotion-8 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-8.emotion-8 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-8.emotion-8 i {
+  font-size: 12px!important;
+}
+
+.emotion-8[type='number']::-webkit-inner-spin-button,
+.emotion-8 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-8.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-8 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-8 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-8.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-8 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-8 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-12 {
+  position: relative;
+  line-height: 1px;
+}
+
+.emotion-12.emotion-12.emotion-12 .ant-collapse-header {
+  display: none;
+}
+
+.emotion-12.emotion-12.emotion-12 .ant-color-picker-color-block.ant-color-picker-presets-color:before {
+  border-radius: 6px;
+}
+
+.emotion-12 .ant-color-picker .ant-color-picker-inner .ant-color-picker-presets .ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
+
+.emotion-13 {
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 6px;
+  background-color: #fff;
+  box-shadow: none!important;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.emotion-13 .ant-color-picker-trigger-text {
+  font-size: 10px;
+}
+
+.emotion-13 .ant-color-picker-color-block {
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.emotion-16 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  color: #27ae60;
+  background: transparent!important;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-16>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-16.ant-btn.ant-btn-round {
+  padding-inline: 12px;
+}
+
+.emotion-16 i {
+  font-size: 16px;
+}
+
+.emotion-16>span {
+  gap: 6px;
+}
+
+.emotion-16 span {
+  font-size: 12px;
+}
+
+.emotion-16.emotion-16>span>span>i {
+  font-size: 16px;
+}
+
+.emotion-16:hover {
+  color: #ababab!important;
+}
+
+.emotion-16:active {
+  color: !important;
+}
+
+.emotion-16:hover {
+  color: #27ae60!important;
+}
+
+.emotion-16.emotion-16 i {
+  font-size: 12px;
+}
+
+.emotion-17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.emotion-18 [class^='icon-'],
+.emotion-18 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-19 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-23 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-23.emotion-23 {
+  border-radius: 6px;
+}
+
+.emotion-23.emotion-23.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-23.emotion-23.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-23 i {
+  font-size: 12px;
+}
+
+.emotion-23 .ant-segmented-item-icon,
+.emotion-23 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Width
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-4"
+      >
+        <div
+          class="emotion-5"
+        >
+          <div
+            class="emotion-6"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-7 ant-input-outlined input-with-units emotion-8"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Color
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-12"
+      >
+        <div
+          class="ant-color-picker-trigger ant-color-picker-sm emotion-13 emotion-7"
+        >
+          <div
+            class="ant-color-picker-color-block"
+          >
+            <div
+              class="ant-color-picker-color-block-inner"
+              style="background: rgb(0, 0, 0);"
+            />
+          </div>
+          <div
+            class="ant-color-picker-trigger-text"
+          >
+            #000000
+          </div>
+        </div>
+        <button
+          class="ant-btn emotion-7 ant-btn-text emotion-16"
+          type="button"
+        >
+          <span>
+            <span
+              class="emotion-17"
+            >
+              <span
+                class="anticon undefined emotion-18"
+              >
+                <i
+                  class="icon-close_outlined emotion-19"
+                />
+              </span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Style
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="ant-segmented emotion-23 ant-segmented-block ant-segmented-sm emotion-7"
+      >
+        <div
+          class="ant-segmented-group"
+        >
+          <label
+            class="ant-segmented-item ant-segmented-item-selected"
+          >
+            <input
+              checked=""
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-x-axis_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-solid_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-dash_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-dotted_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BorderStyles render 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 4px;
+  line-height: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.emotion-2 {
+  margin: 0;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  font-family: Manrope,sans-serif;
+  font-weight: 700;
+  width: 72px;
+  line-height: 20px;
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+}
+
+.emotion-3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.emotion-5 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-6 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-6 span {
+  padding: 0 4px;
+}
+
+.emotion-8 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-8.emotion-8 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-8.emotion-8 i {
+  font-size: 12px!important;
+}
+
+.emotion-8[type='number']::-webkit-inner-spin-button,
+.emotion-8 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-8.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-8 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-8 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-8.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-8.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-8.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-8 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-8 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-12 {
+  position: relative;
+  line-height: 1px;
+}
+
+.emotion-12.emotion-12.emotion-12 .ant-collapse-header {
+  display: none;
+}
+
+.emotion-12.emotion-12.emotion-12 .ant-color-picker-color-block.ant-color-picker-presets-color:before {
+  border-radius: 6px;
+}
+
+.emotion-12 .ant-color-picker .ant-color-picker-inner .ant-color-picker-presets .ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
+
+.emotion-13 {
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 6px;
+  background-color: #fff;
+  box-shadow: none!important;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.emotion-13 .ant-color-picker-trigger-text {
+  font-size: 10px;
+}
+
+.emotion-13 .ant-color-picker-color-block {
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.emotion-16 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  color: #27ae60;
+  background: transparent!important;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-16>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-16.ant-btn.ant-btn-round {
+  padding-inline: 12px;
+}
+
+.emotion-16 i {
+  font-size: 16px;
+}
+
+.emotion-16>span {
+  gap: 6px;
+}
+
+.emotion-16 span {
+  font-size: 12px;
+}
+
+.emotion-16.emotion-16>span>span>i {
+  font-size: 16px;
+}
+
+.emotion-16:hover {
+  color: #ababab!important;
+}
+
+.emotion-16:active {
+  color: !important;
+}
+
+.emotion-16:hover {
+  color: #27ae60!important;
+}
+
+.emotion-16.emotion-16 i {
+  font-size: 12px;
+}
+
+.emotion-17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.emotion-18 [class^='icon-'],
+.emotion-18 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-19 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-23 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-23.emotion-23 {
+  border-radius: 6px;
+}
+
+.emotion-23.emotion-23.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-23.emotion-23.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-23 i {
+  font-size: 12px;
+}
+
+.emotion-23 .ant-segmented-item-icon,
+.emotion-23 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Width
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-4"
+      >
+        <div
+          class="emotion-5"
+        >
+          <div
+            class="emotion-6"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-7 ant-input-outlined input-with-units emotion-8"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Color
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="emotion-12"
+      >
+        <div
+          class="ant-color-picker-trigger ant-color-picker-sm emotion-13 emotion-7"
+        >
+          <div
+            class="ant-color-picker-color-block"
+          >
+            <div
+              class="ant-color-picker-color-block-inner"
+              style="background: rgb(0, 0, 0);"
+            />
+          </div>
+          <div
+            class="ant-color-picker-trigger-text"
+          >
+            #000000
+          </div>
+        </div>
+        <button
+          class="ant-btn emotion-7 ant-btn-text emotion-16"
+          type="button"
+        >
+          <span>
+            <span
+              class="emotion-17"
+            >
+              <span
+                class="anticon undefined emotion-18"
+              >
+                <i
+                  class="icon-close_outlined emotion-19"
+                />
+              </span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="emotion-1"
+  >
+    <p
+      class="ant-typography text-content emotion-2"
+      font-weight="700"
+      size="10"
+    >
+      Style
+    </p>
+    <div
+      class="emotion-3"
+    >
+      <div
+        class="ant-segmented emotion-23 ant-segmented-block ant-segmented-sm emotion-7"
+      >
+        <div
+          class="ant-segmented-group"
+        >
+          <label
+            class="ant-segmented-item ant-segmented-item-selected"
+          >
+            <input
+              checked=""
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-x-axis_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-solid_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-dash_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-18"
+                >
+                  <i
+                    class="icon-border-dotted_outlined emotion-19"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

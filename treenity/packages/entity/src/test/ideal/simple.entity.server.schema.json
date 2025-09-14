@@ -1,0 +1,96 @@
+{
+    "$id": "@treenity/entity:server:simple",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "here just write simple type name, it will be prefixed with package type\nschema will be named as `ideal.schema.json`",
+    "type": "object",
+    "properties": {
+        "serverValue": {
+            "type": "string",
+            "default": "server"
+        },
+        "name": {
+            "type": "string"
+        },
+        "health": {
+            "type": "number"
+        },
+        "age": {
+            "type": "number"
+        },
+        "look": {
+            "$ref": "@treenity/entity:server:simple#/definitions/Look"
+        }
+    },
+    "required": [
+        "health",
+        "name",
+        "serverValue"
+    ],
+    "definitions": {
+        "Look": {
+            "type": "object",
+            "properties": {
+                "hair": {
+                    "type": "string"
+                },
+                "eyes": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "eyes",
+                "hair"
+            ]
+        }
+    },
+    "methods": {
+        "changeAge": {
+            "arguments": [
+                {
+                    "name": "newAge",
+                    "type": "number"
+                }
+            ],
+            "return": {
+                "type": "number"
+            }
+        },
+        "sendEmail": {
+            "arguments": [
+                {
+                    "name": "param",
+                    "type": "object",
+                    "properties": {
+                        "text": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "text"
+                    ]
+                }
+            ],
+            "return": {
+                "type": "undefined"
+            }
+        },
+        "heal": {
+            "arguments": [],
+            "return": {
+                "type": "undefined"
+            }
+        },
+        "serverChange": {
+            "arguments": [
+                {
+                    "name": "newValue",
+                    "type": "string"
+                }
+            ],
+            "return": {
+                "type": "string"
+            }
+        }
+    }
+}
+

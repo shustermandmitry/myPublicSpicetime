@@ -1,0 +1,47 @@
+{
+  "name": "@treenity/reviews-mod",
+  "version": "0.0.50",
+  "description": "Treenity review",
+  "author": "Treenity",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "devwatch": "tsx watch src/server.ts",
+    "build": "rollup -c",
+    "watch": "rollup -w -c",
+    "typecheck": "tsc",
+    "test": "jest --passWithNoTests",
+    "clean": "treenity-clean"
+  },
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "engines": {
+    "node": ">= 18"
+  },
+  "dependencies": {
+    "@treenity/core": "1.0.44",
+    "@treenity/feathers-service": "0.0.39",
+    "@treenity/feathers-psql": "0.0.43",
+    "@treenity/js-shared": "1.0.33",
+    "@treenity/sequelizer": "1.0.6"
+  },
+  "peerDependencies": {
+    "json-schema-to-ts": "^3.1.0"
+  },
+  "devDependencies": {
+    "@treenity/build-utils": "1.1.30",
+    "@treenity/tsconfig": "1.0.13",
+    "@types/jest": "^29.5.12",
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^22.7.5",
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0",
+    "rollup": "^4.26.0",
+    "typescript": "^5.4.5"
+  }
+}

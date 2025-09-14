@@ -1,0 +1,33 @@
+import { BadRequest } from "@feathersjs/errors";
+import BlobService from 'feathers-blob';
+import FsBlobStore from 'fs-blob-store';
+
+// Custom service that extends the blob service
+class JsonBlobService extends  {
+  async create(data, params) {
+    if (typeof data !== 'object' || Array.isArray(data)) {
+      throw new BadRequest('Expected data to be an object');
+    }
+
+    // Convert JSON object to Buffer
+    const buffer = Buffer.from(JSON.stringify(data));
+
+    return super.create({uri: buffer}, params);
+  }
+
+  async get(id, params) {
+    const result = await super.get(id, params);
+
+    // Convert Buffer back to JSON object
+    return JSON.parse(result.uri.toString());
+  }
+}
+
+export function createFsService(rootPath: string) {
+  const blobs = FsBlobStore(rootPath);
+  const service = BlobService({
+    Model: blobs,
+  });
+
+  return service;
+}

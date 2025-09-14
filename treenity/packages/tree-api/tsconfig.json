@@ -1,0 +1,12 @@
+{
+  "extends": "@treenity/tsconfig/react-library.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": [
+    "dist", "src/**/*.test.ts"
+  ]
+}

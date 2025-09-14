@@ -1,0 +1,26 @@
+{
+    "$id": "@treenity/cloud-payments:cloud-payment.webhook.proxy.meta",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "url": {
+            "type": "string"
+        },
+        "method": {
+            "type": "string"
+        },
+        "headers": {
+            "$ref": "@treenity/cloud-payments:cloud-payment.webhook.proxy.meta#/definitions/Record<string,string>"
+        }
+    },
+    "required": [
+        "method",
+        "url"
+    ],
+    "definitions": {
+        "Record<string,string>": {
+            "type": "object"
+        }
+    }
+}
+

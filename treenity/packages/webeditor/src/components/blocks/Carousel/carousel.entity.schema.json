@@ -1,0 +1,72 @@
+{
+    "$id": "@treenity/webeditor:advanced.carousel",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "list": {
+            "title": "Slides",
+            "widget": "treenity.imageUploadInput",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "widthImage": {
+            "title": "Width image",
+            "type": "number"
+        },
+        "heightImage": {
+            "title": "Height image",
+            "type": "number"
+        },
+        "navType": {
+            "title": "Nav type",
+            "enum": [
+                "bullets",
+                "fraction"
+            ],
+            "type": "string"
+        },
+        "direction": {
+            "title": "Direction",
+            "enum": [
+                "horizontal",
+                "vertical"
+            ],
+            "type": "string"
+        },
+        "hideNavigate": {
+            "title": "Disable nav buttons",
+            "type": "boolean"
+        },
+        "hidePagination": {
+            "title": "Disable nav dots/numbers",
+            "type": "boolean"
+        },
+        "autoplay": {
+            "title": "Auto play slides",
+            "type": "boolean"
+        },
+        "loop": {
+            "title": "Infinite repeat slides",
+            "type": "boolean"
+        },
+        "delay": {
+            "title": "Duration",
+            "type": "number"
+        }
+    },
+    "required": [
+        "autoplay",
+        "delay",
+        "direction",
+        "heightImage",
+        "hideNavigate",
+        "hidePagination",
+        "list",
+        "loop",
+        "navType",
+        "widthImage"
+    ]
+}
+

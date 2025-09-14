@@ -1,0 +1,51 @@
+{
+  "name": "@treenity/feathers-service",
+  "version": "0.0.39",
+  "description": "treenity feathers-service",
+  "author": "Treenity",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "clean": "treenity-clean",
+    "typecheck": "tsc",
+    "--test": "jest --no-cache  --detectOpenHandles --runInBand --forceExit",
+    "--doc": "typedoc --plugin typedoc-plugin-markdown"
+  },
+  "types": "./dist/browser/index.d.ts",
+  "module": "./dist/browser/index.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/browser/index.d.ts",
+      "node": "./dist/node/index.mjs",
+      "default": "./dist/browser/index.mjs"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/browser/index.d.ts"
+      ]
+    }
+  },
+  "dependencies": {
+    "@feathersjs/errors": "5.0.25",
+    "@feathersjs/feathers": "5.0.25",
+    "@feathersjs/transport-commons": "5.0.25",
+    "@treenity/core": "1.0.44",
+    "@treenity/js-shared": "1.0.33",
+    "eventemitter3": "^5.0.1",
+    "json-schema-to-ts": "^3.1.0"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@treenity/build-utils": "1.1.30",
+    "@treenity/tsconfig": "1.0.13",
+    "@types/node": "^22.7.5",
+    "rollup": "^4.26.0",
+    "typescript": "^5.4.5"
+  }
+}

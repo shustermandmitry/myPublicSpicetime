@@ -1,0 +1,14 @@
+{
+  "$id": "WeAX56xFhJuUacxim2FiPP",
+  "$name": "init",
+  "$type": "node_tree",
+  "defaultMeta": "",
+  "links": null,
+  "$perm": {
+    "$": ["admin"],
+    "get": ["user"],
+    "check": ["public"]
+  },
+  "metas": {},
+  "title": ""
+}

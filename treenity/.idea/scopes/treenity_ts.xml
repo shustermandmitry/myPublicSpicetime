@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="treenity-ts" pattern="file[treenity]:*.ts" />
+</component>

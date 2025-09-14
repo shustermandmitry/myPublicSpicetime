@@ -1,0 +1,61 @@
+{
+    "$id": "@treenity/entity:server:test-entity",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Test server entity extended from the test client entity",
+    "type": "object",
+    "properties": {
+        "serverOnlyProperty": {
+            "description": "This is a server only property",
+            "type": "string"
+        },
+        "a": {
+            "type": "number",
+            "default": 0
+        },
+        "b": {
+            "type": "string",
+            "default": "def"
+        },
+        "c": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "d": {
+            "type": "boolean"
+        },
+        "e": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "a",
+        "b",
+        "c",
+        "serverOnlyProperty"
+    ],
+    "methods": {
+        "callMe": {
+            "arguments": [
+                {
+                    "name": "param",
+                    "type": "string"
+                }
+            ],
+            "return": {
+                "type": "string"
+            }
+        },
+        "callWriteMe": {
+            "arguments": [
+                {
+                    "name": "param",
+                    "type": "string"
+                }
+            ],
+            "return": {
+                "type": "undefined"
+            }
+        }
+    }
+}
+

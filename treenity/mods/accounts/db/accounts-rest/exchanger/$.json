@@ -1,0 +1,61 @@
+{
+  "$id": "Q2sdjrF3XE42k2usJGu7ph",
+  "$name": "accounts_exchanger_rest",
+  "$type": "node_tree",
+  "defaultMeta": "service",
+  "$refs": [
+    {
+      "ref": "/metas/service/connection/host",
+      "url": "cfg:/services/accounts-ms/host"
+    },
+    {
+      "ref": "/metas/service/connection/port",
+      "url": "cfg:/services/accounts-ms/port"
+    }
+  ],
+  "links": null,
+  "metas": {
+    "service": {
+      "$id": "1AgAe2kPb24sXT3z9iADp5",
+      "$name": "accounts_exchanger_rest_service",
+      "$type": "sys.rest",
+      "connection": {
+        "port": 2035,
+        "host": "accounts-ms",
+        "protocol": "http"
+      },
+      "methods": {
+        "create": {
+          "path": "/exchangers",
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          }
+        },
+        "list": {
+          "path": "/exchangers",
+          "method": "GET"
+        },
+        "rate": {
+          "path": "/exchangers/rate",
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          }
+        },
+        "remove": {
+          "path": "/exchangers",
+          "method": "DELETE",
+          "headers": {
+            "Content-Type": "application/json"
+          }
+        },
+        "getBySlug": {
+          "path": "/exchanger/{from}/{to}",
+          "method": "GET"
+        }
+      }
+    }
+  },
+  "title": ""
+}

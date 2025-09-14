@@ -1,0 +1,175 @@
+diff --git a/node_modules/noflo/lib/ComponentLoader.js b/node_modules/noflo/lib/ComponentLoader.js
+index 76a71d5..19420ba 100644
+--- a/node_modules/noflo/lib/ComponentLoader.js
++++ b/node_modules/noflo/lib/ComponentLoader.js
+@@ -11,7 +11,7 @@ exports.ComponentLoader = void 0;
+     import/prefer-default-export,
+ */
+ const fbp_graph_1 = require("fbp-graph");
+-const registerLoader = require("./loader/register");
++// const registerLoader = require("./loader/register");
+ const Platform_1 = require("./Platform");
+ /**
+  * @callback ComponentFactory
+diff --git a/node_modules/noflo/lib/NoFlo.js b/node_modules/noflo/lib/NoFlo.js
+index 284addf..5ce8227 100644
+--- a/node_modules/noflo/lib/NoFlo.js
++++ b/node_modules/noflo/lib/NoFlo.js
+@@ -81,8 +81,8 @@ Object.defineProperty(exports, "isBrowser", { enumerable: true, get: function ()
+ // NoFlo components. Component Loader uses [fbp-manifest](https://github.com/flowbased/fbp-manifest)
+ // to find components and graphs by traversing the NPM dependency tree from a given root
+ // directory on the file system.
+-var ComponentLoader_1 = require("./ComponentLoader");
+-Object.defineProperty(exports, "ComponentLoader", { enumerable: true, get: function () { return ComponentLoader_1.ComponentLoader; } });
++// var ComponentLoader_1 = require("./ComponentLoader");
++// Object.defineProperty(exports, "ComponentLoader", { enumerable: true, get: function () { return ComponentLoader_1.ComponentLoader; } });
+ // ### Component baseclasses
+ //
+ // These baseclasses can be used for defining NoFlo components.
+diff --git a/node_modules/noflo/lib/ProcessInput.js b/node_modules/noflo/lib/ProcessInput.js
+index 7b6b223..971ceca 100644
+--- a/node_modules/noflo/lib/ProcessInput.js
++++ b/node_modules/noflo/lib/ProcessInput.js
+@@ -86,45 +86,30 @@ class ProcessInput {
+      * @param {...HasArgument} params
+      */
+     has(...params) {
+-        let validate;
+-        let args = params.filter((p) => typeof p !== 'function');
+-        if (!args.length) {
+-            args = ['in'];
+-        }
+-        if (typeof params[params.length - 1] === 'function') {
+-            validate = params[params.length - 1];
+-        }
+-        else {
+-            validate = () => true;
+-        }
+-        for (let i = 0; i < args.length; i += 1) {
+-            const port = args[i];
++      !params.length && params.push('in');
++      const validate = typeof params[params.length - 1] === 'function'
++          ? params.pop()
++          : () => true;
++
++        for (let i = 0; i < params.length; i ++) {
++            let port = params[i];
++            let idx = null;
+             if (Array.isArray(port)) {
+-                const portImpl = /** @type {import("./InPort").default} */ (this.ports.ports[port[0]]);
+-                if (!portImpl) {
+-                    throw new Error(`Node ${this.nodeInstance.nodeId} has no port '${port[0]}'`);
+-                }
+-                if (!portImpl.isAddressable()) {
+-                    throw new Error(`Non-addressable ports, access must be with string ${port[0]}`);
+-                }
+-                if (!portImpl.has(this.scope, port[1], validate)) {
+-                    return false;
+-                }
++              ([port, idx] = port);
++            } else if (typeof port === 'string') {
++            } else {
++              throw new Error(`Unknown port type ${typeof port}`);
+             }
+-            else if (typeof port === 'string') {
+-                const portImpl = /** @type {import("./InPort").default} */ (this.ports.ports[port]);
+-                if (!portImpl) {
+-                    throw new Error(`Node ${this.nodeInstance.nodeId} has no port '${port}'`);
+-                }
+-                if (portImpl.isAddressable()) {
+-                    throw new Error(`For addressable ports, access must be with array [${port}, idx]`);
+-                }
+-                if (!portImpl.has(this.scope, validate)) {
+-                    return false;
+-                }
++
++            const portImpl = /** @type {import("./InPort").default} */ (this.ports.ports[port]);
++            if (!portImpl) {
++                throw new Error(`Node ${this.nodeInstance.nodeId} has no port '${port}'`);
+             }
+-            else {
+-                throw new Error(`Unknown port type ${typeof port}`);
++            if ((typeof idx === 'number') !== portImpl.isAddressable()) {
++                throw new Error(`For addressable ports, access must be with array [${port}, idx]`);
++            }
++            if (!portImpl.has(this.scope, idx ?? validate, validate)) {
++                return false;
+             }
+         }
+         return true;
+@@ -135,18 +120,9 @@ class ProcessInput {
+      * @returns {boolean}
+      */
+     hasData(...params) {
+-        let args = params;
+-        if (!args.length) {
+-            args = ['in'];
+-        }
+-        const hasArgs = [
+-            ...args,
+-            /**
+-             * @param {import("./IP").default} ip
+-             */
+-            (ip) => ip.type === 'data',
+-        ];
+-        return this.has(...hasArgs);
++        !params.length && params.push('in');
++        params.push((ip) => ip.type === 'data')
++        return this.has(...params);
+     }
+     // Returns true if a port has a complete stream in its input buffer.
+     /**
+@@ -229,7 +205,7 @@ class ProcessInput {
+             let ip;
+             let portname;
+             if (Array.isArray(port)) {
+-                [portname, idx] = Array.from(port);
++                [portname, idx] = port;
+                 if (!this.ports.ports[portname].isAddressable()) {
+                     throw new Error('Non-addressable ports, access must be with string portname');
+                 }
+@@ -324,33 +300,19 @@ class ProcessInput {
+      * @returns {any|Array<any>}
+      */
+     getData(...params) {
+-        let args = params;
+-        if (!args.length) {
+-            args = ['in'];
+-        }
++      !params.length && params.push('in');
++
+         /** @type {Array<any>} */
+-        const datas = [];
+-        args.forEach((port) => {
+-            let packet = /** @type {IP} */ (this.get(port));
+-            if (packet == null) {
+-                // we add the null packet to the array so when getting
+-                // multiple ports, if one is null we still return it
+-                // so the indexes are correct.
+-                datas.push(packet);
+-                return;
+-            }
+-            while (packet.type !== 'data') {
+-                packet = /** @type {IP} */ (this.get(port));
+-                if (!packet) {
+-                    break;
+-                }
+-            }
+-            datas.push(packet.data);
++        const datas = params.map((port) => {
++            let packet;
++
++            do {
++              packet = /** @type {IP} */ (this.get(port));
++            } while (packet && packet.type !== 'data');
++
++            return packet?.data;
+         });
+-        if (args.length === 1) {
+-            return datas.pop();
+-        }
+-        return datas;
++        return params.length === 1 ?  datas[0] : datas;
+     }
+     // Fetches a complete data stream from the buffer.
+     /**

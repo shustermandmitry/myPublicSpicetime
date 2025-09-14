@@ -1,0 +1,6 @@
+import { Meta } from '@treenity/core';
+import { SerializedModel } from '../engine/serialized-model';
+
+export interface NodeEditorMeta extends Meta {
+  graph: SerializedModel;
+}

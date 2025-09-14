@@ -1,0 +1,131 @@
+{
+    "$id": "@treenity/webeditor:layout.verticalHeader",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "logo": {
+            "$ref": "@treenity/webeditor:layout.verticalHeader#/definitions/ILogoProps",
+            "title": "Logo"
+        },
+        "menu": {
+            "title": "Menu",
+            "type": "array",
+            "items": {
+                "$ref": "@treenity/webeditor:layout.verticalHeader#/definitions/IHeaderMenuProps"
+            }
+        },
+        "social": {
+            "title": "Social Links",
+            "type": "array",
+            "items": {
+                "$ref": "@treenity/webeditor:layout.verticalHeader#/definitions/ISocialList"
+            }
+        },
+        "contacts": {
+            "$ref": "@treenity/webeditor:layout.verticalHeader#/definitions/IHeaderHeaderContactsList",
+            "title": "Contacts"
+        }
+    },
+    "required": [
+        "contacts",
+        "logo",
+        "menu",
+        "social"
+    ],
+    "definitions": {
+        "ILogoProps": {
+            "title": "Logo",
+            "type": "object",
+            "properties": {
+                "image": {
+                    "title": "Image URL",
+                    "type": "object",
+                    "properties": {
+                        "light": {
+                            "widget": "treenity.imageUploadInput",
+                            "type": "string"
+                        },
+                        "dark": {
+                            "widget": "treenity.imageUploadInput",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "dark",
+                        "light"
+                    ]
+                },
+                "link": {
+                    "title": "Link",
+                    "widget": "treenity.selectLink",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "image",
+                "link"
+            ]
+        },
+        "IHeaderMenuProps": {
+            "title": "Menu",
+            "type": "object",
+            "properties": {
+                "label": {
+                    "title": "Label",
+                    "type": "string"
+                },
+                "link": {
+                    "title": "Link",
+                    "widget": "treenity.selectLink",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "label",
+                "link"
+            ]
+        },
+        "ISocialList": {
+            "title": "Social",
+            "default": {
+                "logo": "/svg/logo.svg",
+                "link": "https://treenity.pro"
+            },
+            "type": "object",
+            "properties": {
+                "logo": {
+                    "title": "Logo",
+                    "widget": "treenity.imageUploadInput",
+                    "type": "string"
+                },
+                "link": {
+                    "title": "Link",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "link",
+                "logo"
+            ]
+        },
+        "IHeaderHeaderContactsList": {
+            "title": "Contact",
+            "type": "object",
+            "properties": {
+                "address": {
+                    "title": "Address",
+                    "type": "string"
+                },
+                "phoneNumber": {
+                    "title": "Phone Number",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "address",
+                "phoneNumber"
+            ]
+        }
+    }
+}
+

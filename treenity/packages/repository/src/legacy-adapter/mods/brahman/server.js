@@ -1,0 +1,9 @@
+import './bot/TelegramBot.meta';
+import './page/Page.meta';
+import './page/Page.server';
+import './User.meta';
+import './bot/TelegramBot.service';
+import './actions/server';
+import './translate/BotTranslate.server';
+import './graph/PageGraph';
+import './avatar/TegramAvatar.meta';

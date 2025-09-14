@@ -1,0 +1,16 @@
+{
+  "$id": "WeAX56xFhJuUacxim2FiPP",
+  "$name": "entity",
+  "$type": "node_tree",
+  "defaultMeta": "",
+  "links": null,
+  "metas": {
+    "entity": {
+      "$id": "WeAX56xFhJuUacxim2FiPP",
+      "$type": "test-entity",
+      "name": "New Name"
+    }
+  },
+  "title": "",
+  "path": "/a/b/entity"
+}

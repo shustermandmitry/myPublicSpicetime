@@ -1,0 +1,15 @@
+{
+  "extends": "@treenity/tsconfig/react-library.json",
+  "include": ["src"],
+  "skipLibCheck": true,
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ]
+  }
+}

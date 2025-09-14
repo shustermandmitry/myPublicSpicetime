@@ -1,0 +1,15 @@
+{
+  "$id": "Q2sdjrF3XE42k2usJ4u7ph",
+  "$name": "translates_lang",
+  "$type": "node_tree",
+  "defaultMeta": "service",
+  "links": null,
+  "metas": {
+    "service": {
+      "$id": "1AgAe2kPb23sXT3z9iADp5",
+      "$name": "translates_lang",
+      "$type": "sys.translate.lang.service"
+    }
+  },
+  "title": ""
+}

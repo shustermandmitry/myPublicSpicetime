@@ -1,0 +1,15 @@
+src/
+node_modules/
+tsconfig.json
+.prettierrc
+.gitignore
+.package-lock.json
+.idea
+.turbo
+.npmrc
+db
+rollup.config.*
+docs
+typedoc.json
+jest.config.*
+dist/**/stats.html

@@ -1,0 +1,123 @@
+{
+    "$id": "@treenity/webeditor:basic.codeComponent",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "typeId": {
+            "type": "string"
+        },
+        "ready": {
+            "type": "boolean",
+            "default": false
+        },
+        "prompt": {
+            "type": "string",
+            "default": ""
+        },
+        "code": {
+            "type": "string",
+            "default": "add(() => <div style={{ margin: 16, fontWeight: 600 }}>You can start generating the component by going to the AI Gen. tab or just start typing here.</div>)"
+        },
+        "expert": {
+            "type": "boolean",
+            "default": false
+        },
+        "ai": {
+            "type": "object",
+            "properties": {
+                "messages": {
+                    "anyOf": [
+                        {
+                            "type": "array",
+                            "minItems": 0,
+                            "maxItems": 0
+                        },
+                        {
+                            "type": "array",
+                            "items": {
+                                "allOf": [
+                                    {
+                                        "$ref": "@treenity/webeditor:basic.codeComponent#/definitions/ChatMessage"
+                                    },
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "code": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "messages"
+            ]
+        },
+        "appliedCode": {
+            "type": "string",
+            "default": ""
+        },
+        "gen": {}
+    },
+    "required": [
+        "ai",
+        "appliedCode",
+        "code",
+        "expert",
+        "gen",
+        "prompt",
+        "ready"
+    ],
+    "definitions": {
+        "ChatMessage": {
+            "type": "object",
+            "properties": {
+                "role": {
+                    "enum": [
+                        "assistant",
+                        "system",
+                        "user"
+                    ],
+                    "type": "string"
+                },
+                "content": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "content",
+                "role"
+            ]
+        }
+    },
+    "methods": {
+        "changeCode": {
+            "arguments": [
+                {
+                    "name": "code",
+                    "type": "string"
+                }
+            ],
+            "return": {
+                "type": "undefined"
+            }
+        },
+        "update": {
+            "arguments": [
+                {
+                    "name": "data",
+                    "type": "object",
+                    "$ref": "basic.codeComponent"
+                }
+            ],
+            "return": {
+                "type": "undefined"
+            }
+        }
+    }
+}
+

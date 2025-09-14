@@ -1,0 +1,580 @@
+{
+	"info": {
+		"_postman_id": "5a729ca3-1e9b-4bad-aa06-cef448c0d3d9",
+		"name": "Notification",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31849212"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": 1,\n    \"content\": \"string\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/timely/notification-uc",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"timely",
+						"notification-uc"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-Service-Method",
+								"value": "execute",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user_id\": 1,\n    \"content\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/timely/notification-uc",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"timely",
+								"notification-uc"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "185"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"b9-Ok6Vu8ABZGlDYJ98BgNDePdjZlE\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Jan 2024 10:28:09 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"item\": {\n        \"id\": 195438,\n        \"created_at\": \"2024-01-28T10:28:09.089498587Z\",\n        \"UpdatedAt\": \"2024-01-28T10:28:09.089498587Z\",\n        \"DeletedAt\": null,\n        \"userId\": 0,\n        \"content\": \"string\",\n        \"read\": false,\n        \"meta\": null\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "List",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/timely/notification-uc?userId=1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"timely",
+						"notification-uc"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "List with filter user_id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/timely/notification-uc?userId=1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"timely",
+								"notification-uc"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "408"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"198-GmNEXyShJuklVUQzOLIJF0QmjRo\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Jan 2024 11:24:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"list\": [\n        {\n            \"id\": 195440,\n            \"created_at\": \"2024-01-28T11:23:07.871481Z\",\n            \"UpdatedAt\": \"2024-01-28T11:23:07.871481Z\",\n            \"DeletedAt\": null,\n            \"userId\": 1,\n            \"content\": \"string\",\n            \"read\": false,\n            \"meta\": null\n        },\n        {\n            \"id\": 195437,\n            \"created_at\": \"2024-01-28T10:27:27.36444Z\",\n            \"UpdatedAt\": \"2024-01-28T10:27:27.36444Z\",\n            \"DeletedAt\": null,\n            \"userId\": 1,\n            \"content\": \"string\",\n            \"read\": false,\n            \"meta\": null\n        }\n    ],\n    \"pagination\": {\n        \"offset\": 0,\n        \"totalCount\": 2,\n        \"countPerPage\": 5\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Read one",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Service-Method",
+						"value": "readOne",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/timely/notification-uc",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"timely",
+						"notification-uc"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Ok",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-Service-Method",
+								"value": "execute",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 195439\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/sys/notification?serviceMethod=read-one",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"sys",
+								"notification"
+							],
+							"query": [
+								{
+									"key": "serviceMethod",
+									"value": "read-one"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4-NOgEnJ+fOCweG+agGSZ3q50G9wM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Jan 2024 10:33:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "\"Ok\""
+				}
+			]
+		},
+		{
+			"name": "Read all",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Service-Method",
+						"value": "readAll",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/timely/notification-uc",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"timely",
+						"notification-uc"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Ok",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-Service-Method",
+								"value": "execute",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 195439\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/sys/notification?serviceMethod=read-all",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"sys",
+								"notification"
+							],
+							"query": [
+								{
+									"key": "serviceMethod",
+									"value": "read-all"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4-NOgEnJ+fOCweG+agGSZ3q50G9wM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Jan 2024 10:34:27 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "\"Ok\""
+				}
+			]
+		},
+		{
+			"name": "Unread count",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Service-Method",
+						"value": "unreadCount",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/timely/notification-uc",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"timely",
+						"notification-uc"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Count",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-Service-Method",
+								"value": "execute",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userId\": 195439\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/sys/notification?serviceMethod=unread-count",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"sys",
+								"notification"
+							],
+							"query": [
+								{
+									"key": "serviceMethod",
+									"value": "unread-count"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "11"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"b-ch7MNww9+xUYoTgutbGr6VU0GaU\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 28 Jan 2024 10:36:18 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"count\": 0\n}"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+    "$id": "@treenity/repository:sys.telegram-user",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "deleted_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "chat_instance": {
+            "type": "string",
+            "pattern": "^-?[0-9]+$"
+        },
+        "tuser": {
+            "type": "integer"
+        },
+        "user_id": {
+            "type": "integer"
+        },
+        "user_name": {
+            "type": "string"
+        },
+        "is_premium:": {
+            "type": "boolean"
+        }
+    },
+    "required": [
+        "created_at",
+        "chat_instance",
+        "user_id"
+    ]
+}
+

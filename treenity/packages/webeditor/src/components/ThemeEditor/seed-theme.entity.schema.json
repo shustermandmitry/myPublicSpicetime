@@ -1,0 +1,181 @@
+{
+    "$id": "@treenity/webeditor:webeditor.seed-theme",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "seed": {
+            "$ref": "@treenity/webeditor:webeditor.seed-theme#/definitions/Partial<SeedToken>"
+        }
+    },
+    "required": [
+        "seed"
+    ],
+    "definitions": {
+        "Partial<SeedToken>": {
+            "type": "object",
+            "properties": {
+                "colorPrimary": {
+                    "type": "string"
+                },
+                "colorSuccess": {
+                    "type": "string"
+                },
+                "colorWarning": {
+                    "type": "string"
+                },
+                "colorError": {
+                    "type": "string"
+                },
+                "colorInfo": {
+                    "type": "string"
+                },
+                "colorTextBase": {
+                    "type": "string"
+                },
+                "colorBgBase": {
+                    "type": "string"
+                },
+                "colorLink": {
+                    "type": "string"
+                },
+                "fontFamily": {
+                    "type": "string"
+                },
+                "fontFamilyCode": {
+                    "type": "string"
+                },
+                "fontSize": {
+                    "default": 14,
+                    "type": "number"
+                },
+                "lineWidth": {
+                    "type": "number"
+                },
+                "lineType": {
+                    "type": "string"
+                },
+                "borderRadius": {
+                    "type": "number"
+                },
+                "sizeUnit": {
+                    "default": 4,
+                    "type": "number"
+                },
+                "sizeStep": {
+                    "default": 4,
+                    "type": "number"
+                },
+                "sizePopupArrow": {
+                    "type": "number"
+                },
+                "controlHeight": {
+                    "default": 32,
+                    "type": "number"
+                },
+                "zIndexBase": {
+                    "default": 0,
+                    "type": "number"
+                },
+                "zIndexPopupBase": {
+                    "default": 1000,
+                    "type": "number"
+                },
+                "opacityImage": {
+                    "type": "number"
+                },
+                "motionUnit": {
+                    "default": "100ms",
+                    "type": "number"
+                },
+                "motionBase": {
+                    "type": "number"
+                },
+                "motionEaseOutCirc": {
+                    "type": "string"
+                },
+                "motionEaseInOutCirc": {
+                    "type": "string"
+                },
+                "motionEaseInOut": {
+                    "type": "string"
+                },
+                "motionEaseOutBack": {
+                    "type": "string"
+                },
+                "motionEaseInBack": {
+                    "type": "string"
+                },
+                "motionEaseInQuint": {
+                    "type": "string"
+                },
+                "motionEaseOutQuint": {
+                    "type": "string"
+                },
+                "motionEaseOut": {
+                    "type": "string"
+                },
+                "wireframe": {
+                    "default": false,
+                    "type": "boolean"
+                },
+                "motion": {
+                    "default": true,
+                    "type": "boolean"
+                },
+                "blue": {
+                    "type": "string"
+                },
+                "cyan": {
+                    "type": "string"
+                },
+                "gold": {
+                    "type": "string"
+                },
+                "green": {
+                    "type": "string"
+                },
+                "lime": {
+                    "type": "string"
+                },
+                "magenta": {
+                    "type": "string"
+                },
+                "orange": {
+                    "type": "string"
+                },
+                "pink": {
+                    "type": "string"
+                },
+                "purple": {
+                    "type": "string"
+                },
+                "red": {
+                    "type": "string"
+                },
+                "yellow": {
+                    "type": "string"
+                },
+                "volcano": {
+                    "type": "string"
+                },
+                "geekblue": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "methods": {
+        "updateConfig": {
+            "arguments": [
+                {
+                    "name": "config",
+                    "$ref": "#/definitions/SeedToken"
+                }
+            ],
+            "return": {
+                "type": "undefined"
+            }
+        }
+    }
+}
+

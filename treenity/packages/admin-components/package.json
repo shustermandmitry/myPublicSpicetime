@@ -1,0 +1,138 @@
+{
+  "name": "@treenity/admin-components",
+  "version": "0.0.110",
+  "description": "Treenity admin components",
+  "author": "Treenity",
+  "license": "ISC",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -w -c",
+    "dev": "tsx src/server.ts",
+    "devwatch": "tsx watch src/server.ts",
+    "typecheck": "tsc",
+    "test": "cross-env NODE_ENV=test jest",
+    "clean": "treenity-clean",
+    "icons:build": "cd src/components/icon/icon-component && icomoon-gen"
+  },
+  "type": "module",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.mjs"
+    },
+    "./components": {
+      "types": "./dist/components.d.ts",
+      "default": "./dist/components.mjs"
+    },
+    "./elements": {
+      "types": "./dist/elements.d.ts",
+      "default": "./dist/elements.mjs"
+    },
+    "./hooks": {
+      "types": "./dist/hooks.d.ts",
+      "default": "./dist/hooks.mjs"
+    },
+    "./widgets": {
+      "types": "./dist/widgets.d.ts",
+      "default": "./dist/widgets.mjs"
+    },
+    "./utils": {
+      "types": "./dist/utils.d.ts",
+      "default": "./dist/utils.mjs"
+    },
+    "./theme": {
+      "types": "./dist/theme.d.ts",
+      "default": "./dist/theme.mjs"
+    },
+    "./styles.css": "./dist/assets/styles.css"
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/index.d.ts"
+      ],
+      "components": [
+        "./dist/components.d.ts"
+      ],
+      "elements": [
+        "./dist/elements.d.ts"
+      ],
+      "widgets": [
+        "./dist/widgets.d.ts"
+      ],
+      "utils": [
+        "./dist/utils.d.ts"
+      ],
+      "hooks": [
+        "./dist/hooks.d.ts"
+      ],
+      "theme": [
+        "./dist/theme.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "/dist/**/*.d.ts",
+    "/dist/**/*.mjs",
+    "/dist/**/*.json",
+    "/dist/assets",
+    "package.json"
+  ],
+  "dependencies": {
+    "@ant-design/cssinjs": "^1.22.0",
+    "@s-libs/micro-dash": "^17.1.0",
+    "@treenity/core": "1.0.44",
+    "@treenity/entity": "0.5.37",
+    "@treenity/js-shared": "1.0.33",
+    "@treenity/repository": "0.3.27",
+    "@treenity/tree-api": "0.1.50",
+    "@treenity/ui-kit": "2.1.72",
+    "antd-token-previewer": "^2.0.8",
+    "immer": "10.0.3",
+    "rc-util": "^5.38.1",
+    "react-colorful": "^5.6.1",
+    "react-layout-kit": "^1.7.4",
+    "react-player": "^2.16.0",
+    "swiper": "^11.1.15",
+    "swr": "^2.3.0",
+    "tinycolor2": "^1.6.0",
+    "tslib": "^2.8.1",
+    "use-debouncy": "^5.0.1",
+    "zustand": "^4.5.5"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@remix-run/react": "^2.15.0",
+    "antd": "^5.22.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@emotion/jest": "^11.13.0",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@jest/globals": "^29.7.0",
+    "@rollup/plugin-commonjs": "26.0.1",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "@treenity/build-utils": "1.1.30",
+    "@treenity/tsconfig": "1.0.13",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "jest": "^29.7.0",
+    "jest-emotion": "^11.0.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-fetch-mock": "^3.0.3",
+    "resize-observer-polyfill": "^1.5.1",
+    "rollup": "^4.26.0",
+    "rollup-plugin-copy": "3.5.0",
+    "ts-jest": "^29.2.2",
+    "typescript": "^5.4.5",
+    "typescript-plugin-css-modules": "^5.0.2"
+  }
+}

@@ -1,0 +1,126 @@
+{
+    "$id": "@treenity/webeditor:layout.webeditor",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "layout": {
+            "$ref": "@treenity/webeditor:layout.webeditor#/definitions/SerializedNodes"
+        },
+        "panelWidth": {
+            "type": "number"
+        },
+        "autoSave": {
+            "type": "boolean",
+            "default": false
+        },
+        "edit": {
+            "type": "boolean",
+            "default": false
+        },
+        "zoom": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "number"
+                },
+                "label": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "label",
+                "value"
+            ]
+        },
+        "autoZoom": {
+            "type": "boolean",
+            "default": false
+        },
+        "height": {
+            "type": "number",
+            "default": 0
+        },
+        "prefabs": {
+            "$ref": "@treenity/webeditor:layout.webeditor#/definitions/Record<string,ComponentSchema>"
+        }
+    },
+    "required": [
+        "autoSave",
+        "autoZoom",
+        "edit",
+        "height",
+        "layout",
+        "panelWidth",
+        "prefabs",
+        "zoom"
+    ],
+    "definitions": {
+        "SerializedNodes": {
+            "type": "object"
+        },
+        "Record<string,ComponentSchema>": {
+            "type": "object"
+        }
+    },
+    "methods": {
+        "setAutoSave": {
+            "arguments": [
+                {
+                    "name": "autoSave",
+                    "type": [
+                        "object",
+                        "boolean"
+                    ]
+                }
+            ],
+            "return": {
+                "type": "undefined"
+            }
+        },
+        "addPrefab": {
+            "arguments": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "prefab",
+                    "$ref": "#/definitions/ComponentSchema"
+                }
+            ],
+            "return": {
+                "type": "undefined"
+            }
+        },
+        "update": {
+            "arguments": [
+                {
+                    "name": "data",
+                    "type": "object",
+                    "$ref": "layout.webeditor"
+                }
+            ],
+            "return": {
+                "type": "undefined"
+            }
+        },
+        "updateLayout": {
+            "arguments": [
+                {
+                    "name": "layout",
+                    "$ref": "#/definitions/SerializedNodes"
+                }
+            ],
+            "return": {
+                "type": "undefined"
+            }
+        },
+        "setDefaultLayout": {
+            "arguments": [],
+            "return": {
+                "type": "undefined"
+            }
+        }
+    }
+}
+

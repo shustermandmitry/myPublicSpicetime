@@ -1,0 +1,37 @@
+{
+  "$id": "Q2sdjrF3XE42k2usJ4u7ph",
+  "$name": "translates_rest_project",
+  "$type": "node_tree",
+  "defaultMeta": "service",
+  "$refs": [
+    { "ref": "/metas/service/connection/host", "url": "cfg:/services/translate-ms/host" }
+  ],
+  "links": null,
+  "metas": {
+    "service": {
+      "$id": "1AgAe2kPb23sXT3z9iADp5",
+      "$name": "translates_rest_project",
+      "$type": "sys.rest",
+      "connection": {
+        "port": 2006,
+        "host": "localhost",
+        "protocol": "http"
+      },
+      "methods": {
+        "create": {
+          "path": "/api/v1/project",
+          "method": "POST"
+        },
+        "update": {
+          "path": "/api/v1/project",
+          "method": "PUT"
+        },
+        "get": {
+          "path": "/api/v1/project/get-by/{domain}",
+          "method": "GET"
+        }
+      }
+    }
+  },
+  "title": ""
+}

@@ -1,0 +1,44 @@
+{
+    "$id": "@treenity/webeditor:form-components.verticalContactForm",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "titleForm": {
+            "title": "Title",
+            "type": "string"
+        },
+        "action": {
+            "title": "Action",
+            "type": "string"
+        },
+        "title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "text": {
+            "title": "Text",
+            "widget": "treenity.textarea",
+            "type": "string"
+        },
+        "backgroundColor": {
+            "title": "Background",
+            "type": "string"
+        },
+        "titleTag": {
+            "title": "Title tag",
+            "enum": [
+                "h1",
+                "h2",
+                "h3",
+                "p",
+                "span"
+            ],
+            "type": "string",
+            "default": "p"
+        }
+    },
+    "required": [
+        "action"
+    ]
+}
+

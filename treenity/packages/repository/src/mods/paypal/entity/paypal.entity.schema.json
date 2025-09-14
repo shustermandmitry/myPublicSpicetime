@@ -1,0 +1,106 @@
+{
+    "$id": "@treenity/repository:paypal.service.meta",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "storagePath": {
+            "type": "string"
+        },
+        "accessTokenStorageKey": {
+            "type": "string"
+        },
+        "webhookUrl": {
+            "type": "string"
+        },
+        "domainName": {
+            "type": "string"
+        },
+        "webhookProxyUrl": {
+            "type": "string"
+        },
+        "config": {
+            "$ref": "@treenity/repository:paypal.service.meta#/definitions/PaypalConfigEntity"
+        }
+    },
+    "required": [
+        "accessTokenStorageKey",
+        "config",
+        "domainName",
+        "storagePath",
+        "webhookProxyUrl",
+        "webhookUrl"
+    ],
+    "definitions": {
+        "PaypalConfigEntity": {
+            "type": "object",
+            "properties": {
+                "clientId": {
+                    "type": "string"
+                },
+                "clientToken": {
+                    "type": "string"
+                },
+                "currencyCode": {
+                    "type": "string"
+                },
+                "invoice": {
+                    "type": "object",
+                    "properties": {
+                        "mailSubject": {
+                            "type": "string"
+                        },
+                        "mailNote": {
+                            "type": "string"
+                        },
+                        "sendToRecipient": {
+                            "type": "boolean"
+                        },
+                        "sendToInvoicer": {
+                            "type": "boolean"
+                        }
+                    }
+                },
+                "webhook": {
+                    "type": "object",
+                    "properties": {
+                        "url": {
+                            "type": "string"
+                        },
+                        "proxyUrl": {
+                            "type": "string"
+                        },
+                        "storageKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "storageKey",
+                        "url"
+                    ]
+                },
+                "order": {
+                    "type": "object",
+                    "properties": {
+                        "autoAuthorize": {
+                            "type": "boolean"
+                        },
+                        "successUrl": {
+                            "type": "string"
+                        },
+                        "cancelUrl": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "required": [
+                "clientId",
+                "clientToken",
+                "currencyCode",
+                "order",
+                "webhook"
+            ]
+        }
+    }
+}
+

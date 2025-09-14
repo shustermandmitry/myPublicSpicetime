@@ -1,0 +1,18 @@
+export const DEFAULT_CAROUSEL_LIST = [
+  '3b7017f2d0c13b7768ed87e6c518218af7091e086d8fcf15d7f7bf438389b5cc',
+  'e724682bc5fc5e017288ac2a936dcada312f15b8963c9d5d88e26a6c1d0445e3',
+  'f05ddc63389f0ae2673f7e9c73012bb7401f834d1b1b88d892bbcbf4569e3f3a',
+  'bf88bd5d10d9560f9f323e67a9a13e7dfeef3cddc29e8ab808fc835e5d790e9d',
+  '9c01addb5e2105b7fc0c6f228b0dfa5ecc27c3e3e22bf892b26dc336a5a8416d',
+];
+export const DEFAULT_CAROUSEL_WIDTH_IMAGE = 1024;
+export const DEFAULT_CAROUSEL_HEIGHT_IMAGE = 768;
+export const DEFAULT_CAROUSEL_NAV_TYPE = 'bullets';
+export const DEFAULT_CAROUSEL_DIRECTION = 'horizontal';
+export const DEFAULT_CAROUSEL_SHOW_NAVIGATE = false;
+export const DEFAULT_CAROUSEL_SHOW_PAGINATION = false;
+export const DEFAULT_CAROUSEL_AUTOPLAY = false;
+export const DEFAULT_CAROUSEL_LOOP = false;
+export const DEFAULT_CAROUSEL_SWIPE_GESTURES = true;
+export const DEFAULT_CAROUSEL_DELAY = 3000;
+export const DEFAULT_CAROUSEL_EFFECT = 'slide';

@@ -1,0 +1,43 @@
+{
+    "$id": "@treenity/entity:ideal",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "health": {
+            "type": "number"
+        },
+        "age": {
+            "format": "date-time",
+            "type": "number"
+        },
+        "look": {
+            "$ref": "@treenity/entity:ideal#/definitions/Look"
+        }
+    },
+    "required": [
+        "health",
+        "look",
+        "name"
+    ],
+    "definitions": {
+        "Look": {
+            "type": "object",
+            "properties": {
+                "hair": {
+                    "type": "string"
+                },
+                "eyes": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "eyes",
+                "hair"
+            ]
+        }
+    }
+}
+

@@ -1,0 +1,17 @@
+import { types } from '@treenity/core';
+import { Source } from 'callbag';
+import { fromPromise as fp } from 'callbag-basics';
+
+const fromPromise = (fp as any).default;
+
+const loadTypes = (type: string, url: string): Source<any> => {
+  console.log('loadPorts', type);
+  return fromPromise(
+    (async () => {
+      const [, options] = await types.noflo.get(type);
+      return options.ports;
+    })(),
+  );
+};
+
+export default loadTypes;

@@ -1,0 +1,744 @@
+{
+    "$id": "@treenity/webeditor:markup.Rows",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "distribution": {
+            "enum": [
+                "custom",
+                "evenly"
+            ],
+            "type": "string",
+            "default": "evenly"
+        },
+        "rows": {
+            "type": "string",
+            "default": ""
+        },
+        "width": {
+            "$ref": "@treenity/webeditor:markup.Rows#/definitions/RowsWidth",
+            "default": "auto"
+        },
+        "gap": {
+            "type": "number",
+            "default": 4
+        },
+        "items": {
+            "type": "array",
+            "items": {
+                "$ref": "@treenity/webeditor:markup.Rows#/definitions/ItemType"
+            },
+            "default": [
+                {
+                    "id": "1"
+                },
+                {
+                    "id": "2"
+                }
+            ]
+        },
+        "styles": {
+            "type": "object",
+            "properties": {
+                "size": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/SizeThemedValue"
+                },
+                "layout": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/LayoutThemedValue"
+                },
+                "position": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/PositionThemedValue"
+                },
+                "spacing": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/SpacingThemedValue"
+                },
+                "background": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BackgroundThemedValue"
+                },
+                "border": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BorderThemedValue"
+                },
+                "shadow": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/ShadowThemedValue"
+                },
+                "textEditor": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/Partial<TextPropsThemedValue>"
+                }
+            }
+        }
+    },
+    "required": [
+        "distribution",
+        "gap",
+        "items",
+        "styles",
+        "width"
+    ],
+    "definitions": {
+        "RowsWidth": {
+            "enum": [
+                "100%",
+                "auto",
+                "max",
+                "min"
+            ],
+            "type": "string"
+        },
+        "ItemType": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "alignSelf": {
+                    "enum": [
+                        "center",
+                        "flex-end",
+                        "flex-start",
+                        "normal",
+                        "stretch"
+                    ],
+                    "type": "string"
+                },
+                "justifySelf": {
+                    "enum": [
+                        "center",
+                        "end",
+                        "normal",
+                        "start"
+                    ],
+                    "type": "string"
+                },
+                "span": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "id"
+            ]
+        },
+        "SizeThemedValue": {
+            "type": "object",
+            "properties": {
+                "width": {
+                    "type": "string"
+                },
+                "height": {
+                    "type": "string"
+                },
+                "min_width": {
+                    "type": "string"
+                },
+                "max_width": {
+                    "type": "string"
+                },
+                "min_height": {
+                    "type": "string"
+                },
+                "max_height": {
+                    "type": "string"
+                },
+                "overflow": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/OverflowValue"
+                }
+            },
+            "required": [
+                "overflow"
+            ]
+        },
+        "OverflowValue": {
+            "enum": [
+                "auto",
+                "clip",
+                "hidden",
+                "scroll",
+                "visible"
+            ],
+            "type": "string"
+        },
+        "LayoutThemedValue": {
+            "type": "object",
+            "properties": {
+                "display": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/LayoutDisplayValueType"
+                },
+                "direction": {
+                    "enum": [
+                        "column",
+                        "row"
+                    ],
+                    "type": "string"
+                },
+                "align": {
+                    "enum": [
+                        "center_center",
+                        "center_end",
+                        "center_start",
+                        "center_stretch",
+                        "left_center",
+                        "left_end",
+                        "left_start",
+                        "left_stretch",
+                        "right_center",
+                        "right_end",
+                        "right_start",
+                        "right_stretch",
+                        "space-around_center",
+                        "space-around_end",
+                        "space-around_start",
+                        "space-around_stretch",
+                        "space-between_center",
+                        "space-between_end",
+                        "space-between_start",
+                        "space-between_stretch"
+                    ],
+                    "type": "string"
+                },
+                "gap": {
+                    "type": "object",
+                    "properties": {
+                        "column": {
+                            "type": "string"
+                        },
+                        "row": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "column",
+                        "row"
+                    ]
+                },
+                "order": {
+                    "type": "string"
+                },
+                "gridSettings": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/IGridSettingsValue"
+                },
+                "columns": {
+                    "enum": [
+                        "center",
+                        "end",
+                        "space-around",
+                        "space-between",
+                        "start",
+                        "stretch"
+                    ],
+                    "type": "string"
+                },
+                "rows": {
+                    "enum": [
+                        "center",
+                        "end",
+                        "space-around",
+                        "space-between",
+                        "start",
+                        "stretch"
+                    ],
+                    "type": "string"
+                }
+            },
+            "required": [
+                "display"
+            ]
+        },
+        "LayoutDisplayValueType": {
+            "enum": [
+                "block",
+                "flex",
+                "grid",
+                "none"
+            ],
+            "type": "string"
+        },
+        "IGridSettingsValue": {
+            "type": "object",
+            "properties": {
+                "columns": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "@treenity/webeditor:markup.Rows#/definitions/IGridSettingsValueCR"
+                    }
+                },
+                "rows": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "@treenity/webeditor:markup.Rows#/definitions/IGridSettingsValueCR"
+                    }
+                },
+                "areas": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "@treenity/webeditor:markup.Rows#/definitions/IGridSettingsArea"
+                    }
+                }
+            },
+            "required": [
+                "columns",
+                "rows"
+            ]
+        },
+        "IGridSettingsValueCR": {
+            "type": "object",
+            "properties": {
+                "format": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/GridSettingsCRType"
+                },
+                "size": {
+                    "anyOf": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "min": {
+                                    "type": "string"
+                                },
+                                "max": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "max",
+                                "min"
+                            ]
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "format"
+            ]
+        },
+        "GridSettingsCRType": {
+            "enum": [
+                "auto",
+                "fixed",
+                "min-max"
+            ],
+            "type": "string"
+        },
+        "IGridSettingsArea": {
+            "type": "object",
+            "properties": {
+                "columns_start": {
+                    "type": "number"
+                },
+                "columns_end": {
+                    "type": "number"
+                },
+                "rows_start": {
+                    "type": "number"
+                },
+                "rows_end": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "columns_end",
+                "columns_start",
+                "rows_end",
+                "rows_start"
+            ]
+        },
+        "PositionThemedValue": {
+            "type": "object",
+            "properties": {
+                "position": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/PositionThemedPositionValue"
+                },
+                "offset": {
+                    "type": "object",
+                    "properties": {
+                        "top": {
+                            "type": "string"
+                        },
+                        "right": {
+                            "type": "string"
+                        },
+                        "bottom": {
+                            "type": "string"
+                        },
+                        "left": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "relative": {
+                    "type": "string"
+                },
+                "zIndex": {
+                    "anyOf": [
+                        {
+                            "const": "auto",
+                            "type": "string"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "offset",
+                "position"
+            ]
+        },
+        "PositionThemedPositionValue": {
+            "enum": [
+                "absolute",
+                "fixed",
+                "relative",
+                "static",
+                "sticky"
+            ],
+            "type": "string"
+        },
+        "SpacingThemedValue": {
+            "type": "object",
+            "properties": {
+                "margin": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/SpacingThemedValues"
+                },
+                "padding": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/SpacingThemedValues"
+                }
+            },
+            "required": [
+                "margin",
+                "padding"
+            ]
+        },
+        "SpacingThemedValues": {
+            "type": "object",
+            "properties": {
+                "top": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/SpacingValue"
+                },
+                "bottom": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/SpacingValue"
+                },
+                "left": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/SpacingValue"
+                },
+                "right": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/SpacingValue"
+                }
+            }
+        },
+        "SpacingValue": {
+            "type": "string"
+        },
+        "BackgroundThemedValue": {
+            "type": "object",
+            "properties": {
+                "backgroundColor": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "backgroundSize": {
+                    "enum": [
+                        "auto",
+                        "contain",
+                        "cover"
+                    ],
+                    "type": "string"
+                },
+                "backgroundImage": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BgImageValue"
+                },
+                "backgroundGradient": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/GradientThemedValues"
+                },
+                "backgroundPosition": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BgPositionThemedValue"
+                }
+            },
+            "required": [
+                "backgroundColor",
+                "backgroundSize"
+            ]
+        },
+        "BgImageValue": {
+            "type": "object",
+            "properties": {
+                "key": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "key",
+                "name"
+            ]
+        },
+        "GradientThemedValues": {
+            "type": "object",
+            "properties": {
+                "points": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "patternProperties": {
+                        "^[0-9]+$": {
+                            "$ref": "@treenity/webeditor:markup.Rows#/definitions/IPoint"
+                        }
+                    }
+                },
+                "angle": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "angle",
+                "points"
+            ]
+        },
+        "IPoint": {
+            "type": "object",
+            "properties": {
+                "position": {
+                    "type": "number"
+                },
+                "color": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            },
+            "required": [
+                "color",
+                "position"
+            ]
+        },
+        "BgPositionThemedValue": {
+            "type": "object",
+            "properties": {
+                "positions": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BgPositionThemedPositionValue"
+                },
+                "repeat": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BgPositionThemedRepeatValue"
+                },
+                "image": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "positions",
+                "repeat"
+            ]
+        },
+        "BgPositionThemedPositionValue": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BgPositionThemedPositionXValue"
+                },
+                "y": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BgPositionThemedPositionYValue"
+                }
+            },
+            "required": [
+                "x",
+                "y"
+            ]
+        },
+        "BgPositionThemedPositionXValue": {
+            "enum": [
+                "center",
+                "left",
+                "right"
+            ],
+            "type": "string"
+        },
+        "BgPositionThemedPositionYValue": {
+            "enum": [
+                "bottom",
+                "center",
+                "top"
+            ],
+            "type": "string"
+        },
+        "BgPositionThemedRepeatValue": {
+            "enum": [
+                "no-repeat",
+                "repeat",
+                "repeat-x",
+                "repeat-y"
+            ],
+            "type": "string"
+        },
+        "BorderThemedValue": {
+            "type": "object",
+            "properties": {
+                "radius": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BorderRadiusValues"
+                },
+                "styles": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/Omit<BorderStyleValues,\"all\">"
+                }
+            },
+            "required": [
+                "radius",
+                "styles"
+            ]
+        },
+        "BorderRadiusValues": {
+            "type": "object",
+            "properties": {
+                "topLeft": {
+                    "type": "string"
+                },
+                "topRight": {
+                    "type": "string"
+                },
+                "bottomLeft": {
+                    "type": "string"
+                },
+                "bottomRight": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "bottomLeft",
+                "bottomRight",
+                "topLeft",
+                "topRight"
+            ]
+        },
+        "Omit<BorderStyleValues,\"all\">": {
+            "type": "object",
+            "properties": {
+                "left": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BorderStylesProps"
+                },
+                "right": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BorderStylesProps"
+                },
+                "bottom": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BorderStylesProps"
+                },
+                "top": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BorderStylesProps"
+                }
+            },
+            "required": [
+                "bottom",
+                "left",
+                "right",
+                "top"
+            ]
+        },
+        "BorderStylesProps": {
+            "type": "object",
+            "properties": {
+                "width": {
+                    "type": "string"
+                },
+                "color": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "style": {
+                    "$ref": "@treenity/webeditor:markup.Rows#/definitions/BorderStyleName"
+                }
+            },
+            "required": [
+                "color",
+                "style"
+            ]
+        },
+        "BorderStyleName": {
+            "enum": [
+                "dashed",
+                "dotted",
+                "none",
+                "solid"
+            ],
+            "type": "string"
+        },
+        "ShadowThemedValue": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "type": "string"
+                },
+                "y": {
+                    "type": "string"
+                },
+                "blur": {
+                    "type": "string"
+                },
+                "spread": {
+                    "type": "string"
+                },
+                "color": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            }
+        },
+        "Partial<TextPropsThemedValue>": {
+            "type": "object",
+            "properties": {
+                "align": {
+                    "type": "string"
+                },
+                "text": {
+                    "type": "string"
+                },
+                "color": {
+                    "type": "string"
+                },
+                "fontFamily": {
+                    "type": "string"
+                },
+                "fontWeight": {
+                    "type": "string"
+                },
+                "size": {
+                    "type": "string"
+                },
+                "opacity": {
+                    "type": "string"
+                },
+                "lineHeight": {
+                    "type": "string"
+                },
+                "letterSpacing": {
+                    "type": "string"
+                },
+                "textTransform": {
+                    "type": "string"
+                },
+                "textStyle": {
+                    "enum": [
+                        "italic",
+                        "normal"
+                    ],
+                    "type": "string"
+                },
+                "textDecoration": {
+                    "type": "string"
+                },
+                "textType": {
+                    "type": "string"
+                },
+                "textList": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
+

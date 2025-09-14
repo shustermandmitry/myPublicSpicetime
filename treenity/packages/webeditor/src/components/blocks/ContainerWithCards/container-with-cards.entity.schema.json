@@ -1,0 +1,75 @@
+{
+    "$id": "@treenity/webeditor:layout.containerWithCards",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "text": {
+            "title": "Text",
+            "type": "string"
+        },
+        "list": {
+            "title": "Cards",
+            "type": "array",
+            "items": {
+                "$ref": "@treenity/webeditor:layout.containerWithCards#/definitions/IContainerWithCardsList"
+            }
+        },
+        "type": {
+            "$ref": "@treenity/webeditor:layout.containerWithCards#/definitions/TContainerWithCardsType",
+            "title": "Type"
+        }
+    },
+    "required": [
+        "list",
+        "text",
+        "title",
+        "type"
+    ],
+    "definitions": {
+        "IContainerWithCardsList": {
+            "type": "object",
+            "properties": {
+                "image": {
+                    "title": "Image",
+                    "widget": "treenity.imageUploadInput",
+                    "type": "string"
+                },
+                "title": {
+                    "title": "Title",
+                    "type": "string"
+                },
+                "text": {
+                    "title": "Text",
+                    "type": "string"
+                },
+                "showButton": {
+                    "title": "Show button",
+                    "type": "boolean",
+                    "const": true
+                },
+                "buttonText": {
+                    "title": "Button text",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "buttonText",
+                "showButton",
+                "text",
+                "title"
+            ]
+        },
+        "TContainerWithCardsType": {
+            "enum": [
+                "horizontal",
+                "vertical"
+            ],
+            "type": "string"
+        }
+    }
+}
+

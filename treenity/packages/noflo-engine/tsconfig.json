@@ -1,0 +1,7 @@
+{
+  "extends": "@treenity/tsconfig/library.json",
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+  }
+}

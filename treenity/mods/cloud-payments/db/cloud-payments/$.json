@@ -1,0 +1,28 @@
+{
+  "$id": "2de831b9-c769-4a4d-ba84-fe91cc2f2c7e",
+  "$name": "cloud-payment.service",
+  "$type": "node_tree",
+  "defaultMeta": "service",
+  "$perm": {
+    "$": [
+      "public"
+    ]
+  },
+  "links": null,
+  "metas": {
+    "service": {
+      "$id": "de6cd0be-e7d6-43e3-b19b-b1649913e870",
+      "$name": "cloud-payment.service",
+      "$type": "cloud-payment.service",
+      "privateKey": "07ab112fa32efeded0c8ad489a838d27",
+      "publicId": "pk_32613df4890dbf5d111d47efff1e0",
+      "taxationSystem": 0,
+      "inn": "",
+      "proxy": {
+        "url": "http://localhost:3000",
+        "method": "POST"
+      }
+    }
+  },
+  "title": ""
+}

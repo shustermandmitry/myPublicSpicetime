@@ -1,0 +1,7 @@
+
+.card-meta-name {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    z-index: 1;
+}

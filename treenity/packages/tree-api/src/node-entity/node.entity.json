@@ -1,0 +1,87 @@
+{
+    "$id": "@treenity/tree-api:node",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "$perm": {
+            "$ref": "@treenity/tree-api:node#/definitions/MetaPermission"
+        },
+        "refs": {
+            "description": "if ref exists in $refs, then field value will be replaced with value pointed by NodeRef.url",
+            "type": "array",
+            "items": {
+                "$ref": "@treenity/tree-api:node#/definitions/NodeRef"
+            }
+        },
+        "url": {
+            "description": "if ref exists in $refs, then field value will be replaced with value pointed by NodeRef.url",
+            "type": "string"
+        },
+        "metas": {
+            "type": "object",
+            "additionalProperties": {
+                "$ref": "@treenity/tree-api:node#/definitions/MetaRaw"
+            }
+        },
+        "default": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "$perm",
+        "metas",
+        "refs",
+        "url"
+    ],
+    "definitions": {
+        "MetaPermission": {
+            "type": "object"
+        },
+        "NodeRef": {
+            "type": "object",
+            "properties": {
+                "ref": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "ref",
+                "url"
+            ]
+        },
+        "MetaRaw": {
+            "type": "object",
+            "properties": {
+                "$name": {
+                    "type": "string"
+                },
+                "$anchor": {
+                    "type": "string"
+                },
+                "$perm": {
+                    "$ref": "@treenity/tree-api:node#/definitions/MetaPermission"
+                },
+                "$tg": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "$type": {
+                    "type": "string"
+                },
+                "$id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "$id",
+                "$type"
+            ]
+        }
+    }
+}
+

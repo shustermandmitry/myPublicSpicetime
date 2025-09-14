@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2022",
+    "strict": true,
+    "noEmit": true,
+    "sourceMap": true,
+    "removeComments": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "moduleResolution": "Bundler",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "resolveJsonModule": true,
+    "allowJs": true
+  },
+  "typeRoots": [
+    "./types/types.d.ts",
+    "./types/",
+    "./node_modules/@types/"
+  ],
+  "exclude": ["node_modules"]
+}

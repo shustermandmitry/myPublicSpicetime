@@ -1,0 +1,35 @@
+{
+    "$id": "@treenity/accounts-mod:sys.accounts.account",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "slug": {
+            "type": "string"
+        },
+        "token": {
+            "type": "string"
+        },
+        "precision": {
+            "type": "number"
+        },
+        "displayPrecision": {
+            "type": "number"
+        },
+        "negative": {
+            "type": "boolean",
+            "default": false
+        }
+    },
+    "required": [
+        "displayPrecision",
+        "id",
+        "negative",
+        "precision",
+        "slug",
+        "token"
+    ]
+}
+

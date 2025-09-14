@@ -1,0 +1,45 @@
+{
+    "$id": "@treenity/entity:simple",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "health": {
+            "type": "number"
+        },
+        "age": {
+            "type": "number"
+        },
+        "look": {
+            "$ref": "@treenity/entity:simple#/definitions/Look"
+        },
+        "serverValue": {
+            "type": "string",
+            "default": "client"
+        }
+    },
+    "required": [
+        "health",
+        "name"
+    ],
+    "definitions": {
+        "Look": {
+            "type": "object",
+            "properties": {
+                "hair": {
+                    "type": "string"
+                },
+                "eyes": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "eyes",
+                "hair"
+            ]
+        }
+    }
+}
+

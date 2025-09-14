@@ -1,0 +1,111 @@
+import { IReactContextProps, Meta, types } from '@treenity/core';
+import '@treenity/node-editor/styles.css';
+import React, { Suspense, useEffect, useRef, useState } from 'react';
+
+import 'packages/noflo-engine/src/functions/components-store';
+// import { mapSchemeToGraphJson } from '../engine/mapSchemeToGraphJson';
+// import { add as addReact } from '../engine/react-store';
+import { produceAsync } from '../utils/produce-async';
+import { NodeEditorMeta } from './NodeEditorMeta';
+import { useEngineStore } from './NodeEngineContext';
+
+const EditorLayout = React.lazy(async () => import('@treenity/node-editor'));
+
+/**
+ * Search node for components, which is not in the graph yet, and add them to the graph
+ * @param node - node to scan for meta components
+ * @param graphModel - to add nodes to
+ */
+async function addNodeComponentsToNodeGraph(metas: Meta[], graphModel: SerializedModel) {
+  return produceAsync(graphModel, async json => {
+    const existing =
+      json?.layers.find((i: any) => i.type === 'diagram-nodes') ||
+      ({ models: {} } as SerializedModel['layers'][0]);
+
+    for (let meta of metas) {
+      const name = meta.$name || meta.$id;
+      if (!existing.models[name] && (await types.noflo.getInfo(meta.$type).catch(() => null))) {
+        // TODO fix any
+        (existing.models[name] as any) = {
+          id: name,
+          type: 'node_factory',
+          name,
+          x: 5,
+          y: 5,
+          model: {
+            id: name,
+            title: name,
+            url: 'tree:' + meta.$type,
+            type: meta.$type,
+          },
+        };
+      }
+    }
+  });
+}
+
+export function NodeEditor({ value, node, onChange }: IReactContextProps<NodeEditorMeta>) {
+  const apiRef = useRef<any>(null);
+  const setApi = (api: any) => (apiRef.current = api);
+  const store = useEngineStore();
+
+  // const [nodeGraph, setNodeGraph] = useState<SerializedModel>(null!);
+  const [nodeGraph, setNodeGraph] = useState<SerializedModel>(value.graph!);
+
+  const getMetas = () =>
+    node?.metas ? Object.values(node.metas).concat(store.components) : store.components;
+
+  // useAsyncEffect(() => {
+  //   onSave(nodeGraph);
+  // }, [node, api]);
+  useEffect(() => {
+    if (value.graph) {
+      addNodeComponentsToNodeGraph(getMetas(), value.graph).then(graph => setNodeGraph(graph));
+    } else {
+      onSave();
+    }
+  }, [value.graph, store.components]);
+
+  useEffect(() => {
+    const api = apiRef.current;
+    if (api) api.layout();
+  }, []);
+
+  // function loadNodeScript(scriptJson: object) {}
+
+  const onSave = (json?: SerializedModel) => {
+    if (!json) json = apiRef.current?.save();
+    if (!json) return;
+    addNodeComponentsToNodeGraph(getMetas(), json).then(updatedGraph => {
+      // setNodeGraph(updatedGraph);
+      onChange(meta => {
+        meta.graph = updatedGraph;
+      });
+    });
+  };
+  return (
+    <div style={{ height: '100%' }}>
+      <div style={{ flex: 1, height: '100%' }}>
+        <Button
+          style={{ position: 'absolute', top: 16, left: 48, zIndex: 10 }}
+          onClick={() => onSave()}
+        >
+          Save
+        </Button>
+        <div style={{ height: '100%', position: 'relative' }}>
+          <Suspense fallback={<div>loading node editor</div>}>
+            <EditorLayout
+              value={nodeGraph}
+              onChange={(event: any) => console.log('event', event)}
+              searchPorts={searchPorts}
+              loadTypes={loadTypes}
+              searchScripts={searchScripts}
+              onNewScriptType={value => console.log('onNewScriptType', JSON.stringify(value))}
+              onApi={setApi}
+            />
+          </Suspense>
+        </div>
+      </div>
+    </div>
+  );
+}

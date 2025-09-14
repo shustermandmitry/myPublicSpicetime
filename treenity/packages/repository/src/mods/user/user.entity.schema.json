@@ -1,0 +1,71 @@
+{
+    "$id": "@treenity/repository:sys.users",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "deleted_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "verified": {
+            "type": "boolean",
+            "default": false
+        },
+        "blocked": {
+            "type": "boolean",
+            "default": false
+        },
+        "first_name": {
+            "type": "string"
+        },
+        "last_name": {
+            "type": "string"
+        },
+        "surname": {
+            "type": "string"
+        },
+        "lang": {
+            "type": "string"
+        },
+        "photo": {
+            "type": "string"
+        },
+        "removed": {
+            "type": "boolean",
+            "default": false
+        },
+        "email": {
+            "format": "email",
+            "type": "string"
+        },
+        "role": {
+            "type": "string"
+        },
+        "tz": {
+            "type": "integer",
+            "default": 0
+        }
+    },
+    "required": [
+        "blocked",
+        "created_at",
+        "email",
+        "id",
+        "removed",
+        "role",
+        "tz",
+        "verified"
+    ]
+}
+

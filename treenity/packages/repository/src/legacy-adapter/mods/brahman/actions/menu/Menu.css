@@ -1,0 +1,29 @@
+
+.telegram-btn {
+    width: 100%;
+    background-color: #ecabab;
+}
+.telegram-btn.has-action {
+    background-color: #f4f4f4;
+}
+
+.telegram-btn-drag {
+    margin-right: 4px;
+}
+
+.telegram-btn-drag:not:last-child {
+    margin-right: 0;
+}
+
+.telegram-btn-tags {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-size: 10px;
+}
+
+.modal-action {
+    border: rgb(217, 217, 217) solid 1px;
+    border-radius: 2px;
+    padding: 16px;
+}

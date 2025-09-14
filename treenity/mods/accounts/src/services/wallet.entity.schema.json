@@ -1,0 +1,38 @@
+{
+    "$id": "@treenity/accounts-mod:sys.accounts.wallet",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "ID": {
+            "type": "string"
+        },
+        "accountId": {
+            "type": "string"
+        },
+        "token": {
+            "type": "string"
+        },
+        "owner": {
+            "type": "number"
+        },
+        "value": {
+            "type": "number"
+        },
+        "income_holds": {
+            "type": "number"
+        },
+        "outcome_holds": {
+            "type": "number"
+        }
+    },
+    "required": [
+        "ID",
+        "accountId",
+        "income_holds",
+        "outcome_holds",
+        "owner",
+        "token",
+        "value"
+    ]
+}
+

@@ -1,0 +1,43 @@
+{
+    "$id": "@treenity/translates-mod:sys.translates.lang",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "createdAt": {
+            "type": "string"
+        },
+        "updatedAt": {
+            "type": "string"
+        },
+        "deletedAt": {
+            "type": "string"
+        },
+        "projectId": {
+            "type": "number"
+        },
+        "code": {
+            "type": "string"
+        },
+        "isTranslated": {
+            "type": "boolean",
+            "default": false
+        },
+        "sort": {
+            "type": "number"
+        },
+        "isoCode": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "code",
+        "createdAt",
+        "isTranslated",
+        "projectId",
+        "updatedAt"
+    ]
+}
+

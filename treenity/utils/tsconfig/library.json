@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Library",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "lib": ["ES2015", "ES2022"]
+  },
+  "exclude": ["node_modules"]
+}

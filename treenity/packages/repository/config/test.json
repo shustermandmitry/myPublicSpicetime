@@ -1,0 +1,6 @@
+{
+  "port": 8998,
+  "tree": {
+    "root": "./src/test/db"
+  }
+}

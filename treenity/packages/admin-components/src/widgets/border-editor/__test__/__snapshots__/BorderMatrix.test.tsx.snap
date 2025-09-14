@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BorderMatrix change BorderMatrix component 1`] = `
+.emotion-0 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 64px;
+}
+
+.emotion-0,
+.emotion-0>div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-2 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  background: #FFF;
+  color: #26233F;
+  border-color: #E9E8EE;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-2>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-2.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-2 i {
+  color: #27ae60;
+}
+
+.emotion-2.ant-btn-default:not(:disabled):not(.emotion-2.ant-btn-disabled):hover {
+  background: #FFF;
+  color: #47BA73;
+  border-color: #E5E4EC;
+}
+
+.emotion-2.ant-btn-default:not(:disabled):not(.emotion-2.ant-btn-disabled):active {
+  background: #FFF;
+  color: #178749;
+  border-color: #E1DFE8;
+}
+
+.emotion-2 i {
+  font-size: 16px;
+}
+
+.emotion-2>span {
+  gap: 4px;
+}
+
+.emotion-2,
+.emotion-2 span {
+  line-height: 10px;
+}
+
+.emotion-2.emotion-2>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-2 i {
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-3 [class^='icon-'],
+.emotion-3 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-4 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-10 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  border: none;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-10>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-10.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-10 i {
+  font-size: 16px;
+}
+
+.emotion-10>span {
+  gap: 4px;
+}
+
+.emotion-10,
+.emotion-10 span {
+  line-height: 10px;
+}
+
+.emotion-10.emotion-10>span>span>i {
+  font-size: 12px;
+}
+
+<div
+  class="emotion-0"
+>
+  <div>
+    <button
+      class="ant-btn emotion-1 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-2"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-3"
+        >
+          <i
+            class="icon-border-top_outlined emotion-4"
+          />
+        </span>
+      </span>
+    </button>
+  </div>
+  <div>
+    <button
+      class="ant-btn emotion-1 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-2"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-3"
+        >
+          <i
+            class="icon-border-left_outlined emotion-4"
+          />
+        </span>
+      </span>
+    </button>
+    <button
+      class="ant-btn emotion-1 ant-btn-primary ant-btn-sm ant-btn-icon-only emotion-10"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-3"
+        >
+          <i
+            class="icon-border-all_outlined emotion-4"
+          />
+        </span>
+      </span>
+    </button>
+    <button
+      class="ant-btn emotion-1 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-2"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-3"
+        >
+          <i
+            class="icon-border-right_outlined emotion-4"
+          />
+        </span>
+      </span>
+    </button>
+  </div>
+  <div>
+    <button
+      class="ant-btn emotion-1 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-2"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-3"
+        >
+          <i
+            class="icon-border-bottom_outlined emotion-4"
+          />
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`BorderMatrix render BorderMatrix component 1`] = `
+.emotion-0 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 64px;
+}
+
+.emotion-0,
+.emotion-0>div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-2 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  background: #FFF;
+  color: #26233F;
+  border-color: #E9E8EE;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-2>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-2.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-2 i {
+  color: #27ae60;
+}
+
+.emotion-2.ant-btn-default:not(:disabled):not(.emotion-2.ant-btn-disabled):hover {
+  background: #FFF;
+  color: #47BA73;
+  border-color: #E5E4EC;
+}
+
+.emotion-2.ant-btn-default:not(:disabled):not(.emotion-2.ant-btn-disabled):active {
+  background: #FFF;
+  color: #178749;
+  border-color: #E1DFE8;
+}
+
+.emotion-2 i {
+  font-size: 16px;
+}
+
+.emotion-2>span {
+  gap: 4px;
+}
+
+.emotion-2,
+.emotion-2 span {
+  line-height: 10px;
+}
+
+.emotion-2.emotion-2>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-2 i {
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-3 [class^='icon-'],
+.emotion-3 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-4 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-10 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  border: none;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-10>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-10.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-10 i {
+  font-size: 16px;
+}
+
+.emotion-10>span {
+  gap: 4px;
+}
+
+.emotion-10,
+.emotion-10 span {
+  line-height: 10px;
+}
+
+.emotion-10.emotion-10>span>span>i {
+  font-size: 12px;
+}
+
+<div
+  class="emotion-0"
+>
+  <div>
+    <button
+      class="ant-btn emotion-1 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-2"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-3"
+        >
+          <i
+            class="icon-border-top_outlined emotion-4"
+          />
+        </span>
+      </span>
+    </button>
+  </div>
+  <div>
+    <button
+      class="ant-btn emotion-1 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-2"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-3"
+        >
+          <i
+            class="icon-border-left_outlined emotion-4"
+          />
+        </span>
+      </span>
+    </button>
+    <button
+      class="ant-btn emotion-1 ant-btn-primary ant-btn-sm ant-btn-icon-only emotion-10"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-3"
+        >
+          <i
+            class="icon-border-all_outlined emotion-4"
+          />
+        </span>
+      </span>
+    </button>
+    <button
+      class="ant-btn emotion-1 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-2"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-3"
+        >
+          <i
+            class="icon-border-right_outlined emotion-4"
+          />
+        </span>
+      </span>
+    </button>
+  </div>
+  <div>
+    <button
+      class="ant-btn emotion-1 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-2"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-3"
+        >
+          <i
+            class="icon-border-bottom_outlined emotion-4"
+          />
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;

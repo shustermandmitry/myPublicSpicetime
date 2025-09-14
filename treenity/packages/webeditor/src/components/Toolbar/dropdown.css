@@ -1,0 +1,6 @@
+.toolbar-dropdown .ant-dropdown-menu   { 
+    background-color: var(--puck-color-grey-01);
+    border: 1px solid var(--puck-color-grey-05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}

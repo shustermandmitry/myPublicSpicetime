@@ -1,0 +1,3025 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BgPositionThemed renders BgPositionThemed component with default values 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 12px;
+}
+
+.emotion-1 {
+  padding: 2px;
+  border-radius: 6px;
+  border: 1px solid #E9E8EE;
+  background: #ffffff;
+  width: 64px;
+  height: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-1 button {
+  border: none;
+  padding: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.emotion-1 button>div {
+  display: none;
+}
+
+.emotion-1 button:hover i {
+  color: #27ae60;
+}
+
+.emotion-1>div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-1 button i {
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  font-size: 10px;
+}
+
+.emotion-2 button {
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.emotion-2 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-2 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-4 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #26233F;
+  border: 1px solid;
+  color: #27ae60;
+  border-color: #27ae60;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-4>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-4.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-4 i {
+  font-size: 16px;
+}
+
+.emotion-4>span {
+  gap: 4px;
+}
+
+.emotion-4,
+.emotion-4 span {
+  line-height: 10px;
+}
+
+.emotion-4.emotion-4>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-5 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #27ae60;
+}
+
+.emotion-8 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #D4D1DF;
+}
+
+.emotion-12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-12 button:nth-of-type(2) i {
+  font-size: 14px;
+}
+
+.emotion-12 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-12 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-22 {
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.emotion-22 button {
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.emotion-22 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-22 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.emotion-33 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+
+.emotion-34 {
+  position: relative;
+  width: 100%;
+}
+
+.emotion-34>span.anticon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  color: #27ae60;
+  left: 6px;
+}
+
+.emotion-34>span.anticon i {
+  font-size: 12px;
+}
+
+.emotion-35 {
+  width: 100%;
+}
+
+.emotion-35 .ant-select-selection-item i,
+.emotion-35 .ant-select-item.ant-select-item-option:not(.ant-select-item-option-selected) i {
+  color: #27ae60;
+}
+
+.emotion-35 .ant-select-arrow {
+  inset-inline-end: 4px;
+}
+
+.emotion-35 .ant-select-arrow i {
+  font-size: 12px;
+}
+
+.emotion-35 .ant-select-dropdown {
+  border-radius: 6px;
+}
+
+.emotion-35 .ant-select-dropdown .ant-select-item {
+  border-radius: 4px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm {
+  height: 20px;
+  font-size: 10px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm .ant-select-selector {
+  font-size: 10px;
+  border-radius: 4px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector {
+  padding: 0 6px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+  height: 18px;
+}
+
+.emotion-37 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.emotion-38 [class^='icon-'],
+.emotion-38 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-38 i {
+  font-size: 12px!important;
+}
+
+.emotion-39 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-40 {
+  margin: 0;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  font-family: Manrope,sans-serif;
+  font-weight: inherit;
+}
+
+.emotion-41 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-50 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-50.emotion-50 {
+  border-radius: 6px;
+}
+
+.emotion-50.emotion-50.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-50.emotion-50.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-50 i {
+  font-size: 12px;
+}
+
+.emotion-50 .ant-segmented-item-icon,
+.emotion-50 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-50 .ant-segmented-item:first-of-type {
+  width: 30px;
+  max-width: 30px;
+}
+
+.emotion-52 [class^='icon-'],
+.emotion-52 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-60 {
+  width: 100%;
+  height: 110px;
+  border: 1px solid #E9E8EE;
+  border-radius: 8px;
+  -webkit-background-size: auto;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  -webkit-background-position: left top;
+  background-position: left top;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+      id="bg-position"
+    >
+      <div
+        class="emotion-2"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-5"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-v_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-8"
+            />
+          </span>
+        </button>
+      </div>
+      <div
+        class="emotion-12"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-h_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-center_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-h_filled emotion-8"
+            />
+          </span>
+        </button>
+      </div>
+      <div
+        class="emotion-22"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-v_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-8"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="emotion-32"
+    >
+      <div
+        class="emotion-33"
+      >
+        <div
+          class="emotion-34"
+        >
+          <div
+            class="ant-select ant-select-sm ant-select-outlined emotion-35 emotion-3 ant-select-single ant-select-show-arrow"
+          >
+            <div
+              class="ant-select-selector"
+            >
+              <span
+                class="ant-select-selection-search"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="rasqwe_list"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-owns="rasqwe_list"
+                  autocomplete="off"
+                  class="ant-select-selection-search-input"
+                  id="rasqwe"
+                  readonly=""
+                  role="combobox"
+                  style="opacity: 0;"
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                class="ant-select-selection-item"
+              >
+                <div
+                  class="emotion-37"
+                >
+                  <span
+                    class="anticon emotion-38"
+                  >
+                    <i
+                      class="icon-left-offset_outlined emotion-39"
+                    />
+                  </span>
+                  <p
+                    class="ant-typography text-content undefined emotion-40"
+                    size="10"
+                  >
+                    Left
+                  </p>
+                </div>
+              </span>
+            </div>
+            <span
+              aria-hidden="true"
+              class="ant-select-arrow"
+              style="user-select: none;"
+              unselectable="on"
+            >
+              <i
+                class="icon-arrow-bottom_outlined emotion-41"
+              />
+            </span>
+          </div>
+        </div>
+        <div
+          class="emotion-34"
+        >
+          <div
+            class="ant-select ant-select-sm ant-select-outlined emotion-35 emotion-3 ant-select-single ant-select-show-arrow"
+          >
+            <div
+              class="ant-select-selector"
+            >
+              <span
+                class="ant-select-selection-search"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="rc_select_TEST_OR_SSR_list"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-owns="rc_select_TEST_OR_SSR_list"
+                  autocomplete="off"
+                  class="ant-select-selection-search-input"
+                  id="rc_select_TEST_OR_SSR"
+                  readonly=""
+                  role="combobox"
+                  style="opacity: 0;"
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                class="ant-select-selection-item"
+              >
+                <div
+                  class="emotion-37"
+                >
+                  <span
+                    class="anticon emotion-38"
+                  >
+                    <i
+                      class="icon-top-offset_outlined emotion-39"
+                    />
+                  </span>
+                  <p
+                    class="ant-typography text-content undefined emotion-40"
+                    size="10"
+                  >
+                    Top
+                  </p>
+                </div>
+              </span>
+            </div>
+            <span
+              aria-hidden="true"
+              class="ant-select-arrow"
+              style="user-select: none;"
+              unselectable="on"
+            >
+              <i
+                class="icon-arrow-bottom_outlined emotion-41"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-segmented emotion-50 ant-segmented-block ant-segmented-sm emotion-3"
+      >
+        <div
+          class="ant-segmented-group"
+        >
+          <label
+            class="ant-segmented-item ant-segmented-item-selected"
+          >
+            <input
+              checked=""
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-x-axis_outlined emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-repeat_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-kebab-v_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-kebab_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div
+        class="emotion-60"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BgPositionThemed renders with custom values 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 12px;
+}
+
+.emotion-1 {
+  padding: 2px;
+  border-radius: 6px;
+  border: 1px solid #E9E8EE;
+  background: #ffffff;
+  width: 64px;
+  height: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-1 button {
+  border: none;
+  padding: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.emotion-1 button>div {
+  display: none;
+}
+
+.emotion-1 button:hover i {
+  color: #27ae60;
+}
+
+.emotion-1>div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-1 button i {
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  font-size: 10px;
+}
+
+.emotion-2 button {
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.emotion-2 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-2 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-4 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #26233F;
+  border: 1px solid;
+  color: #27ae60;
+  border-color: #27ae60;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-4>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-4.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-4 i {
+  font-size: 16px;
+}
+
+.emotion-4>span {
+  gap: 4px;
+}
+
+.emotion-4,
+.emotion-4 span {
+  line-height: 10px;
+}
+
+.emotion-4.emotion-4>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-5 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #D4D1DF;
+}
+
+.emotion-12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-12 button:nth-of-type(2) i {
+  font-size: 14px;
+}
+
+.emotion-12 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-12 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-22 {
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.emotion-22 button {
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.emotion-22 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-22 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-31 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #27ae60;
+}
+
+.emotion-32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.emotion-33 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+
+.emotion-34 {
+  position: relative;
+  width: 100%;
+}
+
+.emotion-34>span.anticon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  color: #27ae60;
+  left: 6px;
+}
+
+.emotion-34>span.anticon i {
+  font-size: 12px;
+}
+
+.emotion-35 {
+  width: 100%;
+}
+
+.emotion-35 .ant-select-selection-item i,
+.emotion-35 .ant-select-item.ant-select-item-option:not(.ant-select-item-option-selected) i {
+  color: #27ae60;
+}
+
+.emotion-35 .ant-select-arrow {
+  inset-inline-end: 4px;
+}
+
+.emotion-35 .ant-select-arrow i {
+  font-size: 12px;
+}
+
+.emotion-35 .ant-select-dropdown {
+  border-radius: 6px;
+}
+
+.emotion-35 .ant-select-dropdown .ant-select-item {
+  border-radius: 4px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm {
+  height: 20px;
+  font-size: 10px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm .ant-select-selector {
+  font-size: 10px;
+  border-radius: 4px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector {
+  padding: 0 6px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+  height: 18px;
+}
+
+.emotion-37 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.emotion-38 [class^='icon-'],
+.emotion-38 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-38 i {
+  font-size: 12px!important;
+}
+
+.emotion-39 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-40 {
+  margin: 0;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  font-family: Manrope,sans-serif;
+  font-weight: inherit;
+}
+
+.emotion-41 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-50 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-50.emotion-50 {
+  border-radius: 6px;
+}
+
+.emotion-50.emotion-50.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-50.emotion-50.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-50 i {
+  font-size: 12px;
+}
+
+.emotion-50 .ant-segmented-item-icon,
+.emotion-50 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-50 .ant-segmented-item:first-of-type {
+  width: 30px;
+  max-width: 30px;
+}
+
+.emotion-52 [class^='icon-'],
+.emotion-52 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-60 {
+  width: 100%;
+  height: 110px;
+  border: 1px solid #E9E8EE;
+  border-radius: 8px;
+  -webkit-background-size: auto;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  -webkit-background-position: left top;
+  background-position: left top;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+      id="bg-position"
+    >
+      <div
+        class="emotion-2"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-5"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-v_filled emotion-5"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-5"
+            />
+          </span>
+        </button>
+      </div>
+      <div
+        class="emotion-12"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-h_filled emotion-5"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-center_filled emotion-5"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-h_filled emotion-5"
+            />
+          </span>
+        </button>
+      </div>
+      <div
+        class="emotion-22"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-5"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-v_filled emotion-5"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-31"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="emotion-32"
+    >
+      <div
+        class="emotion-33"
+      >
+        <div
+          class="emotion-34"
+        >
+          <div
+            class="ant-select ant-select-sm ant-select-outlined emotion-35 emotion-3 ant-select-single ant-select-show-arrow"
+          >
+            <div
+              class="ant-select-selector"
+            >
+              <span
+                class="ant-select-selection-search"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="rasqwe_list"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-owns="rasqwe_list"
+                  autocomplete="off"
+                  class="ant-select-selection-search-input"
+                  id="rasqwe"
+                  readonly=""
+                  role="combobox"
+                  style="opacity: 0;"
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                class="ant-select-selection-item"
+              >
+                <div
+                  class="emotion-37"
+                >
+                  <span
+                    class="anticon emotion-38"
+                  >
+                    <i
+                      class="icon-right-offset_outlined emotion-39"
+                    />
+                  </span>
+                  <p
+                    class="ant-typography text-content undefined emotion-40"
+                    size="10"
+                  >
+                    Right
+                  </p>
+                </div>
+              </span>
+            </div>
+            <span
+              aria-hidden="true"
+              class="ant-select-arrow"
+              style="user-select: none;"
+              unselectable="on"
+            >
+              <i
+                class="icon-arrow-bottom_outlined emotion-41"
+              />
+            </span>
+          </div>
+        </div>
+        <div
+          class="emotion-34"
+        >
+          <div
+            class="ant-select ant-select-sm ant-select-outlined emotion-35 emotion-3 ant-select-single ant-select-show-arrow"
+          >
+            <div
+              class="ant-select-selector"
+            >
+              <span
+                class="ant-select-selection-search"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="rc_select_TEST_OR_SSR_list"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-owns="rc_select_TEST_OR_SSR_list"
+                  autocomplete="off"
+                  class="ant-select-selection-search-input"
+                  id="rc_select_TEST_OR_SSR"
+                  readonly=""
+                  role="combobox"
+                  style="opacity: 0;"
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                class="ant-select-selection-item"
+              >
+                <div
+                  class="emotion-37"
+                >
+                  <span
+                    class="anticon emotion-38"
+                  >
+                    <i
+                      class="icon-bottom-offset_outlined emotion-39"
+                    />
+                  </span>
+                  <p
+                    class="ant-typography text-content undefined emotion-40"
+                    size="10"
+                  >
+                    Bottom
+                  </p>
+                </div>
+              </span>
+            </div>
+            <span
+              aria-hidden="true"
+              class="ant-select-arrow"
+              style="user-select: none;"
+              unselectable="on"
+            >
+              <i
+                class="icon-arrow-bottom_outlined emotion-41"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-segmented emotion-50 ant-segmented-block ant-segmented-sm emotion-3"
+      >
+        <div
+          class="ant-segmented-group"
+        >
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-x-axis_outlined emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-repeat_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-kebab-v_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item ant-segmented-item-selected"
+          >
+            <input
+              checked=""
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-kebab_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div
+        class="emotion-60"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BgPositionThemed updates position values correctly 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 12px;
+}
+
+.emotion-1 {
+  padding: 2px;
+  border-radius: 6px;
+  border: 1px solid #E9E8EE;
+  background: #ffffff;
+  width: 64px;
+  height: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-1 button {
+  border: none;
+  padding: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.emotion-1 button>div {
+  display: none;
+}
+
+.emotion-1 button:hover i {
+  color: #27ae60;
+}
+
+.emotion-1>div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-1 button i {
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  font-size: 10px;
+}
+
+.emotion-2 button {
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.emotion-2 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-2 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-4 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #26233F;
+  border: 1px solid;
+  color: #27ae60;
+  border-color: #27ae60;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-4>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-4.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-4 i {
+  font-size: 16px;
+}
+
+.emotion-4>span {
+  gap: 4px;
+}
+
+.emotion-4,
+.emotion-4 span {
+  line-height: 10px;
+}
+
+.emotion-4.emotion-4>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-5 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #27ae60;
+}
+
+.emotion-8 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #D4D1DF;
+}
+
+.emotion-12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-12 button:nth-of-type(2) i {
+  font-size: 14px;
+}
+
+.emotion-12 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-12 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-22 {
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.emotion-22 button {
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.emotion-22 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-22 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.emotion-33 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+
+.emotion-34 {
+  position: relative;
+  width: 100%;
+}
+
+.emotion-34>span.anticon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  color: #27ae60;
+  left: 6px;
+}
+
+.emotion-34>span.anticon i {
+  font-size: 12px;
+}
+
+.emotion-35 {
+  width: 100%;
+}
+
+.emotion-35 .ant-select-selection-item i,
+.emotion-35 .ant-select-item.ant-select-item-option:not(.ant-select-item-option-selected) i {
+  color: #27ae60;
+}
+
+.emotion-35 .ant-select-arrow {
+  inset-inline-end: 4px;
+}
+
+.emotion-35 .ant-select-arrow i {
+  font-size: 12px;
+}
+
+.emotion-35 .ant-select-dropdown {
+  border-radius: 6px;
+}
+
+.emotion-35 .ant-select-dropdown .ant-select-item {
+  border-radius: 4px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm {
+  height: 20px;
+  font-size: 10px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm .ant-select-selector {
+  font-size: 10px;
+  border-radius: 4px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector {
+  padding: 0 6px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+  height: 18px;
+}
+
+.emotion-37 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.emotion-38 [class^='icon-'],
+.emotion-38 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-38 i {
+  font-size: 12px!important;
+}
+
+.emotion-39 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-40 {
+  margin: 0;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  font-family: Manrope,sans-serif;
+  font-weight: inherit;
+}
+
+.emotion-41 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-50 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-50.emotion-50 {
+  border-radius: 6px;
+}
+
+.emotion-50.emotion-50.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-50.emotion-50.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-50 i {
+  font-size: 12px;
+}
+
+.emotion-50 .ant-segmented-item-icon,
+.emotion-50 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-50 .ant-segmented-item:first-of-type {
+  width: 30px;
+  max-width: 30px;
+}
+
+.emotion-52 [class^='icon-'],
+.emotion-52 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-60 {
+  width: 100%;
+  height: 110px;
+  border: 1px solid #E9E8EE;
+  border-radius: 8px;
+  -webkit-background-size: auto;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  -webkit-background-position: left top;
+  background-position: left top;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+      id="bg-position"
+    >
+      <div
+        class="emotion-2"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-5"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-v_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-8"
+            />
+          </span>
+        </button>
+      </div>
+      <div
+        class="emotion-12"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-h_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-center_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-h_filled emotion-8"
+            />
+          </span>
+        </button>
+      </div>
+      <div
+        class="emotion-22"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-v_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-8"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="emotion-32"
+    >
+      <div
+        class="emotion-33"
+      >
+        <div
+          class="emotion-34"
+        >
+          <div
+            class="ant-select ant-select-sm ant-select-outlined emotion-35 emotion-3 ant-select-single ant-select-show-arrow"
+          >
+            <div
+              class="ant-select-selector"
+            >
+              <span
+                class="ant-select-selection-search"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="rasqwe_list"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-owns="rasqwe_list"
+                  autocomplete="off"
+                  class="ant-select-selection-search-input"
+                  id="rasqwe"
+                  readonly=""
+                  role="combobox"
+                  style="opacity: 0;"
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                class="ant-select-selection-item"
+              >
+                <div
+                  class="emotion-37"
+                >
+                  <span
+                    class="anticon emotion-38"
+                  >
+                    <i
+                      class="icon-left-offset_outlined emotion-39"
+                    />
+                  </span>
+                  <p
+                    class="ant-typography text-content undefined emotion-40"
+                    size="10"
+                  >
+                    Left
+                  </p>
+                </div>
+              </span>
+            </div>
+            <span
+              aria-hidden="true"
+              class="ant-select-arrow"
+              style="user-select: none;"
+              unselectable="on"
+            >
+              <i
+                class="icon-arrow-bottom_outlined emotion-41"
+              />
+            </span>
+          </div>
+        </div>
+        <div
+          class="emotion-34"
+        >
+          <div
+            class="ant-select ant-select-sm ant-select-outlined emotion-35 emotion-3 ant-select-single ant-select-show-arrow"
+          >
+            <div
+              class="ant-select-selector"
+            >
+              <span
+                class="ant-select-selection-search"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="rc_select_TEST_OR_SSR_list"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-owns="rc_select_TEST_OR_SSR_list"
+                  autocomplete="off"
+                  class="ant-select-selection-search-input"
+                  id="rc_select_TEST_OR_SSR"
+                  readonly=""
+                  role="combobox"
+                  style="opacity: 0;"
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                class="ant-select-selection-item"
+              >
+                <div
+                  class="emotion-37"
+                >
+                  <span
+                    class="anticon emotion-38"
+                  >
+                    <i
+                      class="icon-top-offset_outlined emotion-39"
+                    />
+                  </span>
+                  <p
+                    class="ant-typography text-content undefined emotion-40"
+                    size="10"
+                  >
+                    Top
+                  </p>
+                </div>
+              </span>
+            </div>
+            <span
+              aria-hidden="true"
+              class="ant-select-arrow"
+              style="user-select: none;"
+              unselectable="on"
+            >
+              <i
+                class="icon-arrow-bottom_outlined emotion-41"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-segmented emotion-50 ant-segmented-block ant-segmented-sm emotion-3"
+      >
+        <div
+          class="ant-segmented-group"
+        >
+          <label
+            class="ant-segmented-item ant-segmented-item-selected"
+          >
+            <input
+              checked=""
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-x-axis_outlined emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-repeat_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-kebab-v_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-kebab_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div
+        class="emotion-60"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BgPositionThemed updates repeat value correctly 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 12px;
+}
+
+.emotion-1 {
+  padding: 2px;
+  border-radius: 6px;
+  border: 1px solid #E9E8EE;
+  background: #ffffff;
+  width: 64px;
+  height: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-1 button {
+  border: none;
+  padding: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.emotion-1 button>div {
+  display: none;
+}
+
+.emotion-1 button:hover i {
+  color: #27ae60;
+}
+
+.emotion-1>div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-1 button i {
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  font-size: 10px;
+}
+
+.emotion-2 button {
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.emotion-2 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-2 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-4 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #26233F;
+  border: 1px solid;
+  color: #27ae60;
+  border-color: #27ae60;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-4>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-4.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-4 i {
+  font-size: 16px;
+}
+
+.emotion-4>span {
+  gap: 4px;
+}
+
+.emotion-4,
+.emotion-4 span {
+  line-height: 10px;
+}
+
+.emotion-4.emotion-4>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-5 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #27ae60;
+}
+
+.emotion-8 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #D4D1DF;
+}
+
+.emotion-12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-12 button:nth-of-type(2) i {
+  font-size: 14px;
+}
+
+.emotion-12 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-12 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-22 {
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.emotion-22 button {
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.emotion-22 button:first-of-type {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+}
+
+.emotion-22 button:last-of-type {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.emotion-33 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+
+.emotion-34 {
+  position: relative;
+  width: 100%;
+}
+
+.emotion-34>span.anticon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  color: #27ae60;
+  left: 6px;
+}
+
+.emotion-34>span.anticon i {
+  font-size: 12px;
+}
+
+.emotion-35 {
+  width: 100%;
+}
+
+.emotion-35 .ant-select-selection-item i,
+.emotion-35 .ant-select-item.ant-select-item-option:not(.ant-select-item-option-selected) i {
+  color: #27ae60;
+}
+
+.emotion-35 .ant-select-arrow {
+  inset-inline-end: 4px;
+}
+
+.emotion-35 .ant-select-arrow i {
+  font-size: 12px;
+}
+
+.emotion-35 .ant-select-dropdown {
+  border-radius: 6px;
+}
+
+.emotion-35 .ant-select-dropdown .ant-select-item {
+  border-radius: 4px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm {
+  height: 20px;
+  font-size: 10px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm .ant-select-selector {
+  font-size: 10px;
+  border-radius: 4px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector {
+  padding: 0 6px;
+}
+
+.emotion-35.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+  height: 18px;
+}
+
+.emotion-37 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.emotion-38 [class^='icon-'],
+.emotion-38 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-38 i {
+  font-size: 12px!important;
+}
+
+.emotion-39 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-40 {
+  margin: 0;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  font-family: Manrope,sans-serif;
+  font-weight: inherit;
+}
+
+.emotion-41 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-50 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-50.emotion-50 {
+  border-radius: 6px;
+}
+
+.emotion-50.emotion-50.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-50.emotion-50.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-50 i {
+  font-size: 12px;
+}
+
+.emotion-50 .ant-segmented-item-icon,
+.emotion-50 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-50 .ant-segmented-item:first-of-type {
+  width: 30px;
+  max-width: 30px;
+}
+
+.emotion-52 [class^='icon-'],
+.emotion-52 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-60 {
+  width: 100%;
+  height: 110px;
+  border: 1px solid #E9E8EE;
+  border-radius: 8px;
+  -webkit-background-size: auto;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  -webkit-background-position: left top;
+  background-position: left top;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+      id="bg-position"
+    >
+      <div
+        class="emotion-2"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-5"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-v_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-8"
+            />
+          </span>
+        </button>
+      </div>
+      <div
+        class="emotion-12"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-h_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-center_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-h_filled emotion-8"
+            />
+          </span>
+        </button>
+      </div>
+      <div
+        class="emotion-22"
+      >
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-side-v_filled emotion-8"
+            />
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-3 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-4"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <i
+              class="icon-corner_filled emotion-8"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="emotion-32"
+    >
+      <div
+        class="emotion-33"
+      >
+        <div
+          class="emotion-34"
+        >
+          <div
+            class="ant-select ant-select-sm ant-select-outlined emotion-35 emotion-3 ant-select-single ant-select-show-arrow"
+          >
+            <div
+              class="ant-select-selector"
+            >
+              <span
+                class="ant-select-selection-search"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="rasqwe_list"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-owns="rasqwe_list"
+                  autocomplete="off"
+                  class="ant-select-selection-search-input"
+                  id="rasqwe"
+                  readonly=""
+                  role="combobox"
+                  style="opacity: 0;"
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                class="ant-select-selection-item"
+              >
+                <div
+                  class="emotion-37"
+                >
+                  <span
+                    class="anticon emotion-38"
+                  >
+                    <i
+                      class="icon-left-offset_outlined emotion-39"
+                    />
+                  </span>
+                  <p
+                    class="ant-typography text-content undefined emotion-40"
+                    size="10"
+                  >
+                    Left
+                  </p>
+                </div>
+              </span>
+            </div>
+            <span
+              aria-hidden="true"
+              class="ant-select-arrow"
+              style="user-select: none;"
+              unselectable="on"
+            >
+              <i
+                class="icon-arrow-bottom_outlined emotion-41"
+              />
+            </span>
+          </div>
+        </div>
+        <div
+          class="emotion-34"
+        >
+          <div
+            class="ant-select ant-select-sm ant-select-outlined emotion-35 emotion-3 ant-select-single ant-select-show-arrow"
+          >
+            <div
+              class="ant-select-selector"
+            >
+              <span
+                class="ant-select-selection-search"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="rc_select_TEST_OR_SSR_list"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-owns="rc_select_TEST_OR_SSR_list"
+                  autocomplete="off"
+                  class="ant-select-selection-search-input"
+                  id="rc_select_TEST_OR_SSR"
+                  readonly=""
+                  role="combobox"
+                  style="opacity: 0;"
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                class="ant-select-selection-item"
+              >
+                <div
+                  class="emotion-37"
+                >
+                  <span
+                    class="anticon emotion-38"
+                  >
+                    <i
+                      class="icon-top-offset_outlined emotion-39"
+                    />
+                  </span>
+                  <p
+                    class="ant-typography text-content undefined emotion-40"
+                    size="10"
+                  >
+                    Top
+                  </p>
+                </div>
+              </span>
+            </div>
+            <span
+              aria-hidden="true"
+              class="ant-select-arrow"
+              style="user-select: none;"
+              unselectable="on"
+            >
+              <i
+                class="icon-arrow-bottom_outlined emotion-41"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-segmented emotion-50 ant-segmented-block ant-segmented-sm emotion-3"
+      >
+        <div
+          class="ant-segmented-group"
+        >
+          <label
+            class="ant-segmented-item ant-segmented-item-selected"
+          >
+            <input
+              checked=""
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-x-axis_outlined emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-repeat_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-kebab-v_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+          <label
+            class="ant-segmented-item"
+          >
+            <input
+              class="ant-segmented-item-input"
+              type="radio"
+            />
+            <div
+              class="ant-segmented-item-label"
+            >
+              <span
+                class="ant-segmented-item-icon"
+              >
+                <span
+                  class="anticon undefined emotion-52"
+                >
+                  <i
+                    class="icon-kebab_filled emotion-39"
+                  />
+                </span>
+              </span>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div
+        class="emotion-60"
+      />
+    </div>
+  </div>
+</div>
+`;

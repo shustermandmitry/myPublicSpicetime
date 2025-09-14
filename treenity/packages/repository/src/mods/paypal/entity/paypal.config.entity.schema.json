@@ -1,0 +1,73 @@
+{
+    "$id": "@treenity/repository:paypal.config",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "clientId": {
+            "type": "string"
+        },
+        "clientToken": {
+            "type": "string"
+        },
+        "currencyCode": {
+            "type": "string"
+        },
+        "invoice": {
+            "type": "object",
+            "properties": {
+                "mailSubject": {
+                    "type": "string"
+                },
+                "mailNote": {
+                    "type": "string"
+                },
+                "sendToRecipient": {
+                    "type": "boolean"
+                },
+                "sendToInvoicer": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "webhook": {
+            "type": "object",
+            "properties": {
+                "url": {
+                    "type": "string"
+                },
+                "proxyUrl": {
+                    "type": "string"
+                },
+                "storageKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "storageKey",
+                "url"
+            ]
+        },
+        "order": {
+            "type": "object",
+            "properties": {
+                "autoAuthorize": {
+                    "type": "boolean"
+                },
+                "successUrl": {
+                    "type": "string"
+                },
+                "cancelUrl": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "required": [
+        "clientId",
+        "clientToken",
+        "currencyCode",
+        "order",
+        "webhook"
+    ]
+}
+

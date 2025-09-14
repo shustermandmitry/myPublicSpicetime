@@ -1,0 +1,44 @@
+{
+    "$id": "@treenity/webeditor:layout.defaultHero",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "widget": "treenity.textarea",
+            "type": "string"
+        },
+        "subtitle": {
+            "title": "Subtitle",
+            "widget": "treenity.textarea",
+            "type": "string"
+        },
+        "text": {
+            "title": "Text",
+            "widget": "treenity.textarea",
+            "type": "string"
+        },
+        "backgroundImage": {
+            "title": "Image",
+            "widget": "treenity.imageUploadInput",
+            "type": "string"
+        },
+        "backgroundColor": {
+            "title": "Background",
+            "type": "string"
+        },
+        "titleTag": {
+            "title": "Title tag",
+            "enum": [
+                "h1",
+                "h2",
+                "h3",
+                "p",
+                "span"
+            ],
+            "type": "string",
+            "default": "p"
+        }
+    }
+}
+

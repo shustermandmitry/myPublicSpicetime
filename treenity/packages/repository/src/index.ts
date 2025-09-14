@@ -1,0 +1,14 @@
+export type { CreateApp } from './feathers-app';
+export { createApp, singleton } from './feathers-app';
+export { getMeta } from './utils/get-meta';
+export * from './declarations';
+export { defaultServiceMethods } from '@/feathers';
+export type { Id, Params, ServiceMethods } from '@/feathers';
+export * from '@feathersjs/errors';
+export * from '@feathersjs/schema';
+export * from './utils';
+export * from './services';
+export * from './hooks';
+export * from './validators';
+export { default as authLocal } from '@feathersjs/authentication-local';
+export type { IAuthService } from './mods/auth/auth.service';

@@ -1,0 +1,226 @@
+diff --git a/node_modules/@feathersjs/transport-commons/lib/client.js b/node_modules/@feathersjs/transport-commons/lib/client.js
+index da71a3e1bd7bc9d6cd6c9e1e5818581558670e2f..5db5fef4a6c3e545c2bf84bd6af3b7a69e3860d9 100644
+--- a/node_modules/@feathersjs/transport-commons/lib/client.js
++++ b/node_modules/@feathersjs/transport-commons/lib/client.js
+@@ -60,7 +60,7 @@ class Service {
+                     path = path.replace(`:${key}`, route[key]);
+                 });
+             }
+-            args.unshift(method, path);
++            args.unshift('#' + method, path);
+             const socketTimeout = ((_a = this.connection.flags) === null || _a === void 0 ? void 0 : _a.timeout) || ((_b = this.connection._opts) === null || _b === void 0 ? void 0 : _b.ackTimeout);
+             if (socketTimeout !== undefined) {
+                 args.push(function (timeoutError, error, data) {
+diff --git a/node_modules/@feathersjs/transport-commons/lib/routing/router.js b/node_modules/@feathersjs/transport-commons/lib/routing/router.js
+index 1c0cf1d2024784540e33625c0cf09b23421323a5..47df3972b732b3e3bfec59a4c4e6412de5834bb2 100644
+--- a/node_modules/@feathersjs/transport-commons/lib/routing/router.js
++++ b/node_modules/@feathersjs/transport-commons/lib/routing/router.js
+@@ -57,7 +57,8 @@ class RouteNode {
+         }
+     }
+     lookup(path, info) {
+-        if (path.length === this.depth) {
++        const depth = this.name === '__id' ? this.depth - 1 : this.depth
++        if (path.length === depth) {
+             return this.data === undefined
+                 ? null
+                 : {
+@@ -65,7 +66,7 @@ class RouteNode {
+                     data: this.data
+                 };
+         }
+-        const current = path[this.depth];
++        const current = path[depth];
+         const child = this.children[current];
+         if (child) {
+             const lookup = child.lookup(path, info);
+diff --git a/node_modules/@feathersjs/transport-commons/lib/socket/index.js b/node_modules/@feathersjs/transport-commons/lib/socket/index.js
+index 939147424c49f79d540eb83e307793301046b671..8bb7095f1d053bbb8740f62802a6f72e922dd8ff 100644
+--- a/node_modules/@feathersjs/transport-commons/lib/socket/index.js
++++ b/node_modules/@feathersjs/transport-commons/lib/socket/index.js
+@@ -1,7 +1,6 @@
+ "use strict";
+ Object.defineProperty(exports, "__esModule", { value: true });
+ exports.socket = void 0;
+-const feathers_1 = require("@feathersjs/feathers");
+ const channels_1 = require("../channels");
+ const routing_1 = require("../routing");
+ const utils_1 = require("./utils");
+@@ -27,19 +26,13 @@ function socket({ done, emit, socketMap, socketKey, getParams }) {
+         done.then((provider) => provider.on('connection', (connection) => app.emit('connection', getParams(connection))));
+         // `socket.emit('methodName', 'serviceName', ...args)` handlers
+         done.then((provider) => provider.on('connection', (connection) => {
+-            const methodHandlers = Object.keys(app.services).reduce((result, name) => {
+-                const { methods } = (0, feathers_1.getServiceOptions)(app.service(name));
+-                methods.forEach((method) => {
+-                    if (!result[method]) {
+-                        result[method] = (...args) => {
+-                            const [path, ...rest] = args;
+-                            (0, utils_1.runMethod)(app, getParams(connection), path, method, rest);
+-                        };
+-                    }
+-                });
+-                return result;
+-            }, {});
+-            Object.keys(methodHandlers).forEach((key) => connection.on(key, methodHandlers[key]));
++            connection.onAny((method, ...args) => {
++                if (method[0] === '#') {
++                    method = method.slice(1);
++                    const [path, ...rest] = args;
++                    (0, utils_1.runMethod)(app, getParams(connection), path, method, rest);
++                }
++            });
+         }));
+     };
+ }
+diff --git a/node_modules/@feathersjs/transport-commons/lib/socket/index.js.map b/node_modules/@feathersjs/transport-commons/lib/socket/index.js.map
+index 08b88a058b4ae18a07983f4a65f792806da555d8..eb021e7a0505ecf2ed2097316802a2f9cdd3b17a 100644
+--- a/node_modules/@feathersjs/transport-commons/lib/socket/index.js.map
++++ b/node_modules/@feathersjs/transport-commons/lib/socket/index.js.map
+@@ -1 +1 @@
+-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/socket/index.ts"],"names":[],"mappings":";;;AAAA,mDAAiG;AACjG,0CAAsC;AACtC,wCAAoC;AACpC,mCAAkD;AAUlD,SAAgB,MAAM,CAAC,EAAE,IAAI,EAAE,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE,SAAS,EAAiB;IACnF,OAAO,CAAC,GAAgB,EAAE,EAAE;QAC1B,MAAM,aAAa,GAAG,CAAC,UAA8B,EAAE,EAAE;YACvD,MAAM,EAAE,QAAQ,EAAE,GAAG,GAAG,CAAA;YAExB,IAAI,QAAQ,CAAC,MAAM,EAAE,CAAC;gBACpB,GAAG,CAAC,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAC,KAAK,CAAC,UAAU,CAAC,CAAA;YAC7C,CAAC;QACH,CAAC,CAAA;QAED,GAAG,CAAC,SAAS,CAAC,IAAA,mBAAQ,GAAE,CAAC,CAAA;QACzB,GAAG,CAAC,SAAS,CAAC,IAAA,iBAAO,GAAE,CAAC,CAAA;QAExB,GAAG,CAAC,EAAE,CAAC,SAAS,EAAE,IAAA,qBAAa,EAAC,IAAI,EAAE,SAAS,EAAE,SAAS,CAAC,CAAC,CAAA;QAC5D,GAAG,CAAC,EAAE,CAAC,YAAY,EAAE,aAAa,CAAC,CAAA;QACnC,GAAG,CAAC,EAAE,CAAC,QAAQ,EAAE,CAAC,WAAgB,EAAE,MAAc,EAAE,EAAE;YACpD,MAAM,EAAE,UAAU,EAAE,GAAG,MAAM,CAAA;YAE7B,IAAI,UAAU,EAAE,CAAC;gBACf,aAAa,CAAC,UAAU,CAAC,CAAA;YAC3B,CAAC;QACH,CAAC,CAAC,CAAA;QAEF,qBAAqB;QACrB,IAAI,CAAC,IAAI,CAAC,CAAC,QAAQ,EAAE,EAAE,CACrB,QAAQ,CAAC,EAAE,CAAC,YAAY,EAAE,CAAC,UAAe,EAAE,EAAE,CAAC,GAAG,CAAC,IAAI,CAAC,YAAY,EAAE,SAAS,CAAC,UAAU,CAAC,CAAC,CAAC,CAC9F,CAAA;QAED,+DAA+D;QAC/D,IAAI,CAAC,IAAI,CAAC,CAAC,QAAQ,EAAE,EAAE,CACrB,QAAQ,CAAC,EAAE,CAAC,YAAY,EAAE,CAAC,UAAe,EAAE,EAAE;YAC5C,MAAM,cAAc,GAAG,MAAM,CAAC,IAAI,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAC,MAAM,CAAC,CAAC,MAAM,EAAE,IAAI,EAAE,EAAE;gBACvE,MAAM,EAAE,OAAO,EAAE,GAAG,IAAA,4BAAiB,EAAC,GAAG,CAAC,OAAO,CAAC,IAAI,CAAC,CAAC,CAAA;gBAExD,OAAO,CAAC,OAAO,CAAC,CAAC,MAAM,EAAE,EAAE;oBACzB,IAAI,CAAC,MAAM,CAAC,MAAM,CAAC,EAAE,CAAC;wBACpB,MAAM,CAAC,MAAM,CAAC,GAAG,CAAC,GAAG,IAAW,EAAE,EAAE;4BAClC,MAAM,CAAC,IAAI,EAAE,GAAG,IAAI,CAAC,GAAG,IAAI,CAAA;4BAE5B,IAAA,iBAAS,EAAC,GAAG,EAAE,SAAS,CAAC,UAAU,CAAC,EAAE,IAAI,EAAE,MAAM,EAAE,IAAI,CAAC,CAAA;wBAC3D,CAAC,CAAA;oBACH,CAAC;gBACH,CAAC,CAAC,CAAA;gBAEF,OAAO,MAAM,CAAA;YACf,CAAC,EAAE,EAAS,CAAC,CAAA;YAEb,MAAM,CAAC,IAAI,CAAC,cAAc,CAAC,CAAC,OAAO,CAAC,CAAC,GAAG,EAAE,EAAE,CAAC,UAAU,CAAC,EAAE,CAAC,GAAG,EAAE,cAAc,CAAC,GAAG,CAAC,CAAC,CAAC,CAAA;QACvF,CAAC,CAAC,CACH,CAAA;IACH,CAAC,CAAA;AACH,CAAC;AAnDD,wBAmDC"}
+\ No newline at end of file
++{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/socket/index.ts"],"names":[],"mappings":";;;AACA,0CAAsC;AACtC,wCAAoC;AACpC,mCAAkD;AAUlD,SAAgB,MAAM,CAAC,EAAE,IAAI,EAAE,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE,SAAS,EAAiB;IACnF,OAAO,CAAC,GAAgB,EAAE,EAAE;QAC1B,MAAM,aAAa,GAAG,CAAC,UAA8B,EAAE,EAAE;YACvD,MAAM,EAAE,QAAQ,EAAE,GAAG,GAAG,CAAA;YAExB,IAAI,QAAQ,CAAC,MAAM,EAAE,CAAC;gBACpB,GAAG,CAAC,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAC,KAAK,CAAC,UAAU,CAAC,CAAA;YAC7C,CAAC;QACH,CAAC,CAAA;QAED,GAAG,CAAC,SAAS,CAAC,IAAA,mBAAQ,GAAE,CAAC,CAAA;QACzB,GAAG,CAAC,SAAS,CAAC,IAAA,iBAAO,GAAE,CAAC,CAAA;QAExB,GAAG,CAAC,EAAE,CAAC,SAAS,EAAE,IAAA,qBAAa,EAAC,IAAI,EAAE,SAAS,EAAE,SAAS,CAAC,CAAC,CAAA;QAC5D,GAAG,CAAC,EAAE,CAAC,YAAY,EAAE,aAAa,CAAC,CAAA;QACnC,GAAG,CAAC,EAAE,CAAC,QAAQ,EAAE,CAAC,WAAgB,EAAE,MAAc,EAAE,EAAE;YACpD,MAAM,EAAE,UAAU,EAAE,GAAG,MAAM,CAAA;YAE7B,IAAI,UAAU,EAAE,CAAC;gBACf,aAAa,CAAC,UAAU,CAAC,CAAA;YAC3B,CAAC;QACH,CAAC,CAAC,CAAA;QAEF,qBAAqB;QACrB,IAAI,CAAC,IAAI,CAAC,CAAC,QAAQ,EAAE,EAAE,CACrB,QAAQ,CAAC,EAAE,CAAC,YAAY,EAAE,CAAC,UAAe,EAAE,EAAE,CAAC,GAAG,CAAC,IAAI,CAAC,YAAY,EAAE,SAAS,CAAC,UAAU,CAAC,CAAC,CAAC,CAC9F,CAAA;QAED,+DAA+D;QAC/D,IAAI,CAAC,IAAI,CAAC,CAAC,QAAQ,EAAE,EAAE,CACrB,QAAQ,CAAC,EAAE,CAAC,YAAY,EAAE,CAAC,UAAe,EAAE,EAAE;YAC5C,UAAU,CAAC,KAAK,CAAC,CAAC,MAAc,EAAE,GAAG,IAAW,EAAE,EAAE;gBAClD,IAAI,MAAM,CAAC,CAAC,CAAC,KAAK,GAAG,EAAE,CAAC;oBACtB,MAAM,GAAG,MAAM,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC;oBACzB,MAAM,CAAC,IAAI,EAAE,GAAG,IAAI,CAAC,GAAG,IAAI,CAAA;oBAC5B,IAAA,iBAAS,EAAC,GAAG,EAAE,SAAS,CAAC,UAAU,CAAC,EAAE,IAAI,EAAE,MAAM,EAAE,IAAI,CAAC,CAAA;gBAC3D,CAAC;YACH,CAAC,CAAC,CAAC;QACL,CAAC,CAAC,CACH,CAAA;IACH,CAAC,CAAA;AACH,CAAC;AAzCD,wBAyCC"}
+diff --git a/node_modules/@feathersjs/transport-commons/src/client.ts b/node_modules/@feathersjs/transport-commons/src/client.ts
+index ad075f30442967bf488aba5f86839ecaeeecc24f..79174f987061b7a8e373a089e6dce9292f3145e8 100644
+--- a/node_modules/@feathersjs/transport-commons/src/client.ts
++++ b/node_modules/@feathersjs/transport-commons/src/client.ts
+@@ -85,7 +85,7 @@ export class Service<T = any, D = Partial<T>, P extends Params = Params>
+           path = path.replace(`:${key}`, route[key])
+         })
+       }
+-      args.unshift(method, path)
++      args.unshift('#' + method, path)
+
+       const socketTimeout = this.connection.flags?.timeout || this.connection._opts?.ackTimeout
+       if (socketTimeout !== undefined) {
+diff --git a/node_modules/@feathersjs/transport-commons/src/index.ts b/node_modules/@feathersjs/transport-commons/src/index.ts
+index bc3d1c18c85bb8dd624871a422c5de8fc64bf714..c64634959fb87d6c317f47c7b17e1f14c89501b1 100644
+--- a/node_modules/@feathersjs/transport-commons/src/index.ts
++++ b/node_modules/@feathersjs/transport-commons/src/index.ts
+@@ -1,7 +1,55 @@
+-import { socket } from './socket'
+-import { routing } from './routing'
+-import { channels, Channel, CombinedChannel } from './channels'
+-import { RealTimeConnection } from '@feathersjs/feathers'
++import { Application, Params, RealTimeConnection } from '@feathersjs/feathers'
++import { channels } from '../channels'
++import { routing } from '../routing'
++import { getDispatcher, runMethod } from './utils'
+
+-export * as http from './http'
+-export { socket, routing, channels, Channel, CombinedChannel, RealTimeConnection }
++export interface SocketOptions {
++  done: Promise<any>
++  emit: string
++  socketMap: WeakMap<RealTimeConnection, any>
++  socketKey?: any
++  getParams: (socket: any) => RealTimeConnection
++}
++
++export function socket({ done, emit, socketMap, socketKey, getParams }: SocketOptions) {
++  return (app: Application) => {
++    const leaveChannels = (connection: RealTimeConnection) => {
++      const { channels } = app
++
++      if (channels.length) {
++        app.channel(app.channels).leave(connection)
++      }
++    }
++
++    app.configure(channels())
++    app.configure(routing())
++
++    app.on('publish', getDispatcher(emit, socketMap, socketKey))
++    app.on('disconnect', leaveChannels)
++    app.on('logout', (_authResult: any, params: Params) => {
++      const { connection } = params
++
++      if (connection) {
++        leaveChannels(connection)
++      }
++    })
++
++    // `connection` event
++    done.then((provider) =>
++      provider.on('connection', (connection: any) => app.emit('connection', getParams(connection)))
++    )
++
++    // `socket.emit('methodName', 'serviceName', ...args)` handlers
++    done.then((provider) =>
++      provider.on('connection', (connection: any) => {
++        connection.onAny((method: string, ...args: any[]) => {
++          if (method[0] === '#') {
++            method = method.slice(1);
++            const [path, ...rest] = args
++            runMethod(app, getParams(connection), path, method, rest)
++          }
++        });
++      })
++    )
++  }
++}
+diff --git a/node_modules/@feathersjs/transport-commons/src/routing/router.ts b/node_modules/@feathersjs/transport-commons/src/routing/router.ts
+index e45e6674b3b04f2a76bedfb4a61c6b067f65409a..981e90264508e683177cb532a7aa9256cfc672dd 100644
+--- a/node_modules/@feathersjs/transport-commons/src/routing/router.ts
++++ b/node_modules/@feathersjs/transport-commons/src/routing/router.ts
+@@ -81,7 +81,8 @@ export class RouteNode<T = any> {
+   }
+
+   lookup(path: string[], info: LookupData): LookupResult<T> | null {
+-    if (path.length === this.depth) {
++    const depth = this.name === '__id' ? this.depth - 1 : this.depth
++    if (path.length === depth) {
+       return this.data === undefined
+         ? null
+         : {
+@@ -90,7 +91,7 @@ export class RouteNode<T = any> {
+           }
+     }
+
+-    const current = path[this.depth]
++    const current = path[depth]
+     const child = this.children[current]
+
+     if (child) {
+diff --git a/node_modules/@feathersjs/transport-commons/src/socket/index.ts b/node_modules/@feathersjs/transport-commons/src/socket/index.ts
+index 1c21095fd1d4cd53d0fe1f901083562a9d6e9ac4..c64634959fb87d6c317f47c7b17e1f14c89501b1 100644
+--- a/node_modules/@feathersjs/transport-commons/src/socket/index.ts
++++ b/node_modules/@feathersjs/transport-commons/src/socket/index.ts
+@@ -1,4 +1,4 @@
+-import { Application, getServiceOptions, Params, RealTimeConnection } from '@feathersjs/feathers'
++import { Application, Params, RealTimeConnection } from '@feathersjs/feathers'
+ import { channels } from '../channels'
+ import { routing } from '../routing'
+ import { getDispatcher, runMethod } from './utils'
+@@ -42,23 +42,13 @@ export function socket({ done, emit, socketMap, socketKey, getParams }: SocketOp
+     // `socket.emit('methodName', 'serviceName', ...args)` handlers
+     done.then((provider) =>
+       provider.on('connection', (connection: any) => {
+-        const methodHandlers = Object.keys(app.services).reduce((result, name) => {
+-          const { methods } = getServiceOptions(app.service(name))
+-
+-          methods.forEach((method) => {
+-            if (!result[method]) {
+-              result[method] = (...args: any[]) => {
+-                const [path, ...rest] = args
+-
+-                runMethod(app, getParams(connection), path, method, rest)
+-              }
+-            }
+-          })
+-
+-          return result
+-        }, {} as any)
+-
+-        Object.keys(methodHandlers).forEach((key) => connection.on(key, methodHandlers[key]))
++        connection.onAny((method: string, ...args: any[]) => {
++          if (method[0] === '#') {
++            method = method.slice(1);
++            const [path, ...rest] = args
++            runMethod(app, getParams(connection), path, method, rest)
++          }
++        });
+       })
+     )
+   }

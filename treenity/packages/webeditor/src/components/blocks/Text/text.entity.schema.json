@@ -1,0 +1,15 @@
+{
+    "$id": "@treenity/webeditor:ui.text",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "text": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "required": [
+        "text"
+    ]
+}
+

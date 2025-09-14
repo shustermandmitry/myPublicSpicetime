@@ -1,0 +1,18 @@
+{
+  "extends": "@treenity/tsconfig/react-library.json",
+  "include": ["src"],
+  "skipLibCheck": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/utils": ["./src/utils"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ],
+    "types": ["@testing-library/jest-dom"]
+  }
+}

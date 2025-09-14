@@ -1,0 +1,92 @@
+{
+    "$id": "@treenity/entity:server:ideal",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "mailService": {
+            "$ref": "@treenity/entity:server:ideal#/definitions/MailService"
+        },
+        "name": {
+            "type": "string"
+        },
+        "health": {
+            "widget": "textArea",
+            "type": "number"
+        },
+        "age": {
+            "format": "date-time",
+            "type": "number"
+        },
+        "look": {
+            "$ref": "@treenity/entity:server:ideal#/definitions/Look",
+            "widget": "inner-value"
+        }
+    },
+    "required": [
+        "health",
+        "look",
+        "mailService",
+        "name"
+    ],
+    "definitions": {
+        "MailService": {
+            "type": "object",
+            "properties": {
+                "server": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "server"
+            ]
+        },
+        "Look": {
+            "type": "object",
+            "properties": {
+                "hair": {
+                    "type": "string"
+                },
+                "eyes": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "eyes",
+                "hair"
+            ]
+        }
+    },
+    "methods": {
+        "changeAge": {
+            "arguments": [
+                {
+                    "name": "newAge",
+                    "type": "number"
+                }
+            ],
+            "return": {
+                "type": "undefined"
+            }
+        },
+        "sendEmail": {
+            "arguments": [
+                {
+                    "name": "__0",
+                    "type": "object",
+                    "properties": {
+                        "text": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "text"
+                    ]
+                }
+            ],
+            "return": {
+                "type": "boolean"
+            }
+        }
+    }
+}
+

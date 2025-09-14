@@ -1,0 +1,17 @@
+{
+  "$id": "4CsdjrFEWE42kiusJGu7ph2",
+  "$name": "admin",
+  "$type": "node_tree",
+  "defaultMeta": "role",
+  "links": null,
+  "metas": {
+    "role": {
+      "$id": "21gAe2kPbPus7779iADp1",
+      "$name": "admin role",
+      "$type": "db.access-control.role",
+      "name": "admin",
+      "inheritedFrom": "user"
+    }
+  },
+  "title": ""
+}

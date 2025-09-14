@@ -1,0 +1,25 @@
+{
+  "name": "@treenity/patch-libs",
+  "version": "0.1.24",
+  "description": "",
+  "author": "Treenity",
+  "license": "ISC",
+  "scripts": {
+    "patch-libs": "./patch-libs.sh",
+    "postinstall": "./patch-libs.sh",
+    "clean": "./cleanup.sh"
+  },
+  "bin": {
+    "patch-libs": "patch-libs.sh",
+    "patch-libs-clean": "cleanup.sh"
+  },
+  "files": [
+    "patches",
+    "patch-libs.sh",
+    "utils.sh",
+    "cleanup.sh"
+  ],
+  "dependencies": {
+    "@milahu/patch-package": "^6.4.14"
+  }
+}

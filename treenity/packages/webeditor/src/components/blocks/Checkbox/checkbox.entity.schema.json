@@ -1,0 +1,30 @@
+{
+    "$id": "@treenity/webeditor:form.checkbox",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "options": {
+            "title": "Options",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "label": {
+                        "type": "string"
+                    },
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "label",
+                    "value"
+                ]
+            }
+        }
+    },
+    "required": [
+        "options"
+    ]
+}
+

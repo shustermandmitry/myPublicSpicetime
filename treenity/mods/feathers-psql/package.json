@@ -1,0 +1,43 @@
+{
+  "name": "@treenity/feathers-psql",
+  "version": "0.0.43",
+  "description": "treenity feathers-psql",
+  "author": "Treenity",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "clean": "treenity-clean",
+    "typecheck": "tsc",
+    "--test": "jest --no-cache  --detectOpenHandles --runInBand --forceExit",
+    "--doc": "typedoc --plugin typedoc-plugin-markdown"
+  },
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "dependencies": {
+    "@treenity/core": "1.0.44",
+    "@treenity/feathers-service": "0.0.39",
+    "@treenity/js-shared": "1.0.33",
+    "@treenity/json-schema": "0.1.37",
+    "@treenity/sequelizer": "1.0.6",
+    "feathers-sequelize": "^7.0.3",
+    "json-schema": "^0.4.0",
+    "sequelize": "6.37.3"
+  },
+  "devDependencies": {
+    "@treenity/build-utils": "1.1.30",
+    "@treenity/tsconfig": "1.0.13",
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^22.7.5",
+    "@types/prop-types": "^15.7.5",
+    "rollup": "^4.26.0",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,14 @@
+import { NodeEngineTypeContextInfo, types } from '@treenity/core';
+import { Source } from 'callbag';
+import { map } from 'callbag-basics';
+
+const searchScripts = (query?: string): Source<any> => {
+  return map((info: NodeEngineTypeContextInfo) => ({
+    id: info.id,
+    title: info.id,
+    url: info.id,
+    type: info.id,
+  }))(types.noflo.search(query ?? ''));
+};
+
+export default searchScripts;

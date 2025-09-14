@@ -1,0 +1,16 @@
+{
+  "$id": "ENJXRgjrrCw6rkiHCFsET1",
+  "$name": "tree",
+  "$type": "node_tree",
+  "defaultMeta": "",
+  "links": null,
+  "metas": {
+    "context": {
+      "$id": "1AgAe2kPbPusXT229iADp6",
+      "$name": "tree",
+      "$type": "sys.context",
+      "service": "/sys/fs-repo"
+    }
+  },
+  "title": ""
+}

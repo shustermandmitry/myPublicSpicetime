@@ -1,0 +1,58 @@
+{
+    "$id": "@treenity/accounts-mod:sys.accounts.transaction",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "createdAt": {
+            "type": "string"
+        },
+        "updatedAt": {
+            "type": "string"
+        },
+        "deletedAt": {
+            "type": "string"
+        },
+        "amount": {
+            "type": "number"
+        },
+        "balance": {
+            "type": "number"
+        },
+        "status": {
+            "type": "number"
+        },
+        "description": {
+            "type": "string"
+        },
+        "walletId": {
+            "type": "string"
+        },
+        "fromId": {
+            "type": "string"
+        },
+        "toId": {
+            "type": "string"
+        },
+        "isRefill": {
+            "type": "boolean"
+        },
+        "isWithdrawal": {
+            "type": "boolean"
+        }
+    },
+    "required": [
+        "amount",
+        "balance",
+        "createdAt",
+        "id",
+        "isRefill",
+        "isWithdrawal",
+        "status",
+        "updatedAt",
+        "walletId"
+    ]
+}
+

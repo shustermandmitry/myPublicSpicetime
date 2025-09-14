@@ -1,0 +1,16 @@
+apiVersion: skaffold/v2beta25
+kind: Config
+build:
+  local:
+    push: false
+    useBuildkit: true
+  artifacts: []
+  tagPolicy:
+    gitCommit: { }
+deploy:
+  helm:
+    releases:
+      - name: treenity
+        chartPath: ./configs/helm/public
+        valuesFiles:
+          - ./configs/dev-values.yaml

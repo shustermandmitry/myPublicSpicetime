@@ -1,0 +1,11 @@
+export { default as Collapse } from './Collapse';
+export * from './types';
+export {
+  DEFAULT_COLLAPSE_SIZE,
+  DEFAULT_COLLAPSE_ACCORDION,
+  DEFAULT_COLLAPSE_BORDERED,
+  DEFAULT_COLLAPSE_EXPAND_ICON_POSITION,
+  DEFAULT_COLLAPSE_LIST,
+  DEFAULT_COLLAPSE_GHOST,
+  DEFAULT_COLLAPSE_COLLAPSIBLE,
+} from './default-data';

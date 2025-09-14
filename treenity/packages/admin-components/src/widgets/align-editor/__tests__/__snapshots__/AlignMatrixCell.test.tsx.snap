@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlignMatrixCell change selected 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #d9d9d9;
+}
+
+.emotion-0:where(i) {
+  color: #1677ff;
+}
+
+.emotion-1 [class^='icon-'],
+.emotion-1 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-1.emotion-1 i {
+  font-size: 18px;
+}
+
+.emotion-2 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #1677ff;
+}
+
+<div
+  about="left_start"
+  class="emotion-0"
+>
+  <span
+    class="anticon emotion-1"
+  >
+    <i
+      class="icon-top-row_outlined emotion-2"
+    />
+  </span>
+</div>
+`;
+
+exports[`AlignMatrixCell change selected and orientation 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #d9d9d9;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-0:where(i) {
+  color: #1677ff;
+}
+
+.emotion-1 [class^='icon-'],
+.emotion-1 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-1.emotion-1 i {
+  font-size: 18px;
+}
+
+.emotion-2 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #1677ff;
+}
+
+<div
+  about="left_start"
+  class="emotion-0"
+>
+  <span
+    class="anticon emotion-1"
+  >
+    <i
+      class="icon-left-column_outlined emotion-2"
+    />
+  </span>
+</div>
+`;
+
+exports[`AlignMatrixCell change value 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #d9d9d9;
+}
+
+.emotion-0:where(i) {
+  color: #1677ff;
+}
+
+.emotion-1 [class^='icon-'],
+.emotion-1 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-1.emotion-1 i {
+  font-size: 18px;
+}
+
+.emotion-2 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #1677ff;
+}
+
+<div
+  about="center_start"
+  class="emotion-0"
+>
+  <span
+    class="anticon emotion-1"
+  >
+    <i
+      class="icon-top-row_outlined emotion-2"
+    />
+  </span>
+</div>
+`;
+
+exports[`AlignMatrixCell clicked 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #d9d9d9;
+}
+
+.emotion-0:where(i) {
+  color: #1677ff;
+}
+
+.emotion-1 [class^='icon-'],
+.emotion-1 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-2 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: gray700;
+}
+
+<div
+  about="center_start"
+  class="emotion-0"
+>
+  <span
+    class="anticon undefined emotion-1"
+  >
+    <i
+      class="icon-matrix-point_outlined emotion-2"
+    />
+  </span>
+</div>
+`;
+
+exports[`AlignMatrixCell hovered 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #d9d9d9;
+}
+
+.emotion-0:where(i) {
+  color: #1677ff;
+}
+
+.emotion-1 [class^='icon-'],
+.emotion-1 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-2 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: gray700;
+}
+
+<div
+  about="center_start"
+  class="emotion-0"
+>
+  <span
+    class="anticon undefined emotion-1"
+  >
+    <i
+      class="icon-matrix-point_outlined emotion-2"
+    />
+  </span>
+</div>
+`;
+
+exports[`AlignMatrixCell render AlignMatrixCell component 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #d9d9d9;
+}
+
+.emotion-0:where(i) {
+  color: #1677ff;
+}
+
+.emotion-1 [class^='icon-'],
+.emotion-1 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-2 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: gray700;
+}
+
+<div
+  about="left_start"
+  class="emotion-0"
+>
+  <span
+    class="anticon undefined emotion-1"
+  >
+    <i
+      class="icon-matrix-point_outlined emotion-2"
+    />
+  </span>
+</div>
+`;

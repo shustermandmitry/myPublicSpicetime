@@ -1,0 +1,77 @@
+{
+  "$id": "Q2sdjrF3XE42k2usJGu7ph",
+  "$name": "translates_rest",
+  "$type": "node_tree",
+  "defaultMeta": "service",
+  "$refs": [
+    { "ref": "/metas/service/connection/host", "url": "cfg:/services/translate-ms/host" }
+  ],
+  "links": null,
+  "metas": {
+    "service": {
+      "$id": "1AgAe2kPb24sXT3z9iADp5",
+      "$name": "translates_service",
+      "$type": "sys.rest",
+      "connection": {
+        "port": 2006,
+        "host": "localhost",
+        "protocol": "http"
+      },
+      "methods": {
+        "change": {
+          "path": "/api/v1/translate/change",
+          "method": "POST"
+        },
+        "copy": {
+          "path": "/api/v1/translate/copy",
+          "method": "POST"
+        },
+        "count": {
+          "path": "/api/v1/translate/count",
+          "method": "POST"
+        },
+        "list-admin": {
+          "path": "/api/v1/translate/list",
+          "method": "POST"
+        },
+        "delete": {
+          "path": "/api/v1/translate",
+          "method": "DELETE"
+        },
+        "list-by-keys": {
+          "path": "/api/v1/translate/list/by-keys",
+          "method": "POST"
+        },
+        "list-by-domain-code": {
+          "path": "/api/v1/translate/list/{domain}/{code}",
+          "method": "GET"
+        },
+        "get-by-key": {
+          "path": "/api/v1/translate/get-by-key/{domain}/{key}",
+          "method": "GET"
+        },
+        "get-by-key-with-default-lang": {
+          "path": "/api/v1/translate/get-by-key-with-default/{domain}/{key}",
+          "method": "GET"
+        },
+        "input-value": {
+          "path": "/api/v1/translate/input-value",
+          "method": "POST"
+        },
+        "export-all": {
+          "path": "/api/v1/translate/export-all/{domain}",
+          "method": "GET"
+        },
+        "export": {
+          "path": "/api/v1/translate/export",
+          "method": "POST"
+        },
+        "import": {
+          "path": "/api/v1/translate/import",
+          "method": "POST"
+        }
+      }
+    }
+  },
+  "title": ""
+}

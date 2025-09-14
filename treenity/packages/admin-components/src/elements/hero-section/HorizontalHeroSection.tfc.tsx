@@ -1,0 +1,89 @@
+import getBackgroundImageUrl from '@/utils/uploader/get-image-type';
+import { css } from '@emotion/react';
+import styled from '@emotion/styled';
+import { omitProps } from '@treenity/ui-kit/utils';
+import { EditorProps } from '../EditorProps';
+import Subtitle from './components/Subtitle';
+import Text from './components/Text';
+import Title from './components/Title';
+import type { HorizontalHeroSectionProps } from './types';
+
+const HorizontalHeroSection: EditorProps<HorizontalHeroSectionProps> = ({
+  mergedMeta: {
+    backgroundImage,
+    subtitle,
+    title,
+    text,
+    backgroundColor,
+    isReversedLayout = false,
+    titleTag,
+  },
+}) => {
+  return (
+    <Root backgroundColor={backgroundColor}>
+      <Content isReversedLayout={isReversedLayout}>
+        {subtitle && <Subtitle>{subtitle}</Subtitle>}
+        {title && <Title as={titleTag}>{title}</Title>}
+        {text && <Text>{text}</Text>}
+      </Content>
+      <ImageContainer backgroundImage={getBackgroundImageUrl(backgroundImage)} />
+    </Root>
+  );
+};
+
+const ImageContainer = styled('div', omitProps('backgroundImage'))<{
+  backgroundImage?: string;
+}>`
+  ${p =>
+    p.backgroundImage &&
+    css`
+      background-image: url(${p.backgroundImage});
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    `}
+`;
+
+const Flex = styled.div`
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+`;
+
+const Content = styled(Flex, omitProps('isReversedLayout'))<{
+  isReversedLayout?: boolean;
+}>`
+  padding: 0 64px;
+
+  ${p =>
+    p.isReversedLayout &&
+    css`
+      order: 1;
+    `};
+
+  @media (max-width: 800px) {
+    padding: 36px;
+  }
+`;
+
+const Root = styled('div', omitProps('backgroundColor'))<{
+  backgroundColor?: string;
+}>`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 600px;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  ${p =>
+    p.backgroundColor &&
+    css`
+      background-color: ${(p.theme as any)?.token[p.backgroundColor] || p.backgroundColor};
+    `}
+`;
+
+export default HorizontalHeroSection;

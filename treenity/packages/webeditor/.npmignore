@@ -1,0 +1,13 @@
+src/
+node_modules/
+tsconfig.json
+.prettierrc
+.gitignore
+.package-lock.json
+.idea
+.turbo
+.npmrc
+.eslintrc.cjs
+rollup.config.*
+jest.config.*
+dist/**/stats.html

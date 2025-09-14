@@ -1,0 +1,330 @@
+import { throwIfErrors, validateMeta, validateMetas } from '@/api/schema-validation';
+import { Patch, TreeApi } from '@/api/tree-api';
+import { Application } from '@feathersjs/feathers';
+import { memoize } from '@s-libs/micro-dash';
+
+import { Meta, NodeEntityImpl } from '@treenity/core';
+import * as FastPatch from 'fast-json-patch';
+import { action, computed, makeObservable, observable, runInAction } from 'mobx';
+
+type IClient = Application; //StreamTypes.ISubscriptionClient<StreamTypes.DataUpdate, StreamTypes.DataUpdate>;
+
+export class NodeLoader {
+  private client: IClient;
+  private api: TreeApi;
+  public url: string;
+  public _value?: NodeEntityImpl;
+  public _changed?: NodeEntityImpl;
+  private _metas?: Meta[];
+
+  constructor(url: string, api: TreeApi, value?: NodeEntityImpl) {
+    this.api = api;
+    this.client = api.client;
+    this.url = url;
+    this._value = undefined;
+    this._changed = undefined;
+
+    if (value) this.updateValue(value);
+
+    makeObservable(this, {
+      _value: observable,
+      _changed: observable,
+      isChanged: computed,
+      originalValue: computed,
+      value: computed,
+      change: action,
+      revert: action,
+      updateValue: action,
+    });
+  }
+
+  get value(): NodeEntityImpl {
+    return this._changed ?? this.originalValue;
+  }
+
+  get originalValue(): NodeEntityImpl {
+    if (!this._value) throw new Error('node value not loaded, cant patch');
+
+    return this._value;
+  }
+
+  get isChanged(): boolean {
+    return !!this._changed && this._changed !== this._value;
+  }
+
+  async request<T>(methodName: string, params: any = {}): Promise<T> {
+    const SERVICE = '/sys/tree';
+    const service = this.client.service(SERVICE);
+    if (methodName === 'children') {
+      const items = await service.find({ query: { path: this.url || '/', ...params } });
+
+      return items as T;
+    } else {
+      const item = await service.get(this.url, params);
+
+      return item as T;
+    }
+
+    // const source = this.client.request(`${BASE_TREE_URL}${this.url}#${methodName}`, params).source;
+    // return pipe(source, collectProtocol(), toPromise);
+  }
+
+  subscribe<T>(
+    methodName: string,
+    params: any,
+    mapFunc: ((from: any) => T) | undefined,
+    next: (error?: Error, result?: T) => void,
+  ): () => void {
+    this.request(methodName, params).then(result => {
+      if (mapFunc) result = mapFunc(result);
+
+      next(undefined, result as T);
+    }, next);
+
+    return () => {};
+    // const url = `${BASE_TREE_URL}${this.url}#${methodName}`;
+    // const sub = this.client.subscribe(url, params);
+    //
+    // let stream = collectProtocol()(sub.source);
+    // if (mapFunc) {
+    //   stream = map(mapFunc)(stream);
+    // }
+    //
+    // return subscribe({
+    //   error: error => next(error),
+    //   next: result => next(undefined, result as T),
+    //   complete: () => next(new Error('stream closed')),
+    // })(stream);
+  }
+
+  async load(reload?: boolean): Promise<NodeLoader> {
+    if (this._value && !reload) return this; //throw new Error('value already loaded, set reload to update');
+
+    // TODO: typing
+    const node = await this.request<any>('item', {}).then(result => result.item as NodeEntityImpl);
+    const loader = this.api.node(node.path);
+    runInAction(() => {
+      loader._value = node;
+    });
+    return loader;
+  }
+
+  /**
+   * Subscribe to node updates, updated node will be passed to next function
+   * @param next - function to send update to
+   */
+  loadSub(next: (error?: Error, node?: NodeLoader) => void): () => void {
+    return this.subscribe(
+      'item',
+      {},
+      (node: NodeEntityImpl) => {
+        const loader = this.api.node(node.path);
+        runInAction(() => {
+          loader._value = node;
+        });
+        return loader;
+      },
+      next,
+    );
+  }
+
+  /**
+   * Request children of node
+   =   * @param options - options to load children
+   *  withMetas - load metas with node
+   */
+  children(options?: ChildrenLoadOptions): Promise<NodeLoader[]> {
+    // const withMetas = options?.withMeta ?? true;
+
+    // return this.request<any>(withMetas ? 'childrenWithMeta' : 'children').then(result =>
+    return this.request<any>('children').then(result =>
+      result.map((child: NodeEntityImpl) => this.api.node(child.path).updateValue(child)),
+    );
+  }
+
+  /**
+   * Subscribe to children of node, updated children will be passed to next function
+   * @param next - function to send update to
+   * @param options - options to load children
+   *  withMetas - load metas with node
+   */
+  childrenSub(
+    next: (error?: Error, nodes?: NodeLoader[]) => void,
+    options?: ChildrenLoadOptions,
+  ): () => void {
+    // const withMetas = options?.withMeta ?? true;
+
+    return this.subscribe(
+      // withMetas ? 'childrenWithMeta' : 'children',
+      'children',
+      {},
+      result => result.map((child: NodeEntityImpl) => this.api.node(child.path).updateValue(child)),
+      next,
+    );
+  }
+
+  public updateValue(node: Node) {
+    this._value = node instanceof NodeEntityImpl ? node : new NodeEntityImpl(node);
+    delete this._metas;
+    return this;
+  }
+
+  async create(node: { $id?: string; $name: string; metas?: Meta[] }): Promise<NodeLoader> {
+    const params = {
+      id: node.$id || globalThis.crypto.randomUUID(),
+      name: node.$name,
+      metas: node.metas || [],
+    };
+
+    if (params.metas.length) {
+      const errors = await validateMetas(params.metas);
+      throwIfErrors(errors);
+    }
+    const result = await this.request<any>('create', params);
+    const _node = result.item as Node;
+    return this.api.node(_node.path).updateValue(_node);
+  }
+
+  async createMeta<T extends Meta>(value: T): Promise<NodeLoader> {
+    const errors = await validateMeta(value);
+    throwIfErrors(errors);
+    this.change(node => {
+      node.metas[value.$name] = value;
+    });
+    return this;
+  }
+
+  remove = async (): Promise<void> => {
+    await this.request(`remove`);
+    runInAction(() => {
+      this._value = undefined;
+      this._changed = undefined;
+    });
+  };
+
+  rename = (toName: string): Promise<void> => {
+    if (!toName || toName === '/') throw new Error('bad name');
+    if (toName[0] !== '/') toName = '/' + toName;
+
+    return this.patch([{ op: 'replace', path: '/$name', value: toName }]);
+  };
+
+  copy = (toUrl: string): Promise<void> => {
+    return this.request('copy', { to: toUrl });
+  };
+
+  patch(patches: Patch[]): Promise<void> {
+    if (!patches.length) {
+      throw new Error('no patches provided');
+    }
+
+    return this.request(`patch`, {
+      patches,
+    });
+  }
+
+  change = (changer: NodePatchFn): NodeLoader => {
+    const forChange = this._changed ?? new NodeEntityImpl(FastPatch.deepClone(this.originalValue));
+    const changedNode = changer(forChange);
+
+    // TODO: rework this changes detection
+    const patches = FastPatch.compare(this._value!, changedNode || forChange);
+    if (!patches.length) {
+      return this;
+    }
+
+    if (changedNode && changedNode !== forChange) {
+      if (!(changedNode instanceof NodeEntityImpl) || !changedNode.$type || !changedNode.$id) {
+        throw new Error('bad node value returned from changer');
+      }
+
+      this._changed = changedNode;
+    } else {
+      // make shallow copy of NodeImpl to update observable
+      this._changed = new NodeEntityImpl(forChange);
+    }
+
+    return this;
+  };
+
+  revert = () => {
+    this._changed = undefined;
+  };
+
+  commit = async (): Promise<void> => {
+    if (!this._changed) return;
+
+    const patches = FastPatch.compare(this.originalValue, this._changed)
+      // XXX remove when fixed
+      .filter(patch => patch.path !== '/hasChildren');
+
+    const metaNames = patches.filter(patch => patch.path.startsWith('/metas'));
+
+    if (metaNames.length) {
+      const metaNamesUniq = new Set(metaNames.map(patch => patch.path.split('/').at(2)!));
+      const metas: Meta[] = [];
+
+      metaNamesUniq.forEach(metaName => metas.push(this.metaByName(metaName)!));
+
+      const errors = await validateMetas(metas);
+      throwIfErrors(errors);
+    }
+
+    const result = await this.patch(patches);
+    runInAction(() => {
+      this._value = this._changed;
+      this._changed = undefined;
+    });
+
+    return result;
+  };
+
+  metaByName<T extends Meta>(id: string): T | undefined {
+    return this.value.metas[id] as T;
+  }
+
+  metaByType<T extends Meta>(metaType: string | MetaType<T>): T | undefined {
+    metaType = typeof metaType === 'string' ? metaType : metaType.$type;
+
+    return this.metas.find(m => m.$type === metaType) as T;
+  }
+
+  get metas(): Meta[] {
+    return (this._metas ??= Object.values(this.value.metas || []));
+  }
+
+  // metaByType<T extends Meta>(metaType: string | T): T | undefined {
+  //   if (typeof metaType !== 'string') metaType = types.schema.getTypeName(metaType);
+  //   return metaByType<T>(this.value, metaType);
+  // }
+
+  metaByTag(tag: string): Meta | undefined {
+    return this.metas.find(meta => meta.$tg?.includes(tag));
+  }
+
+  meta(metaType: string): MetaImpl {
+    const meta = this.metaByType(metaType);
+    if (!meta) throw new Error('meta ' + metaType + ' not found in ' + this.value.$id);
+
+    return meta;
+  }
+
+  _createChangeMeta = memoize((metaName: string) => {
+    return (setter: (meta: Meta) => Meta | void) => {
+      return this.change(node => {
+        const meta = node.metaByName(metaName);
+        if (!meta) throw new Error('meta ' + metaName + ' not found in ' + this.value.$id);
+        const ret = setter(meta);
+        if (ret !== undefined) {
+          node.metas[metaName] = ret;
+        }
+      });
+    };
+  });
+
+  createChangeMeta<T extends Meta>(
+    metaName: string,
+  ): (setter: (meta: T) => T | void) => NodeLoader {
+    return this._createChangeMeta(metaName) as (setter: (meta: T) => T | void) => NodeLoader;
+  }
+}

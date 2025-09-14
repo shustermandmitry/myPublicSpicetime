@@ -1,0 +1,765 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AngleSelector change arrow 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 64px;
+}
+
+.emotion-1 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  border: 1px solid #E9E8EE;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.emotion-2 {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  border: 1px solid #E9E8EE;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-3 {
+  width: 46px;
+  height: 2px;
+  background-color: #27ae60;
+  position: absolute;
+}
+
+.emotion-3 span {
+  position: absolute;
+  top: 50%;
+}
+
+.emotion-3 span:nth-of-type(1) {
+  -webkit-transform: translate(90%, -50%);
+  -moz-transform: translate(90%, -50%);
+  -ms-transform: translate(90%, -50%);
+  transform: translate(90%, -50%);
+  right: 1px;
+}
+
+.emotion-3 span:nth-of-type(2) {
+  left: 0;
+  -webkit-transform: translate(-90%, -50%) rotate(45deg);
+  -moz-transform: translate(-90%, -50%) rotate(45deg);
+  -ms-transform: translate(-90%, -50%) rotate(45deg);
+  transform: translate(-90%, -50%) rotate(45deg);
+}
+
+.emotion-3 span i {
+  font-size: 6px!important;
+}
+
+.emotion-4 [class^='icon-'],
+.emotion-4 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-5 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #27ae60;
+}
+
+.emotion-9 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+}
+
+.emotion-9.emotion-9 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-9.emotion-9 i {
+  font-size: 12px!important;
+}
+
+.emotion-9[type='number']::-webkit-inner-spin-button,
+.emotion-9 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-9.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-9 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-9 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-9.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+  width: 100%;
+}
+
+.emotion-10.emotion-10>button {
+  width: 100%!important;
+}
+
+.emotion-10.emotion-10>button i {
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-12 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  background: #FFF;
+  color: #26233F;
+  border-color: #E9E8EE;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-12>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-12.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-12 i {
+  color: #27ae60;
+}
+
+.emotion-12.ant-btn-default:not(:disabled):not(.emotion-12.ant-btn-disabled):hover {
+  background: #FFF;
+  color: #47BA73;
+  border-color: #E5E4EC;
+}
+
+.emotion-12.ant-btn-default:not(:disabled):not(.emotion-12.ant-btn-disabled):active {
+  background: #FFF;
+  color: #178749;
+  border-color: #E1DFE8;
+}
+
+.emotion-12 i {
+  font-size: 16px;
+}
+
+.emotion-12>span {
+  gap: 4px;
+}
+
+.emotion-12,
+.emotion-12 span {
+  line-height: 10px;
+}
+
+.emotion-12.emotion-12>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-14 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+    data-testid="asdqwe"
+  >
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <span
+          class="anticon undefined emotion-4"
+        >
+          <i
+            class="icon-preview_filled emotion-5"
+          />
+        </span>
+        <span
+          class="anticon undefined emotion-4"
+        >
+          <i
+            class="icon-color-picker_filled emotion-5"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <input
+    class="ant-input ant-input-sm emotion-8 ant-input-outlined emotion-9"
+    max="360"
+    min="0"
+    placeholder="0"
+    type="number"
+    value="0"
+  />
+  <div
+    class="emotion-10"
+  >
+    <button
+      class="ant-btn emotion-8 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-12"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-4"
+        >
+          <i
+            class="icon-arrow-rotate-left_outlined emotion-14"
+          />
+        </span>
+      </span>
+    </button>
+    <button
+      class="ant-btn emotion-8 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-12"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-4"
+        >
+          <i
+            class="icon-arrow-rotate-right_outlined emotion-14"
+          />
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`AngleSelector render AngleSelector component 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 64px;
+}
+
+.emotion-1 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  border: 1px solid #E9E8EE;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.emotion-2 {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  border: 1px solid #E9E8EE;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-3 {
+  width: 46px;
+  height: 2px;
+  background-color: #27ae60;
+  position: absolute;
+}
+
+.emotion-3 span {
+  position: absolute;
+  top: 50%;
+}
+
+.emotion-3 span:nth-of-type(1) {
+  -webkit-transform: translate(90%, -50%);
+  -moz-transform: translate(90%, -50%);
+  -ms-transform: translate(90%, -50%);
+  transform: translate(90%, -50%);
+  right: 1px;
+}
+
+.emotion-3 span:nth-of-type(2) {
+  left: 0;
+  -webkit-transform: translate(-90%, -50%) rotate(45deg);
+  -moz-transform: translate(-90%, -50%) rotate(45deg);
+  -ms-transform: translate(-90%, -50%) rotate(45deg);
+  transform: translate(-90%, -50%) rotate(45deg);
+}
+
+.emotion-3 span i {
+  font-size: 6px!important;
+}
+
+.emotion-4 [class^='icon-'],
+.emotion-4 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-5 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #27ae60;
+}
+
+.emotion-9 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+}
+
+.emotion-9.emotion-9 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-9.emotion-9 i {
+  font-size: 12px!important;
+}
+
+.emotion-9[type='number']::-webkit-inner-spin-button,
+.emotion-9 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-9.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-9 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-9 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-9.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-9.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-9.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+  width: 100%;
+}
+
+.emotion-10.emotion-10>button {
+  width: 100%!important;
+}
+
+.emotion-10.emotion-10>button i {
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-12 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  background: #FFF;
+  color: #26233F;
+  border-color: #E9E8EE;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-12>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-12.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-12 i {
+  color: #27ae60;
+}
+
+.emotion-12.ant-btn-default:not(:disabled):not(.emotion-12.ant-btn-disabled):hover {
+  background: #FFF;
+  color: #47BA73;
+  border-color: #E5E4EC;
+}
+
+.emotion-12.ant-btn-default:not(:disabled):not(.emotion-12.ant-btn-disabled):active {
+  background: #FFF;
+  color: #178749;
+  border-color: #E1DFE8;
+}
+
+.emotion-12 i {
+  font-size: 16px;
+}
+
+.emotion-12>span {
+  gap: 4px;
+}
+
+.emotion-12,
+.emotion-12 span {
+  line-height: 10px;
+}
+
+.emotion-12.emotion-12>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-14 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    class="emotion-1"
+    data-testid="asdqwe"
+  >
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <span
+          class="anticon undefined emotion-4"
+        >
+          <i
+            class="icon-preview_filled emotion-5"
+          />
+        </span>
+        <span
+          class="anticon undefined emotion-4"
+        >
+          <i
+            class="icon-color-picker_filled emotion-5"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <input
+    class="ant-input ant-input-sm emotion-8 ant-input-outlined emotion-9"
+    max="360"
+    min="0"
+    placeholder="0"
+    type="number"
+    value="0"
+  />
+  <div
+    class="emotion-10"
+  >
+    <button
+      class="ant-btn emotion-8 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-12"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-4"
+        >
+          <i
+            class="icon-arrow-rotate-left_outlined emotion-14"
+          />
+        </span>
+      </span>
+    </button>
+    <button
+      class="ant-btn emotion-8 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-12"
+      type="button"
+    >
+      <span
+        class="ant-btn-icon"
+      >
+        <span
+          class="anticon undefined emotion-4"
+        >
+          <i
+            class="icon-arrow-rotate-right_outlined emotion-14"
+          />
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,55 @@
+{
+    "$id": "@treenity/entity:test-entity",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "a": {
+            "type": "number",
+            "default": 0
+        },
+        "b": {
+            "type": "string",
+            "default": "def"
+        },
+        "c": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "d": {
+            "type": "boolean"
+        },
+        "e": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "a",
+        "b",
+        "c"
+    ],
+    "methods": {
+        "callMe": {
+            "arguments": [
+                {
+                    "name": "param",
+                    "type": "string"
+                }
+            ],
+            "return": {
+                "type": "string"
+            }
+        },
+        "callWriteMe": {
+            "arguments": [
+                {
+                    "name": "param",
+                    "type": "string"
+                }
+            ],
+            "return": {
+                "type": "undefined"
+            }
+        }
+    }
+}
+

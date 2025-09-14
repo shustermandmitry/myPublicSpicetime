@@ -1,0 +1,33 @@
+@import './preflight.css';
+
+.component-selected,
+.component-hover,
+.component-drag {
+  position: relative;
+  cursor: move;
+
+}
+
+.component-drag {
+  cursor: grabbing;
+  opacity: 0.5;
+}
+
+
+.component-hover::after, .component-selected::after {
+  content: " ";
+  outline: 2px solid #27AE60;
+  inset: 0;
+  position: absolute;
+  pointer-events: none;
+  display: block;
+}
+
+.component-drag::after {
+  content: " ";
+  outline: 2px dashed #27AE60;
+  inset: 0;
+  position: absolute;
+  pointer-events: none;
+  display: block;
+}

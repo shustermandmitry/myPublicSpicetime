@@ -1,0 +1,67 @@
+{
+    "$id": "@treenity/accounts-mod:sys.accounts.exchanger",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "slug": {
+            "type": "string"
+        },
+        "rate": {
+            "type": "number"
+        },
+        "fromId": {
+            "type": "string"
+        },
+        "toId": {
+            "type": "string"
+        },
+        "from": {
+            "$ref": "@treenity/accounts-mod:sys.accounts.exchanger#/definitions/AccountEntity"
+        },
+        "to": {
+            "$ref": "@treenity/accounts-mod:sys.accounts.exchanger#/definitions/AccountEntity"
+        }
+    },
+    "required": [
+        "rate",
+        "slug"
+    ],
+    "definitions": {
+        "AccountEntity": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "slug": {
+                    "type": "string"
+                },
+                "token": {
+                    "type": "string"
+                },
+                "precision": {
+                    "type": "number"
+                },
+                "displayPrecision": {
+                    "type": "number"
+                },
+                "negative": {
+                    "type": "boolean",
+                    "default": false
+                }
+            },
+            "required": [
+                "displayPrecision",
+                "id",
+                "negative",
+                "precision",
+                "slug",
+                "token"
+            ]
+        }
+    }
+}
+

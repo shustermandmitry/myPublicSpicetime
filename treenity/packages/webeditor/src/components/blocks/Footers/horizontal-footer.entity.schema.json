@@ -1,0 +1,141 @@
+{
+    "$id": "@treenity/webeditor:layout.horizontalFooter",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "logo": {
+            "$ref": "@treenity/webeditor:layout.horizontalFooter#/definitions/ILogoProps",
+            "title": "Logo"
+        },
+        "menu": {
+            "title": "Menu",
+            "type": "array",
+            "items": {
+                "$ref": "@treenity/webeditor:layout.horizontalFooter#/definitions/IFooterMenuList"
+            }
+        },
+        "social": {
+            "title": "Social",
+            "type": "array",
+            "items": {
+                "$ref": "@treenity/webeditor:layout.horizontalFooter#/definitions/ISocialList"
+            }
+        }
+    },
+    "required": [
+        "logo",
+        "menu",
+        "social"
+    ],
+    "definitions": {
+        "ILogoProps": {
+            "title": "Logo",
+            "type": "object",
+            "properties": {
+                "image": {
+                    "title": "Image URL",
+                    "type": "object",
+                    "properties": {
+                        "light": {
+                            "widget": "treenity.imageUploadInput",
+                            "type": "string"
+                        },
+                        "dark": {
+                            "widget": "treenity.imageUploadInput",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "dark",
+                        "light"
+                    ]
+                },
+                "link": {
+                    "title": "Link",
+                    "widget": "treenity.selectLink",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "image",
+                "link"
+            ]
+        },
+        "IFooterMenuList": {
+            "title": "Menu",
+            "default": {
+                "title": "Menu",
+                "list": [
+                    {
+                        "title": "Menu Item",
+                        "link": "#"
+                    }
+                ]
+            },
+            "type": "object",
+            "properties": {
+                "title": {
+                    "title": "Title section",
+                    "type": "string"
+                },
+                "list": {
+                    "title": "Menu item",
+                    "type": "array",
+                    "items": {
+                        "$ref": "@treenity/webeditor:layout.horizontalFooter#/definitions/IFooterListChildren"
+                    }
+                }
+            },
+            "required": [
+                "list",
+                "title"
+            ]
+        },
+        "IFooterListChildren": {
+            "title": "Menu Item",
+            "default": {
+                "title": "Menu Item",
+                "link": "#"
+            },
+            "type": "object",
+            "properties": {
+                "title": {
+                    "title": "Title",
+                    "type": "string"
+                },
+                "link": {
+                    "title": "Link",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "link",
+                "title"
+            ]
+        },
+        "ISocialList": {
+            "title": "Social",
+            "default": {
+                "logo": "/svg/logo.svg",
+                "link": "https://treenity.pro"
+            },
+            "type": "object",
+            "properties": {
+                "logo": {
+                    "title": "Logo",
+                    "widget": "treenity.imageUploadInput",
+                    "type": "string"
+                },
+                "link": {
+                    "title": "Link",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "link",
+                "logo"
+            ]
+        }
+    }
+}
+

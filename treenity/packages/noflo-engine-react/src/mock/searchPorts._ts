@@ -1,0 +1,26 @@
+import { Source } from 'callbag';
+import { filter, fromIter } from 'callbag-basics';
+import {
+  SOCKET_BOOLEAN_TYPE,
+  SOCKET_EVENT_TYPE,
+  SOCKET_NUMBER_TYPE,
+  SOCKET_OBJECT_TYPE,
+  SOCKET_STRING_TYPE,
+} from '../constants/socket_types';
+
+const ports = [
+  { label: 'String', type: SOCKET_STRING_TYPE },
+  { label: 'Number', type: SOCKET_NUMBER_TYPE },
+  { label: 'Object', type: SOCKET_OBJECT_TYPE },
+  { label: 'Event', type: SOCKET_EVENT_TYPE },
+  { label: 'Boolean', type: SOCKET_BOOLEAN_TYPE },
+];
+
+const searchPorts = (query?: string): Source<any> => {
+  const lowerQuery = (query || '').toLowerCase();
+  return filter<any>(i => (!!query ? i.label.toLowerCase().includes(lowerQuery) : true))(
+    fromIter<any>(ports),
+  );
+};
+
+export default searchPorts;

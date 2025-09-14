@@ -1,0 +1,36 @@
+{
+    "$id": "@treenity/webeditor:basic.ui.video",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "src": {
+            "title": "Source",
+            "type": "string"
+        },
+        "poster": {
+            "title": "Poster",
+            "widget": "treenity.imageUploadInput",
+            "type": "string"
+        },
+        "autoPlay": {
+            "title": "Auto play",
+            "type": "boolean"
+        },
+        "muted": {
+            "title": "Muted",
+            "type": "boolean"
+        },
+        "loop": {
+            "title": "Autoplay",
+            "type": "boolean"
+        },
+        "height": {
+            "title": "Height",
+            "type": "string"
+        }
+    },
+    "required": [
+        "src"
+    ]
+}
+

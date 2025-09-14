@@ -1,0 +1,51 @@
+{
+    "$id": "@treenity/webeditor:form.select",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "size": {
+            "$ref": "@treenity/webeditor:form.select#/definitions/SelectStyledSize",
+            "title": "Size",
+            "default": "middle"
+        },
+        "options": {
+            "title": "Options",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "label": {
+                        "type": "string"
+                    },
+                    "value": {
+                        "type": "string"
+                    },
+                    "disabled": {
+                        "type": "boolean"
+                    }
+                },
+                "required": [
+                    "disabled",
+                    "label",
+                    "value"
+                ]
+            }
+        }
+    },
+    "required": [
+        "options"
+    ],
+    "definitions": {
+        "SelectStyledSize": {
+            "enum": [
+                "large",
+                "middle",
+                "small",
+                "x-large",
+                "x-small"
+            ],
+            "type": "string"
+        }
+    }
+}
+

@@ -1,0 +1,18 @@
+{
+    "$id": "@treenity/entity:override",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "age": {
+            "type": "number"
+        }
+    },
+    "required": [
+        "age",
+        "name"
+    ]
+}
+

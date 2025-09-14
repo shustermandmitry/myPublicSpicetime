@@ -1,0 +1,501 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlignMatrix render AlignMatrix component 1`] = `
+.emotion-0 {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #d9d9d9;
+}
+
+.emotion-1:where(i) {
+  color: #1677ff;
+}
+
+.emotion-2 [class^='icon-'],
+.emotion-2 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-3 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: gray700;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    about="left_start"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-2"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-3"
+      />
+    </span>
+  </div>
+  <div
+    about="center_start"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-2"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-3"
+      />
+    </span>
+  </div>
+  <div
+    about="right_start"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-2"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-3"
+      />
+    </span>
+  </div>
+  <div
+    about="left_center"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-2"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-3"
+      />
+    </span>
+  </div>
+  <div
+    about="center_center"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-2"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-3"
+      />
+    </span>
+  </div>
+  <div
+    about="right_center"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-2"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-3"
+      />
+    </span>
+  </div>
+  <div
+    about="left_end"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-2"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-3"
+      />
+    </span>
+  </div>
+  <div
+    about="center_end"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-2"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-3"
+      />
+    </span>
+  </div>
+  <div
+    about="right_end"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-2"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-3"
+      />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`AlignMatrix render AlignMatrix component with single value 1`] = `
+.emotion-0 {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #d9d9d9;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1:where(i) {
+  color: #1677ff;
+}
+
+.emotion-2 [class^='icon-'],
+.emotion-2 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-2.emotion-2 i {
+  font-size: 54px;
+}
+
+.emotion-3 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #1677ff;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    about="space-around_stretch"
+    class="emotion-1"
+  >
+    <span
+      class="anticon emotion-2"
+    >
+      <i
+        class="icon-space-around-vertical_outlined emotion-3"
+      />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`AlignMatrix render AlignMatrix component with triple and origin column 1`] = `
+.emotion-0 {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #d9d9d9;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1:where(i) {
+  color: #1677ff;
+}
+
+.emotion-2 [class^='icon-'],
+.emotion-2 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-2.emotion-2 i {
+  font-size: 54px;
+}
+
+.emotion-3 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #1677ff;
+}
+
+.emotion-5 [class^='icon-'],
+.emotion-5 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-6 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: gray700;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    about="left_stretch"
+    class="emotion-1"
+  >
+    <span
+      class="anticon emotion-2"
+    >
+      <i
+        class="icon-stretch-vertical_outlined emotion-3"
+      />
+    </span>
+  </div>
+  <div
+    about="center_stretch"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+  </div>
+  <div
+    about="right_stretch"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`AlignMatrix render AlignMatrix component with triple value 1`] = `
+.emotion-0 {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #d9d9d9;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-1:where(i) {
+  color: #1677ff;
+}
+
+.emotion-2 [class^='icon-'],
+.emotion-2 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-2.emotion-2 i {
+  font-size: 18px;
+}
+
+.emotion-3 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: #1677ff;
+}
+
+.emotion-5 [class^='icon-'],
+.emotion-5 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-6 {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  color: gray700;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    about="left_stretch"
+    class="emotion-1"
+  >
+    <span
+      class="anticon emotion-2"
+    >
+      <i
+        class="icon-stretch-horizontal_outlined emotion-3"
+      />
+    </span>
+  </div>
+  <div
+    about="center_stretch"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+  </div>
+  <div
+    about="right_stretch"
+    class="emotion-1"
+  >
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+    <span
+      class="anticon undefined emotion-5"
+    >
+      <i
+        class="icon-matrix-point_outlined emotion-6"
+      />
+    </span>
+  </div>
+</div>
+`;

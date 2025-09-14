@@ -1,0 +1,22 @@
+{
+  "directories": [
+    "packages/admin-components",
+    "packages/core",
+    "packages/entity",
+    "packages/feathers-service",
+    "packages/js-shared",
+    "packages/json-schema",
+    "packages/noflo-engine",
+    "packages/noflo-engine-react",
+    "packages/repository",
+    "packages/reviews",
+    "packages/call-chain",
+    "packages/sequelizer",
+    "packages/tree-api",
+    "packages/ui-kit",
+    "packages/render-react",
+    "packages/webeditor"
+  ],
+  "include": ["src", "src/**/", "src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx"],
+  "command": "npm run build"
+}

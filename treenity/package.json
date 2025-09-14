@@ -1,0 +1,61 @@
+{
+  "name": "@treenity/treenity",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ci-publish": "bash ./publish.sh",
+    "build": "turbo run build",
+    "ci-build": "turbo run build",
+    "watch": "parallel-watch",
+    "clean": "pnpm store prune && treenity-clean && turbo clean",
+    "lint": "pnpm check-repo && turbo run lint",
+    "format": "prettier --write '**/*.{ts,tsx,js,mjs}'",
+    "publish-packages": "turbo run build && changeset version && changeset publish",
+    "cluster": "bash scripts/k8s/dev.sh",
+    "full-dev": "pnpm clean && pnpm install && pnpm build && pnpm dev -no-cache",
+    "build:entity": "cd packages/entity && pnpm build",
+    "build:json-schema": "cd packages/json-schema && pnpm build",
+    "build:core": "cd packages/core && pnpm build",
+    "build:tree-api": "cd packages/tree-api && pnpm build",
+    "build:repository": "cd packages/repository && pnpm build"
+  },
+  "publishConfig": {
+    "directory": "./package"
+  },
+  "private": true,
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@milahu/patch-package": "^6.4.14",
+    "@treenity/eslint-config": "0.0.5",
+    "@treenity/js-utils": "1.0.15",
+    "@treenity/patch-libs": "0.1.23",
+    "@treenity/tsconfig": "1.0.11",
+    "@types/node": "20.11.16",
+    "eslint": "8.56.0",
+    "jest-fetch-mock": "^3.0.3",
+    "plop": "^4.0.1",
+    "prettier": "3.2.5",
+    "rollup": "4.24.0",
+    "shx": "^0.3.4",
+    "tsx": "4.19.1",
+    "turbo": "2.2.3",
+    "typescript": "5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b",
+  "pnpm": {
+    "overrides": {
+      "fbp-graph": "https://github.com/krizka/fbp-graph.git#master",
+      "typescript": "$typescript",
+      "esbuild": "0.21.5"
+    },
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@babel/core"
+      ],
+      "allowedVersions": {}
+    }
+  }
+}

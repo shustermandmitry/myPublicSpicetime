@@ -1,0 +1,3220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpacingThemed renders SpacingThemed component with default values 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #E9E8EE;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.emotion-1 {
+  position: absolute;
+  z-index: 2;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+  top: 6px;
+  left: 6px;
+  text-transform: uppercase;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-2 i {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.emotion-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  width: 53px;
+  min-width: 53px;
+}
+
+.emotion-3 input {
+  border: none;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-5 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-5 span {
+  padding: 0 4px;
+}
+
+.emotion-7 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-7.emotion-7 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-7.emotion-7 i {
+  font-size: 12px!important;
+}
+
+.emotion-7[type='number']::-webkit-inner-spin-button,
+.emotion-7 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-7.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-7 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-7 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-7.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-7 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-7 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-23 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  border: none;
+  background: #F9F9FB;
+  color: #26233F;
+  border-color: rgba(0, 0, 0, 0);
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  z-index: 1;
+  background: transparent!important;
+}
+
+.emotion-23>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-23.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-23.ant-btn-default:not(:disabled):not(.emotion-23.ant-btn-disabled):hover {
+  background: #F4F4F6;
+  color: #47BA73;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.emotion-23.ant-btn-default:not(:disabled):not(.emotion-23.ant-btn-disabled):active {
+  background: #EFEFF1;
+  color: #178749;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.emotion-23 i {
+  font-size: 16px;
+}
+
+.emotion-23>span {
+  gap: 4px;
+}
+
+.emotion-23,
+.emotion-23 span {
+  line-height: 10px;
+}
+
+.emotion-23.emotion-23>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-23 i {
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-23:not(:hover) i {
+  color: #D4D1DF;
+}
+
+.emotion-23:hover i {
+  color: #27ae60;
+}
+
+.emotion-24 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-34 {
+  width: 20px;
+  height: 20px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <span
+      class="emotion-1"
+    >
+      Margin
+    </span>
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-8"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+      <div
+        class="emotion-0"
+      >
+        <span
+          class="emotion-1"
+        >
+          Padding
+        </span>
+        <div
+          class="emotion-2"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-solid_outlined emotion-24"
+              />
+            </span>
+          </button>
+        </div>
+        <div
+          class="emotion-8"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-dash_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-34"
+          />
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-dash_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-2"
+        >
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-solid_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SpacingThemed renders with custom values 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #E9E8EE;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.emotion-1 {
+  position: absolute;
+  z-index: 2;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+  top: 6px;
+  left: 6px;
+  text-transform: uppercase;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-2 i {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.emotion-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  width: 53px;
+  min-width: 53px;
+}
+
+.emotion-3 input {
+  border: none;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-5 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-5 span {
+  padding: 0 4px;
+}
+
+.emotion-7 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-7.emotion-7 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-7.emotion-7 i {
+  font-size: 12px!important;
+}
+
+.emotion-7[type='number']::-webkit-inner-spin-button,
+.emotion-7 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-7.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-7 .ant-input-prefix i {
+  color: #27ae60;
+}
+
+.emotion-7 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-7 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-7.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-7 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-7 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-23 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  border: none;
+  background: #F9F9FB;
+  color: #26233F;
+  border-color: rgba(0, 0, 0, 0);
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  z-index: 1;
+  background: transparent!important;
+}
+
+.emotion-23>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-23.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-23.ant-btn-default:not(:disabled):not(.emotion-23.ant-btn-disabled):hover {
+  background: #F4F4F6;
+  color: #47BA73;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.emotion-23.ant-btn-default:not(:disabled):not(.emotion-23.ant-btn-disabled):active {
+  background: #EFEFF1;
+  color: #178749;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.emotion-23 i {
+  font-size: 16px;
+}
+
+.emotion-23>span {
+  gap: 4px;
+}
+
+.emotion-23,
+.emotion-23 span {
+  line-height: 10px;
+}
+
+.emotion-23.emotion-23>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-23 i {
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-23:not(:hover) i {
+  color: #D4D1DF;
+}
+
+.emotion-23:hover i {
+  color: #27ae60;
+}
+
+.emotion-24 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-34 {
+  width: 20px;
+  height: 20px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <span
+      class="emotion-1"
+    >
+      Margin
+    </span>
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="10"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-8"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="40"
+          />
+        </div>
+      </div>
+      <div
+        class="emotion-0"
+      >
+        <span
+          class="emotion-1"
+        >
+          Padding
+        </span>
+        <div
+          class="emotion-2"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="5"
+              />
+            </div>
+          </div>
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-solid_outlined emotion-24"
+              />
+            </span>
+          </button>
+        </div>
+        <div
+          class="emotion-8"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="35"
+              />
+            </div>
+          </div>
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-dash_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-34"
+          />
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-dash_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="15"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-2"
+        >
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-solid_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="25"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="20"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="30"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SpacingThemed synchronizes padding values when tie button is clicked 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #E9E8EE;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.emotion-1 {
+  position: absolute;
+  z-index: 2;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+  top: 6px;
+  left: 6px;
+  text-transform: uppercase;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-2 i {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.emotion-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  width: 53px;
+  min-width: 53px;
+}
+
+.emotion-3 input {
+  border: none;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-5 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-5 span {
+  padding: 0 4px;
+}
+
+.emotion-7 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-7.emotion-7 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-7.emotion-7 i {
+  font-size: 12px!important;
+}
+
+.emotion-7[type='number']::-webkit-inner-spin-button,
+.emotion-7 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-7.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-7 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-7 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-7.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-7 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-7 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-23 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  border: none;
+  background: #F9F9FB;
+  color: #26233F;
+  border-color: rgba(0, 0, 0, 0);
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  z-index: 1;
+  background: transparent!important;
+}
+
+.emotion-23>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-23.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-23.ant-btn-default:not(:disabled):not(.emotion-23.ant-btn-disabled):hover {
+  background: #F4F4F6;
+  color: #47BA73;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.emotion-23.ant-btn-default:not(:disabled):not(.emotion-23.ant-btn-disabled):active {
+  background: #EFEFF1;
+  color: #178749;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.emotion-23 i {
+  font-size: 16px;
+}
+
+.emotion-23>span {
+  gap: 4px;
+}
+
+.emotion-23,
+.emotion-23 span {
+  line-height: 10px;
+}
+
+.emotion-23.emotion-23>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-23 i {
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-23:not(:hover) i {
+  color: #D4D1DF;
+}
+
+.emotion-23:hover i {
+  color: #27ae60;
+}
+
+.emotion-24 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-34 {
+  width: 20px;
+  height: 20px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <span
+      class="emotion-1"
+    >
+      Margin
+    </span>
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-8"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+      <div
+        class="emotion-0"
+      >
+        <span
+          class="emotion-1"
+        >
+          Padding
+        </span>
+        <div
+          class="emotion-2"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-solid_outlined emotion-24"
+              />
+            </span>
+          </button>
+        </div>
+        <div
+          class="emotion-8"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-dash_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-34"
+          />
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-dash_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-2"
+        >
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-solid_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SpacingThemed updates margin values correctly 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #E9E8EE;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.emotion-1 {
+  position: absolute;
+  z-index: 2;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+  top: 6px;
+  left: 6px;
+  text-transform: uppercase;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-2 i {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.emotion-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  width: 53px;
+  min-width: 53px;
+}
+
+.emotion-3 input {
+  border: none;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-5 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-5 span {
+  padding: 0 4px;
+}
+
+.emotion-7 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-7.emotion-7 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-7.emotion-7 i {
+  font-size: 12px!important;
+}
+
+.emotion-7[type='number']::-webkit-inner-spin-button,
+.emotion-7 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-7.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-7 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-7 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-7.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-7 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-7 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-23 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  border: none;
+  background: #F9F9FB;
+  color: #26233F;
+  border-color: rgba(0, 0, 0, 0);
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  z-index: 1;
+  background: transparent!important;
+}
+
+.emotion-23>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-23.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-23.ant-btn-default:not(:disabled):not(.emotion-23.ant-btn-disabled):hover {
+  background: #F4F4F6;
+  color: #47BA73;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.emotion-23.ant-btn-default:not(:disabled):not(.emotion-23.ant-btn-disabled):active {
+  background: #EFEFF1;
+  color: #178749;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.emotion-23 i {
+  font-size: 16px;
+}
+
+.emotion-23>span {
+  gap: 4px;
+}
+
+.emotion-23,
+.emotion-23 span {
+  line-height: 10px;
+}
+
+.emotion-23.emotion-23>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-23 i {
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-23:not(:hover) i {
+  color: #D4D1DF;
+}
+
+.emotion-23:hover i {
+  color: #27ae60;
+}
+
+.emotion-24 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-34 {
+  width: 20px;
+  height: 20px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <span
+      class="emotion-1"
+    >
+      Margin
+    </span>
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-8"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+      <div
+        class="emotion-0"
+      >
+        <span
+          class="emotion-1"
+        >
+          Padding
+        </span>
+        <div
+          class="emotion-2"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-solid_outlined emotion-24"
+              />
+            </span>
+          </button>
+        </div>
+        <div
+          class="emotion-8"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-dash_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-34"
+          />
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-dash_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-2"
+        >
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-solid_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SpacingThemed updates padding values correctly 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #E9E8EE;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.emotion-1 {
+  position: absolute;
+  z-index: 2;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+  top: 6px;
+  left: 6px;
+  text-transform: uppercase;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-2 i {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.emotion-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  width: 53px;
+  min-width: 53px;
+}
+
+.emotion-3 input {
+  border: none;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-5 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-5 span {
+  padding: 0 4px;
+}
+
+.emotion-7 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-7.emotion-7 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-7.emotion-7 i {
+  font-size: 12px!important;
+}
+
+.emotion-7[type='number']::-webkit-inner-spin-button,
+.emotion-7 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-7.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-7 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-7 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-7.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-7.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-7.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-7 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-7 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-23 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  border: none;
+  background: #F9F9FB;
+  color: #26233F;
+  border-color: rgba(0, 0, 0, 0);
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  z-index: 1;
+  background: transparent!important;
+}
+
+.emotion-23>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-23.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-23.ant-btn-default:not(:disabled):not(.emotion-23.ant-btn-disabled):hover {
+  background: #F4F4F6;
+  color: #47BA73;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.emotion-23.ant-btn-default:not(:disabled):not(.emotion-23.ant-btn-disabled):active {
+  background: #EFEFF1;
+  color: #178749;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.emotion-23 i {
+  font-size: 16px;
+}
+
+.emotion-23>span {
+  gap: 4px;
+}
+
+.emotion-23,
+.emotion-23 span {
+  line-height: 10px;
+}
+
+.emotion-23.emotion-23>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-23 i {
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-23:not(:hover) i {
+  color: #D4D1DF;
+}
+
+.emotion-23:hover i {
+  color: #27ae60;
+}
+
+.emotion-24 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-34 {
+  width: 20px;
+  height: 20px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <span
+      class="emotion-1"
+    >
+      Margin
+    </span>
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-8"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+      <div
+        class="emotion-0"
+      >
+        <span
+          class="emotion-1"
+        >
+          Padding
+        </span>
+        <div
+          class="emotion-2"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-solid_outlined emotion-24"
+              />
+            </span>
+          </button>
+        </div>
+        <div
+          class="emotion-8"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-dash_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-34"
+          />
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-dash_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-2"
+        >
+          <button
+            class="ant-btn emotion-6 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-23"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <i
+                class="icon-border-solid_outlined emotion-24"
+              />
+            </span>
+          </button>
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <div
+                class="emotion-5"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-2"
+    >
+      <div
+        class="emotion-3"
+      >
+        <div
+          class="emotion-4"
+        >
+          <div
+            class="emotion-5"
+          >
+            <span
+              class="ant-dropdown-trigger"
+            >
+              px
+            </span>
+          </div>
+          <input
+            aria-label="Value input"
+            class="ant-input ant-input-sm emotion-6 ant-input-outlined input-with-units emotion-7"
+            placeholder="0"
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,14 @@
+{
+  "name": "@treenity/repository",
+  "targets": {
+    "build": {
+      "dependsOn": [
+        {
+          "projects": ["@treenity/feathers-service", "@treenity/entity"],
+          "target": "build",
+          "params": "forward"
+        }
+      ]
+    }
+  }
+}

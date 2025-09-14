@@ -1,0 +1,64 @@
+{
+  "name": "@treenity/noflo-engine-react",
+  "version": "0.1.67",
+  "description": "Treenity node-engine react",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "dev": "vite src/ui",
+    "vite:build": "vite build src/ui",
+    "clean": "treenity-clean",
+    "portmanager:test": "jest ./src/test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/txt-dev/ui.git"
+  },
+  "author": "txt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/txt-dev/ui/issues"
+  },
+  "homepage": "https://gitlab.com/txt-dev/ui#readme",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "dependencies": {
+    "@treenity/core": "1.0.44",
+    "@treenity/js-shared": "1.0.33",
+    "@treenity/js-utils": "1.0.17",
+    "@treenity/noflo-engine": "2.0.38",
+    "@treenity/ui-kit": "2.1.72",
+    "fbp-graph": "^0.7.0",
+    "immer": "10.0.3",
+    "jest": "^29.7.0",
+    "noflo": "^1.4.3",
+    "noflo-runtime-base": "^0.13.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "reactflow": "^11.10.3",
+    "tslib": "^2.8.1",
+    "use-async-effect": "2.2.7"
+  },
+  "devDependencies": {
+    "@treenity/build-utils": "1.1.30",
+    "@treenity/tsconfig": "1.0.13",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@welldone-software/why-did-you-render": "^8.0.1",
+    "rollup": "^4.26.0"
+  }
+}

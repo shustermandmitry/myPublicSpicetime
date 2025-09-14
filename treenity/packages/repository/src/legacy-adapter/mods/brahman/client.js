@@ -1,0 +1,9 @@
+import './index.less';
+import './bot/TelegramBot.client';
+import './page/Page.client';
+import './User.client';
+import './Session.client';
+import './actions/client';
+import './translate/BotTranslate.client';
+import './graph/PageGraph.client';
+import './avatar/TegramAvatar.meta';

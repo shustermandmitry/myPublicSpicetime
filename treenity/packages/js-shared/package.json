@@ -1,0 +1,56 @@
+{
+  "name": "@treenity/js-shared",
+  "version": "1.0.33",
+  "description": "",
+  "author": "Treenity",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "test": "jest",
+    "clean": "treenity-clean"
+  },
+  "types": "./dist/browser/index.d.ts",
+  "module": "./dist/browser/index.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/browser/index.d.ts",
+      "node": "./dist/node/index.mjs",
+      "default": "./dist/browser/index.mjs"
+    },
+    "./utils": {
+      "types": "./dist/browser/utils.d.ts",
+      "node": "./dist/node/utils.mjs",
+      "default": "./dist/browser/utils.mjs"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/browser/index.d.ts"
+      ],
+      "./utils": [
+        "./dist/browser/utils.d.ts"
+      ]
+    }
+  },
+  "dependencies": {
+    "bigfloat-esnext": "^3.0.1",
+    "chalk": "4.1.2",
+    "fast-glob": "3.3.2",
+    "swr": "^2.3.0",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@treenity/build-utils": "1.1.30",
+    "@treenity/tsconfig": "1.0.13",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.12",
+    "jest": "^29.7.0",
+    "rollup": "^4.26.0",
+    "rollup-plugin-styler": "^1.8.0",
+    "typescript": "^5.4.5"
+  }
+}

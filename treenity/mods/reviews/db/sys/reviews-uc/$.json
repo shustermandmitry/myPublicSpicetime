@@ -1,0 +1,16 @@
+{
+  "$id": "LCsdjrFXXE42k2u4JGu7ph",
+  "$name": "reviews_uc",
+  "$type": "node_tree",
+  "defaultMeta": "service",
+  "links": null,
+  "metas": {
+    "service": {
+      "$id": "6AgAe23P2PusXT9z9iADp5",
+      "$name": "reviews_uc_service",
+      "$type": "sys.reviews.uc"
+    }
+  },
+  "title": ""
+}
+

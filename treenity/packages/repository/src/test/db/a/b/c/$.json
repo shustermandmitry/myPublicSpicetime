@@ -1,0 +1,18 @@
+{
+  "$id": "WeAX56xFhJuUacxim2FiPP",
+  "$name": "init",
+  "$type": "node_tree",
+  "defaultMeta": "",
+  "links": null,
+  "metas": {
+    "event": {
+      "$id": "WeAX56xFhJuUacxim2FiPx",
+      "$type": "event-type",
+      "createdAt": "2021-01-06T14:00:00.000Z",
+      "title": "some new title0.89001132",
+      "suffix": "AND SUFFIX"
+    }
+  },
+  "title": "",
+  "path": "/a/b/c"
+}

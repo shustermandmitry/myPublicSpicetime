@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <settings default="Treenity">
+    <module2copyright>
+      <element module="treenity-ts" copyright="Treenity" />
+    </module2copyright>
+  </settings>
+</component>

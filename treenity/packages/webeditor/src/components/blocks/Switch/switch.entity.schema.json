@@ -1,0 +1,18 @@
+{
+    "$id": "@treenity/webeditor:form.switch",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "size": {
+            "title": "Size",
+            "enum": [
+                "default",
+                "large",
+                "small"
+            ],
+            "type": "string",
+            "default": "default"
+        }
+    }
+}
+

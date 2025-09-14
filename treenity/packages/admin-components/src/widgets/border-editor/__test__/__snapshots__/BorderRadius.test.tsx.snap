@@ -1,0 +1,1868 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BorderRadius change all type BorderRadius component 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.emotion-1 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-1.emotion-1 {
+  border-radius: 6px;
+}
+
+.emotion-1.emotion-1.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-1.emotion-1.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-1 i {
+  font-size: 12px;
+}
+
+.emotion-1 .ant-segmented-item-icon,
+.emotion-1 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-3 [class^='icon-'],
+.emotion-3 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-4 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-7 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.emotion-8 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-9 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-9 span {
+  padding: 0 4px;
+}
+
+.emotion-11 {
+  height: 24px;
+  font-size: 12px;
+  border-radius: 4px;
+  padding-inline: 8px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-11.emotion-11 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-11.emotion-11 i {
+  font-size: 14px!important;
+}
+
+.emotion-11[type='number']::-webkit-inner-spin-button,
+.emotion-11 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-11.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-11 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-11 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-11.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-11 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-11 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    class="ant-segmented emotion-1 ant-segmented-block ant-segmented-sm emotion-2"
+  >
+    <div
+      class="ant-segmented-group"
+    >
+      <label
+        class="ant-segmented-item ant-segmented-item-selected"
+      >
+        <input
+          checked=""
+          class="ant-segmented-item-input"
+          type="radio"
+        />
+        <div
+          class="ant-segmented-item-label"
+        >
+          <span
+            class="ant-segmented-item-icon"
+          >
+            <span
+              class="anticon undefined emotion-3"
+            >
+              <i
+                class="icon-empty_outlined emotion-4"
+              />
+            </span>
+          </span>
+        </div>
+      </label>
+      <label
+        class="ant-segmented-item"
+      >
+        <input
+          class="ant-segmented-item-input"
+          type="radio"
+        />
+        <div
+          class="ant-segmented-item-label"
+        >
+          <span
+            class="ant-segmented-item-icon"
+          >
+            <span
+              class="anticon undefined emotion-3"
+            >
+              <i
+                class="icon-border-radius-fine-tune_outlined emotion-4"
+              />
+            </span>
+          </span>
+        </div>
+      </label>
+    </div>
+  </div>
+  <div
+    class="emotion-7"
+  >
+    <div
+      class="emotion-8"
+    >
+      <div
+        class="emotion-9"
+      >
+        <span
+          class="ant-dropdown-trigger"
+        >
+          px
+        </span>
+      </div>
+      <input
+        aria-label="Value input"
+        class="ant-input emotion-2 ant-input-outlined input-with-units emotion-11"
+        placeholder="0"
+        type="text"
+        value="0"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BorderRadius change type BorderRadius component 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.emotion-1 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-1.emotion-1 {
+  border-radius: 6px;
+}
+
+.emotion-1.emotion-1.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-1.emotion-1.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-1 i {
+  font-size: 12px;
+}
+
+.emotion-1 .ant-segmented-item-icon,
+.emotion-1 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-3 [class^='icon-'],
+.emotion-3 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-4 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-7 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.emotion-8 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-9 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-9 span {
+  padding: 0 4px;
+}
+
+.emotion-11 {
+  height: 24px;
+  font-size: 12px;
+  border-radius: 4px;
+  padding-inline: 8px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-11.emotion-11 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-11.emotion-11 i {
+  font-size: 14px!important;
+}
+
+.emotion-11[type='number']::-webkit-inner-spin-button,
+.emotion-11 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-11.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-11 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-11 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-11.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-11 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-11 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    class="ant-segmented emotion-1 ant-segmented-block ant-segmented-sm emotion-2"
+  >
+    <div
+      class="ant-segmented-group"
+    >
+      <label
+        class="ant-segmented-item ant-segmented-item-selected"
+      >
+        <input
+          checked=""
+          class="ant-segmented-item-input"
+          type="radio"
+        />
+        <div
+          class="ant-segmented-item-label"
+        >
+          <span
+            class="ant-segmented-item-icon"
+          >
+            <span
+              class="anticon undefined emotion-3"
+            >
+              <i
+                class="icon-empty_outlined emotion-4"
+              />
+            </span>
+          </span>
+        </div>
+      </label>
+      <label
+        class="ant-segmented-item"
+      >
+        <input
+          class="ant-segmented-item-input"
+          type="radio"
+        />
+        <div
+          class="ant-segmented-item-label"
+        >
+          <span
+            class="ant-segmented-item-icon"
+          >
+            <span
+              class="anticon undefined emotion-3"
+            >
+              <i
+                class="icon-border-radius-fine-tune_outlined emotion-4"
+              />
+            </span>
+          </span>
+        </div>
+      </label>
+    </div>
+  </div>
+  <div
+    class="emotion-7"
+  >
+    <div
+      class="emotion-8"
+    >
+      <div
+        class="emotion-9"
+      >
+        <span
+          class="ant-dropdown-trigger"
+        >
+          px
+        </span>
+      </div>
+      <input
+        aria-label="Value input"
+        class="ant-input emotion-2 ant-input-outlined input-with-units emotion-11"
+        placeholder="0"
+        type="text"
+        value="0"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BorderRadius check all initialValues BorderRadius component 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.emotion-1 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-1.emotion-1 {
+  border-radius: 6px;
+}
+
+.emotion-1.emotion-1.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-1.emotion-1.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-1 i {
+  font-size: 12px;
+}
+
+.emotion-1 .ant-segmented-item-icon,
+.emotion-1 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-3 [class^='icon-'],
+.emotion-3 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-4 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-7 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.emotion-8 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-9 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-9 span {
+  padding: 0 4px;
+}
+
+.emotion-11 {
+  height: 24px;
+  font-size: 12px;
+  border-radius: 4px;
+  padding-inline: 8px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-11.emotion-11 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-11.emotion-11 i {
+  font-size: 14px!important;
+}
+
+.emotion-11[type='number']::-webkit-inner-spin-button,
+.emotion-11 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-11.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-11 .ant-input-prefix i {
+  color: #27ae60;
+}
+
+.emotion-11 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-11 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-11.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-11 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-11 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    class="ant-segmented emotion-1 ant-segmented-block ant-segmented-sm emotion-2"
+  >
+    <div
+      class="ant-segmented-group"
+    >
+      <label
+        class="ant-segmented-item ant-segmented-item-selected"
+      >
+        <input
+          checked=""
+          class="ant-segmented-item-input"
+          type="radio"
+        />
+        <div
+          class="ant-segmented-item-label"
+        >
+          <span
+            class="ant-segmented-item-icon"
+          >
+            <span
+              class="anticon undefined emotion-3"
+            >
+              <i
+                class="icon-empty_outlined emotion-4"
+              />
+            </span>
+          </span>
+        </div>
+      </label>
+      <label
+        class="ant-segmented-item"
+      >
+        <input
+          class="ant-segmented-item-input"
+          type="radio"
+        />
+        <div
+          class="ant-segmented-item-label"
+        >
+          <span
+            class="ant-segmented-item-icon"
+          >
+            <span
+              class="anticon undefined emotion-3"
+            >
+              <i
+                class="icon-border-radius-fine-tune_outlined emotion-4"
+              />
+            </span>
+          </span>
+        </div>
+      </label>
+    </div>
+  </div>
+  <div
+    class="emotion-7"
+  >
+    <div
+      class="emotion-8"
+    >
+      <div
+        class="emotion-9"
+      >
+        <span
+          class="ant-dropdown-trigger"
+        >
+          px
+        </span>
+      </div>
+      <input
+        aria-label="Value input"
+        class="ant-input emotion-2 ant-input-outlined input-with-units emotion-11"
+        placeholder="0"
+        type="text"
+        value="2"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BorderRadius check individual initialValues BorderRadius component 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.emotion-1 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-1.emotion-1 {
+  border-radius: 6px;
+}
+
+.emotion-1.emotion-1.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-1.emotion-1.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-1 i {
+  font-size: 12px;
+}
+
+.emotion-1 .ant-segmented-item-icon,
+.emotion-1 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-3 [class^='icon-'],
+.emotion-3 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-4 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-7 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.emotion-8 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-9 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-9 span {
+  padding: 0 4px;
+}
+
+.emotion-11 {
+  height: 24px;
+  font-size: 12px;
+  border-radius: 4px;
+  padding-inline: 8px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-11.emotion-11 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-11.emotion-11 i {
+  font-size: 14px!important;
+}
+
+.emotion-11[type='number']::-webkit-inner-spin-button,
+.emotion-11 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-11.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-11::after {
+  color: rgba(38, 35, 63, 0.25);
+}
+
+.emotion-11 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-11 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-11.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-11 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-11 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-12.emotion-12 i {
+  font-size: 20px;
+}
+
+.emotion-19 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-19.emotion-19 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-19.emotion-19 i {
+  font-size: 12px!important;
+}
+
+.emotion-19[type='number']::-webkit-inner-spin-button,
+.emotion-19 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-19.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-19 .ant-input-prefix i {
+  color: #27ae60;
+}
+
+.emotion-19 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-19 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-19.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-19.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-19.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-19.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-19.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-19.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-19.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-19.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-19.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-19.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-19.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-19.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-19.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-19.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-19.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-19.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-19.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-19.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-19.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-19 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-19 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-27 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.emotion-30 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.emotion-43 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    class="ant-segmented emotion-1 ant-segmented-block ant-segmented-sm emotion-2"
+  >
+    <div
+      class="ant-segmented-group"
+    >
+      <label
+        class="ant-segmented-item"
+      >
+        <input
+          class="ant-segmented-item-input"
+          type="radio"
+        />
+        <div
+          class="ant-segmented-item-label"
+        >
+          <span
+            class="ant-segmented-item-icon"
+          >
+            <span
+              class="anticon undefined emotion-3"
+            >
+              <i
+                class="icon-empty_outlined emotion-4"
+              />
+            </span>
+          </span>
+        </div>
+      </label>
+      <label
+        class="ant-segmented-item ant-segmented-item-selected"
+      >
+        <input
+          checked=""
+          class="ant-segmented-item-input"
+          type="radio"
+        />
+        <div
+          class="ant-segmented-item-label"
+        >
+          <span
+            class="ant-segmented-item-icon"
+          >
+            <span
+              class="anticon undefined emotion-3"
+            >
+              <i
+                class="icon-border-radius-fine-tune_outlined emotion-4"
+              />
+            </span>
+          </span>
+        </div>
+      </label>
+    </div>
+  </div>
+  <div
+    class="emotion-7"
+  >
+    <div
+      class="emotion-8"
+    >
+      <div
+        class="emotion-9"
+      >
+        <span
+          class="ant-dropdown-trigger"
+        >
+          px
+        </span>
+      </div>
+      <input
+        aria-label="Value input"
+        class="ant-input ant-input-disabled emotion-2 ant-input-outlined input-with-units emotion-11"
+        disabled=""
+        placeholder="0"
+        type="text"
+        value="0"
+      />
+    </div>
+  </div>
+  <div
+    class="emotion-12"
+  >
+    <span
+      class="anticon undefined emotion-3"
+    >
+      <i
+        class="icon-border-radius-left-top_outlined emotion-4"
+      />
+    </span>
+    <div
+      class="emotion-7"
+    >
+      <div
+        class="emotion-8"
+      >
+        <div
+          class="emotion-9"
+        >
+          <span
+            class="ant-dropdown-trigger"
+          >
+            px
+          </span>
+        </div>
+        <input
+          aria-label="Value input"
+          class="ant-input ant-input-sm emotion-2 ant-input-outlined input-with-units emotion-19"
+          placeholder="0"
+          type="text"
+          value="1"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="emotion-12"
+  >
+    <div
+      class="emotion-7"
+    >
+      <div
+        class="emotion-8"
+      >
+        <div
+          class="emotion-9"
+        >
+          <span
+            class="ant-dropdown-trigger"
+          >
+            px
+          </span>
+        </div>
+        <input
+          aria-label="Value input"
+          class="ant-input ant-input-sm emotion-2 ant-input-outlined input-with-units emotion-19"
+          placeholder="0"
+          type="text"
+          value="2"
+        />
+      </div>
+    </div>
+    <span
+      class="anticon undefined emotion-3"
+    >
+      <i
+        class="icon-border-radius-left-top_outlined emotion-27"
+      />
+    </span>
+  </div>
+  <div
+    class="emotion-12"
+  >
+    <span
+      class="anticon undefined emotion-3"
+    >
+      <i
+        class="icon-border-radius-left-top_outlined emotion-30"
+      />
+    </span>
+    <div
+      class="emotion-7"
+    >
+      <div
+        class="emotion-8"
+      >
+        <div
+          class="emotion-9"
+        >
+          <span
+            class="ant-dropdown-trigger"
+          >
+            px
+          </span>
+        </div>
+        <input
+          aria-label="Value input"
+          class="ant-input ant-input-sm emotion-2 ant-input-outlined input-with-units emotion-19"
+          placeholder="0"
+          type="text"
+          value="3"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="emotion-12"
+  >
+    <div
+      class="emotion-7"
+    >
+      <div
+        class="emotion-8"
+      >
+        <div
+          class="emotion-9"
+        >
+          <span
+            class="ant-dropdown-trigger"
+          >
+            px
+          </span>
+        </div>
+        <input
+          aria-label="Value input"
+          class="ant-input ant-input-sm emotion-2 ant-input-outlined input-with-units emotion-19"
+          placeholder="0"
+          type="text"
+          value="4"
+        />
+      </div>
+    </div>
+    <span
+      class="anticon undefined emotion-3"
+    >
+      <i
+        class="icon-border-radius-left-top_outlined emotion-43"
+      />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`BorderRadius render BorderRadius component 1`] = `
+.emotion-0 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.emotion-1 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-1.emotion-1 {
+  border-radius: 6px;
+}
+
+.emotion-1.emotion-1.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-1.emotion-1.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-1 i {
+  font-size: 12px;
+}
+
+.emotion-1 .ant-segmented-item-icon,
+.emotion-1 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-3 [class^='icon-'],
+.emotion-3 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-4 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-7 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.emotion-8 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-9 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-9 span {
+  padding: 0 4px;
+}
+
+.emotion-11 {
+  height: 24px;
+  font-size: 12px;
+  border-radius: 4px;
+  padding-inline: 8px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-11.emotion-11 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-11.emotion-11 i {
+  font-size: 14px!important;
+}
+
+.emotion-11[type='number']::-webkit-inner-spin-button,
+.emotion-11 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-11.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-11 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-11 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-11.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-11.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-11.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-11 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-11 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+<div
+  class="emotion-0"
+>
+  <div
+    class="ant-segmented emotion-1 ant-segmented-block ant-segmented-sm emotion-2"
+  >
+    <div
+      class="ant-segmented-group"
+    >
+      <label
+        class="ant-segmented-item ant-segmented-item-selected"
+      >
+        <input
+          checked=""
+          class="ant-segmented-item-input"
+          type="radio"
+        />
+        <div
+          class="ant-segmented-item-label"
+        >
+          <span
+            class="ant-segmented-item-icon"
+          >
+            <span
+              class="anticon undefined emotion-3"
+            >
+              <i
+                class="icon-empty_outlined emotion-4"
+              />
+            </span>
+          </span>
+        </div>
+      </label>
+      <label
+        class="ant-segmented-item"
+      >
+        <input
+          class="ant-segmented-item-input"
+          type="radio"
+        />
+        <div
+          class="ant-segmented-item-label"
+        >
+          <span
+            class="ant-segmented-item-icon"
+          >
+            <span
+              class="anticon undefined emotion-3"
+            >
+              <i
+                class="icon-border-radius-fine-tune_outlined emotion-4"
+              />
+            </span>
+          </span>
+        </div>
+      </label>
+    </div>
+  </div>
+  <div
+    class="emotion-7"
+  >
+    <div
+      class="emotion-8"
+    >
+      <div
+        class="emotion-9"
+      >
+        <span
+          class="ant-dropdown-trigger"
+        >
+          px
+        </span>
+      </div>
+      <input
+        aria-label="Value input"
+        class="ant-input emotion-2 ant-input-outlined input-with-units emotion-11"
+        placeholder="0"
+        type="text"
+        value="0"
+      />
+    </div>
+  </div>
+</div>
+`;

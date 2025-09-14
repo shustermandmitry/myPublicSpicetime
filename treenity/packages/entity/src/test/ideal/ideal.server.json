@@ -1,0 +1,50 @@
+{
+    "$id": "@treenity/entity:server:ideal",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "mailService": {
+            "$ref": "@treenity/entity:server:ideal#/definitions/MailService"
+        },
+        "name": {
+            "type": "string"
+        },
+        "health": {
+            "type": "number"
+        },
+        "age": {
+            "format": "date-time",
+            "type": "number"
+        },
+        "look": {
+            "$ref": "@treenity/entity:server:ideal#/definitions/Look"
+        }
+    },
+    "required": [
+        "health",
+        "look",
+        "mailService",
+        "name"
+    ],
+    "definitions": {
+        "MailService": {
+            "type": "object"
+        },
+        "Look": {
+            "type": "object",
+            "properties": {
+                "hair": {
+                    "type": "string"
+                },
+                "eyes": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "eyes",
+                "hair"
+            ]
+        }
+    }
+}
+

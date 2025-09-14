@@ -1,0 +1,27 @@
+stages:
+  - deploy
+deploy:
+  stage: deploy
+  image: node:22
+  before_script:
+    - corepack enable
+    - corepack prepare pnpm@9.15.0 --activate
+#    - pnpm config set store-dir .pnpm-store
+    - echo -e "link-workspace-packages=deep\nstrict-peer-dependencies=false\nauto-install-peers=true\n@treenity:registry=https://registry.npmjs.org\n//registry.npmjs.org/:_authToken=${NPM_TOKEN}">.npmrc
+    - rm pnpm-workspace.yaml
+    - |
+      echo -e "packages:
+      - \"packages/*\"
+      - \"mods/*\"
+      - \"libs/*\"
+      - \"utils/*\"" > pnpm-workspace.yaml
+  only:
+    - release
+  script:
+    - pnpm install
+    - NODE_ENV=production pnpm ci-build
+    - pnpm run publish-packages
+  cache:
+    key:
+      files:
+        - pnpm-lock.yaml

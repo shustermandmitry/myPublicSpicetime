@@ -1,0 +1,37 @@
+class Generator3 {
+  bot: Bot;
+
+  async init() {
+    this.bot = new Bot();
+  }
+
+  close() {
+    this.bot.close();
+  }
+
+  @outport('out', { datatype: 'number', required: true })
+  @outport('out2', { datatype: 'number', required: true })
+  async *process(@inport from: number, @inport to: number): AsyncGenerator<{ out: number }> {
+    for (let i = from; i < to; i++) {
+      yield { out: i++ };
+    }
+  }
+}
+
+const inportMetadataKey = Symbol('inport');
+
+function inport(target: Object, propertyKey: string | symbol, parameterIndex: number) {
+  let existingRequiredParameters: number[] =
+    Reflect.getOwnMetadata(inportMetadataKey, target, propertyKey) || [];
+  existingRequiredParameters.push(parameterIndex);
+  Reflect.defineMetadata(inportMetadataKey, existingRequiredParameters, target, propertyKey);
+}
+
+const outportMetadataKey = Symbol('outport');
+const outport = (name: string, options: any) =>
+  function outport_(target: Object, propertyKey: string | symbol) {
+    let existingRequiredParameters: number[] =
+      Reflect.getOwnMetadata(outportMetadataKey, target, propertyKey) || [];
+    // existingRequiredParameters.push(parameterIndex);
+    Reflect.defineMetadata(outportMetadataKey, existingRequiredParameters, target, propertyKey);
+  };

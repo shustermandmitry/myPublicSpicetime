@@ -1,0 +1,15 @@
+{
+  "extends": "@treenity/tsconfig/react-library.json",
+  "include": ["src"],
+  "exclude": ["./build", "./node_modules/**", "./public"],
+  "skipLibCheck": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "react": ["./node_modules/@types/react"],
+      "@emotion/styled": ["./node_modules/@emotion/styled"],
+      "@emotion/react": ["./node_modules/@emotion/react"]
+    },
+  }
+}

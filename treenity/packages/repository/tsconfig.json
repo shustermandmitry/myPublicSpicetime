@@ -1,0 +1,15 @@
+{
+  "extends": "@treenity/tsconfig/library.json",
+  "compilerOptions": {
+    "lib": ["ES2015", "ES2022", "DOM"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": [
+    "test",
+    "dist",
+    "src/legacy-adapter/**"
+  ]
+}

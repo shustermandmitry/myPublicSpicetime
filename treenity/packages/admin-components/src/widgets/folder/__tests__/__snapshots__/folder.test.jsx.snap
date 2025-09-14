@@ -1,0 +1,1091 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Folder Folder type component Render 1`] = `
+<a
+  href="test-link"
+>
+  <div
+    class="root type-folder"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="folder-image"
+        class="image"
+        src="test-image"
+      />
+      <span
+        class="anticon icon"
+      >
+        <i
+          class="root folder"
+        />
+      </span>
+    </div>
+    <div
+      class="footer"
+    >
+      <p
+        class="ant-typography text-content text-content_headline title"
+      >
+        Test title
+      </p>
+      <p
+        class="ant-typography text-content text-content_paragraph subtitle"
+      >
+        Test subtitle
+      </p>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Folder type component Render with disable 1`] = `
+<a
+  disabled="true"
+>
+  <div
+    class="root type-folder disabled"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="folder-image"
+        class="image"
+        src="test-image"
+      />
+      <span
+        class="anticon icon"
+      >
+        <i
+          class="root folder"
+        />
+      </span>
+    </div>
+    <div
+      class="footer"
+    >
+      <p
+        class="ant-typography text-content text-content_headline title"
+      >
+        Test title
+      </p>
+      <p
+        class="ant-typography text-content text-content_paragraph subtitle"
+      >
+        Test subtitle
+      </p>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Folder type component Render without params 1`] = `
+<a
+  href="test-link"
+>
+  <div
+    class="root type-folder"
+  >
+    <div
+      class="header"
+    >
+      <span
+        class="anticon icon"
+      >
+        <i
+          class="root folder"
+        />
+      </span>
+    </div>
+    <div
+      class="footer"
+    />
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Hovering 1`] = `
+<a>
+  <div
+    class="root type-project"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="project-image"
+        class="image"
+        src="test-image"
+      />
+    </div>
+    <div
+      class="footer"
+    >
+      <div>
+        <p
+          class="ant-typography text-content text-content_paragraph subtitle"
+        >
+          Test title
+        </p>
+      </div>
+      <button
+        class="ant-btn css-dev-only-do-not-override-123456 ant-btn-text ant-btn-sm grade"
+        type="button"
+      >
+        <span
+          class="anticon"
+        >
+          <i
+            class="root like-outline"
+          />
+        </span>
+        <span>
+          2034
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Hovering 2`] = `
+<a>
+  <div
+    class="root type-project"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="project-image"
+        class="image"
+        src="test-image"
+      />
+      <div
+        class="header-buttons"
+      >
+        <button
+          class="ant-btn css-dev-only-do-not-override-1wizrxm ant-btn-primary ant-btn-background-ghost"
+          type="button"
+        >
+          <span
+            class="anticon"
+          >
+            <i
+              class="root select-outline"
+            />
+          </span>
+          <span>
+            Selected
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="footer"
+    >
+      <div>
+        <p
+          class="ant-typography text-content text-content_paragraph subtitle"
+        >
+          Test title
+        </p>
+      </div>
+      <button
+        class="ant-btn css-dev-only-do-not-override-123456 ant-btn-text ant-btn-sm grade"
+        type="button"
+      >
+        <span
+          class="anticon"
+        >
+          <i
+            class="root like-outline"
+          />
+        </span>
+        <span>
+          2034
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Hovering with disabled 1`] = `
+<a
+  disabled="true"
+>
+  <div
+    class="root type-project disabled"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="project-image"
+        class="image"
+        src="test-image"
+      />
+    </div>
+    <div
+      class="footer"
+    >
+      <div>
+        <p
+          class="ant-typography text-content text-content_paragraph subtitle"
+        >
+          Test title
+        </p>
+      </div>
+      <button
+        class="ant-btn css-dev-only-do-not-override-123456 ant-btn-text ant-btn-sm grade grade-disabled"
+        type="button"
+      >
+        <span
+          class="anticon"
+        >
+          <i
+            class="root like-outline"
+          />
+        </span>
+        <span>
+          2034
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Hovering with disabled 2`] = `
+<a
+  disabled="true"
+>
+  <div
+    class="root type-project disabled"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="project-image"
+        class="image"
+        src="test-image"
+      />
+    </div>
+    <div
+      class="footer"
+    >
+      <div>
+        <p
+          class="ant-typography text-content text-content_paragraph subtitle"
+        >
+          Test title
+        </p>
+      </div>
+      <button
+        class="ant-btn css-dev-only-do-not-override-123456 ant-btn-text ant-btn-sm grade grade-disabled"
+        type="button"
+      >
+        <span
+          class="anticon"
+        >
+          <i
+            class="root like-outline"
+          />
+        </span>
+        <span>
+          2034
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Render 1`] = `
+<a>
+  <div
+    class="root type-project"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="project-image"
+        class="image"
+        src="test-image"
+      />
+    </div>
+    <div
+      class="footer"
+    >
+      <div>
+        <p
+          class="ant-typography text-content text-content_paragraph subtitle"
+        >
+          Test title
+        </p>
+      </div>
+      <button
+        class="ant-btn css-dev-only-do-not-override-123456 ant-btn-text ant-btn-sm grade"
+        type="button"
+      >
+        <span
+          class="anticon"
+        >
+          <i
+            class="root like-outline"
+          />
+        </span>
+        <span>
+          2034
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Render with disable 1`] = `
+<a
+  disabled="true"
+>
+  <div
+    class="root type-project disabled"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="project-image"
+        class="image"
+        src="test-image"
+      />
+    </div>
+    <div
+      class="footer"
+    >
+      <div>
+        <p
+          class="ant-typography text-content text-content_paragraph subtitle"
+        >
+          Test title
+        </p>
+      </div>
+      <button
+        class="ant-btn css-dev-only-do-not-override-123456 ant-btn-text ant-btn-sm grade grade-disabled"
+        type="button"
+      >
+        <span
+          class="anticon"
+        >
+          <i
+            class="root like-outline"
+          />
+        </span>
+        <span>
+          2034
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Render without params 1`] = `
+<a
+  href="test-link"
+>
+  <div
+    class="root type-folder"
+  >
+    <div
+      class="header"
+    >
+      <span
+        class="anticon icon"
+      >
+        <i
+          class="root folder"
+        />
+      </span>
+    </div>
+    <div
+      class="footer"
+    />
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Selecting with Hovering 1`] = `
+<a>
+  <div
+    class="root type-project"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="project-image"
+        class="image"
+        src="test-image"
+      />
+    </div>
+    <div
+      class="footer"
+    >
+      <div>
+        <p
+          class="ant-typography text-content text-content_paragraph subtitle"
+        >
+          Test title
+        </p>
+      </div>
+      <button
+        class="ant-btn css-dev-only-do-not-override-123456 ant-btn-text ant-btn-sm grade"
+        type="button"
+      >
+        <span
+          class="anticon"
+        >
+          <i
+            class="root like-outline"
+          />
+        </span>
+        <span>
+          2034
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Selecting with Hovering 2`] = `
+<a>
+  <div
+    class="root type-project"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="project-image"
+        class="image"
+        src="test-image"
+      />
+      <div
+        class="header-buttons"
+      >
+        <button
+          class="ant-btn css-dev-only-do-not-override-1wizrxm ant-btn-primary ant-btn-background-ghost"
+          type="button"
+        >
+          <span
+            class="anticon"
+          >
+            <i
+              class="root select-outline"
+            />
+          </span>
+          <span>
+            Selected
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="footer"
+    >
+      <div>
+        <p
+          class="ant-typography text-content text-content_paragraph subtitle"
+        >
+          Test title
+        </p>
+      </div>
+      <button
+        class="ant-btn css-dev-only-do-not-override-123456 ant-btn-text ant-btn-sm grade"
+        type="button"
+      >
+        <span
+          class="anticon"
+        >
+          <i
+            class="root like-outline"
+          />
+        </span>
+        <span>
+          2034
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Selecting with Hovering 3`] = `
+<a>
+  <div
+    class="root type-project selected"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="project-image"
+        class="image"
+        src="test-image"
+      />
+      <div
+        class="header-buttons"
+      >
+        <button
+          class="ant-btn css-dev-only-do-not-override-1wizrxm ant-btn-primary"
+          type="button"
+        >
+          <span
+            class="anticon"
+          >
+            <i
+              class="root select"
+            />
+          </span>
+          <span>
+            Selected
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="footer"
+    >
+      <div>
+        <p
+          class="ant-typography text-content text-content_paragraph subtitle"
+        >
+          Test title
+        </p>
+      </div>
+      <button
+        class="ant-btn css-dev-only-do-not-override-123456 ant-btn-text ant-btn-sm grade"
+        type="button"
+      >
+        <span
+          class="anticon"
+        >
+          <i
+            class="root like-outline"
+          />
+        </span>
+        <span>
+          2034
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Selecting with Hovering and disable 1`] = `
+<a
+  disabled="true"
+>
+  <div
+    class="root type-project disabled"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="project-image"
+        class="image"
+        src="test-image"
+      />
+    </div>
+    <div
+      class="footer"
+    >
+      <div>
+        <p
+          class="ant-typography text-content text-content_paragraph subtitle"
+        >
+          Test title
+        </p>
+      </div>
+      <button
+        class="ant-btn css-dev-only-do-not-override-123456 ant-btn-text ant-btn-sm grade grade-disabled"
+        type="button"
+      >
+        <span
+          class="anticon"
+        >
+          <i
+            class="root like-outline"
+          />
+        </span>
+        <span>
+          2034
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Project type component Selecting with Hovering and disable 2`] = `
+<a
+  disabled="true"
+>
+  <div
+    class="root type-project disabled"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="project-image"
+        class="image"
+        src="test-image"
+      />
+    </div>
+    <div
+      class="footer"
+    >
+      <div>
+        <p
+          class="ant-typography text-content text-content_paragraph subtitle"
+        >
+          Test title
+        </p>
+      </div>
+      <button
+        class="ant-btn css-dev-only-do-not-override-123456 ant-btn-text ant-btn-sm grade grade-disabled"
+        type="button"
+      >
+        <span
+          class="anticon"
+        >
+          <i
+            class="root like-outline"
+          />
+        </span>
+        <span>
+          2034
+        </span>
+      </button>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Template type component Render 1`] = `
+<a
+  href="test-link"
+>
+  <div
+    class="root type-template"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="template-image"
+        class="image"
+        src="test-image"
+      />
+      <span
+        class="anticon icon"
+      >
+        <i
+          class="root add-table"
+        />
+      </span>
+    </div>
+    <div
+      class="footer"
+    >
+      <p
+        class="ant-typography text-content text-content_headline title"
+      >
+        Test title
+      </p>
+      <p
+        class="ant-typography text-content text-content_paragraph subtitle"
+      >
+        Test subtitle
+      </p>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Template type component Render with disable 1`] = `
+<a
+  disabled="true"
+>
+  <div
+    class="root type-template disabled"
+  >
+    <div
+      class="header"
+    >
+      <img
+        alt="template-image"
+        class="image"
+        src="test-image"
+      />
+      <span
+        class="anticon icon"
+      >
+        <i
+          class="root add-table"
+        />
+      </span>
+    </div>
+    <div
+      class="footer"
+    >
+      <p
+        class="ant-typography text-content text-content_headline title"
+      >
+        Test title
+      </p>
+      <p
+        class="ant-typography text-content text-content_paragraph subtitle"
+      >
+        Test subtitle
+      </p>
+    </div>
+  </div>
+</a>
+`;
+
+exports[`Folder Template type component Render without params 1`] = `
+<a
+  href="test-link"
+>
+  <div
+    class="root type-folder"
+  >
+    <div
+      class="header"
+    >
+      <span
+        class="anticon icon"
+      >
+        <i
+          class="root folder"
+        />
+      </span>
+    </div>
+    <div
+      class="footer"
+    />
+  </div>
+</a>
+`;
+
+exports[`Folder empty Folder type Click event 1`] = `
+<div
+  class="empty-root type-folder"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-folder theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    folder
+  </p>
+</div>
+`;
+
+exports[`Folder empty Folder type Click event with disable 1`] = `
+<div
+  class="empty-root type-folder disabled"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-folder theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    folder
+  </p>
+</div>
+`;
+
+exports[`Folder empty Folder type Render 1`] = `
+<div
+  class="empty-root type-folder"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-folder theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    folder
+  </p>
+</div>
+`;
+
+exports[`Folder empty Folder type Render with disabled 1`] = `
+<div
+  class="empty-root type-folder disabled"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-folder theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    folder
+  </p>
+</div>
+`;
+
+exports[`Folder empty Folder type Render without params 1`] = `
+<div
+  class="empty-root type-folder"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-folder theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    folder
+  </p>
+</div>
+`;
+
+exports[`Folder empty Project type Click event 1`] = `
+<div
+  class="empty-root type-project"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-square theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    project
+  </p>
+</div>
+`;
+
+exports[`Folder empty Project type Click event with disable 1`] = `
+<div
+  class="empty-root type-project disabled"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-square theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    project
+  </p>
+</div>
+`;
+
+exports[`Folder empty Project type Render 1`] = `
+<div
+  class="empty-root type-project"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-square theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    project
+  </p>
+</div>
+`;
+
+exports[`Folder empty Project type Render with disabled 1`] = `
+<div
+  class="empty-root type-project disabled"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-square theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    project
+  </p>
+</div>
+`;
+
+exports[`Folder empty Project type Render without params 1`] = `
+<div
+  class="empty-root type-folder"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-folder theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    folder
+  </p>
+</div>
+`;
+
+exports[`Folder empty Template type Click event 1`] = `
+<div
+  class="empty-root type-template"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-meta theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    template
+  </p>
+</div>
+`;
+
+exports[`Folder empty Template type Click event with disable 1`] = `
+<div
+  class="empty-root type-template disabled"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-meta theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    template
+  </p>
+</div>
+`;
+
+exports[`Folder empty Template type Render 1`] = `
+<div
+  class="empty-root type-template"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-meta theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    template
+  </p>
+</div>
+`;
+
+exports[`Folder empty Template type Render with disabled 1`] = `
+<div
+  class="empty-root type-template disabled"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-meta theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    template
+  </p>
+</div>
+`;
+
+exports[`Folder empty Template type Render without params 1`] = `
+<div
+  class="empty-root type-folder"
+>
+  <span
+    class="anticon empty-icon"
+  >
+    <i
+      class="root add-folder theme-gray"
+    />
+  </span>
+  <p
+    class="ant-typography text-content text-content_headline empty-title"
+  >
+    Add 
+    folder
+  </p>
+</div>
+`;

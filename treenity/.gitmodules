@@ -1,0 +1,9 @@
+[submodule "db"]
+	path = db
+	url = git@gitlab.com:txt-dev/db.git
+[submodule "scripts"]
+	path = scripts
+	url = git@gitlab.com:txt-dev/treenity/scripts.git
+[submodule "configs/helm"]
+	path = configs/helm
+	url = git@gitlab.com:txt-dev/treenity/treenity-helm-chart.git

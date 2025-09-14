@@ -1,0 +1,24 @@
+{
+  "$id": "QCsdjrFXXE22kiusJGu7ph",
+  "$name": "redis",
+  "$type": "node_tree",
+  "defaultMeta": "service",
+  "$refs": [
+    { "ref": "/metas/service/options/url", "url": "cfg:/services/redis/url" }
+  ],
+  "links": null,
+  "metas": {
+    "service": {
+      "$id": "1AgAe2kPbPus3T9z9iADp5",
+      "$name": "redis_service",
+      "$type": "sys.redis",
+      "fallback": "/sys/memory",
+      "options": {
+        "url": "redis://localhost",
+        "database": 0,
+        "id": "key"
+      }
+    }
+  },
+  "title": ""
+}

@@ -1,0 +1,1099 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorPicker adds color to presets when "+ Add to Presets" is clicked 1`] = `
+.emotion-0 {
+  position: relative;
+  line-height: 1px;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-collapse-header {
+  display: none;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-color-picker-color-block.ant-color-picker-presets-color:before {
+  border-radius: 6px;
+}
+
+.emotion-0 .ant-color-picker .ant-color-picker-inner .ant-color-picker-presets .ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
+
+.emotion-1 {
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 6px;
+  background-color: #fff;
+  box-shadow: none!important;
+  height: px;
+  border-radius: px;
+}
+
+.emotion-1 .ant-color-picker-trigger-text {
+  font-size: px;
+}
+
+.emotion-1 .ant-color-picker-color-block {
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.emotion-4 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  color: #27ae60;
+  background: transparent!important;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-4>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-4.ant-btn.ant-btn-round {
+  padding-inline: 12px;
+}
+
+.emotion-4 i {
+  font-size: 16px;
+}
+
+.emotion-4>span {
+  gap: 6px;
+}
+
+.emotion-4 span {
+  font-size: 12px;
+}
+
+.emotion-4.emotion-4>span>span>i {
+  font-size: 16px;
+}
+
+.emotion-4:hover {
+  color: #ababab!important;
+}
+
+.emotion-4:active {
+  color: !important;
+}
+
+.emotion-4:hover {
+  color: #27ae60!important;
+}
+
+.emotion-4.emotion-4 i {
+  font-size: 12px;
+}
+
+.emotion-5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.emotion-6 [class^='icon-'],
+.emotion-6 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-7 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="ant-color-picker-trigger emotion-1 emotion-2"
+    >
+      <div
+        class="ant-color-picker-color-block"
+      >
+        <div
+          class="ant-color-picker-color-block-inner"
+          style="background: rgb(39, 174, 96);"
+        />
+      </div>
+      <div
+        class="ant-color-picker-trigger-text"
+      >
+        #27AE60
+      </div>
+    </div>
+    <button
+      class="ant-btn emotion-2 ant-btn-text emotion-4"
+      type="button"
+    >
+      <span>
+        <span
+          class="emotion-5"
+        >
+          <span
+            class="anticon undefined emotion-6"
+          >
+            <i
+              class="icon-close_outlined emotion-7"
+            />
+          </span>
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ColorPicker changes color when a new color is selected 1`] = `
+.emotion-0 {
+  position: relative;
+  line-height: 1px;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-collapse-header {
+  display: none;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-color-picker-color-block.ant-color-picker-presets-color:before {
+  border-radius: 6px;
+}
+
+.emotion-0 .ant-color-picker .ant-color-picker-inner .ant-color-picker-presets .ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
+
+.emotion-1 {
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 6px;
+  background-color: #fff;
+  box-shadow: none!important;
+  height: px;
+  border-radius: px;
+}
+
+.emotion-1 .ant-color-picker-trigger-text {
+  font-size: px;
+}
+
+.emotion-1 .ant-color-picker-color-block {
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.emotion-4 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  color: #27ae60;
+  background: transparent!important;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-4>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-4.ant-btn.ant-btn-round {
+  padding-inline: 12px;
+}
+
+.emotion-4 i {
+  font-size: 16px;
+}
+
+.emotion-4>span {
+  gap: 6px;
+}
+
+.emotion-4 span {
+  font-size: 12px;
+}
+
+.emotion-4.emotion-4>span>span>i {
+  font-size: 16px;
+}
+
+.emotion-4:hover {
+  color: #ababab!important;
+}
+
+.emotion-4:active {
+  color: !important;
+}
+
+.emotion-4:hover {
+  color: #27ae60!important;
+}
+
+.emotion-4.emotion-4 i {
+  font-size: 12px;
+}
+
+.emotion-5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.emotion-6 [class^='icon-'],
+.emotion-6 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-7 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="ant-color-picker-trigger emotion-1 emotion-2"
+    >
+      <div
+        class="ant-color-picker-color-block"
+      >
+        <div
+          class="ant-color-picker-color-block-inner"
+          style="background: rgb(39, 174, 96);"
+        />
+      </div>
+      <div
+        class="ant-color-picker-trigger-text"
+      >
+        #27AE60
+      </div>
+    </div>
+    <button
+      class="ant-btn emotion-2 ant-btn-text emotion-4"
+      type="button"
+    >
+      <span>
+        <span
+          class="emotion-5"
+        >
+          <span
+            class="anticon undefined emotion-6"
+          >
+            <i
+              class="icon-close_outlined emotion-7"
+            />
+          </span>
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ColorPicker opens color picker dropdown when clicked 1`] = `
+.emotion-0 {
+  position: relative;
+  line-height: 1px;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-collapse-header {
+  display: none;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-color-picker-color-block.ant-color-picker-presets-color:before {
+  border-radius: 6px;
+}
+
+.emotion-0 .ant-color-picker .ant-color-picker-inner .ant-color-picker-presets .ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
+
+.emotion-1 {
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 6px;
+  background-color: #fff;
+  box-shadow: none!important;
+  height: px;
+  border-radius: px;
+}
+
+.emotion-1 .ant-color-picker-trigger-text {
+  font-size: px;
+}
+
+.emotion-1 .ant-color-picker-color-block {
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.emotion-4 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  color: #27ae60;
+  background: transparent!important;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-4>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-4.ant-btn.ant-btn-round {
+  padding-inline: 12px;
+}
+
+.emotion-4 i {
+  font-size: 16px;
+}
+
+.emotion-4>span {
+  gap: 6px;
+}
+
+.emotion-4 span {
+  font-size: 12px;
+}
+
+.emotion-4.emotion-4>span>span>i {
+  font-size: 16px;
+}
+
+.emotion-4:hover {
+  color: #ababab!important;
+}
+
+.emotion-4:active {
+  color: !important;
+}
+
+.emotion-4:hover {
+  color: #27ae60!important;
+}
+
+.emotion-4.emotion-4 i {
+  font-size: 12px;
+}
+
+.emotion-5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.emotion-6 [class^='icon-'],
+.emotion-6 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-7 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="ant-color-picker-trigger emotion-1 emotion-2"
+    >
+      <div
+        class="ant-color-picker-color-block"
+      >
+        <div
+          class="ant-color-picker-color-block-inner"
+          style="background: rgb(39, 174, 96);"
+        />
+      </div>
+      <div
+        class="ant-color-picker-trigger-text"
+      >
+        #27AE60
+      </div>
+    </div>
+    <button
+      class="ant-btn emotion-2 ant-btn-text emotion-4"
+      type="button"
+    >
+      <span>
+        <span
+          class="emotion-5"
+        >
+          <span
+            class="anticon undefined emotion-6"
+          >
+            <i
+              class="icon-close_outlined emotion-7"
+            />
+          </span>
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ColorPicker renders ColorPicker component 1`] = `
+.emotion-0 {
+  position: relative;
+  line-height: 1px;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-collapse-header {
+  display: none;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-color-picker-color-block.ant-color-picker-presets-color:before {
+  border-radius: 6px;
+}
+
+.emotion-0 .ant-color-picker .ant-color-picker-inner .ant-color-picker-presets .ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
+
+.emotion-1 {
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 6px;
+  background-color: #fff;
+  box-shadow: none!important;
+  height: px;
+  border-radius: px;
+}
+
+.emotion-1 .ant-color-picker-trigger-text {
+  font-size: px;
+}
+
+.emotion-1 .ant-color-picker-color-block {
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.emotion-4 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  color: #27ae60;
+  background: transparent!important;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-4>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-4.ant-btn.ant-btn-round {
+  padding-inline: 12px;
+}
+
+.emotion-4 i {
+  font-size: 16px;
+}
+
+.emotion-4>span {
+  gap: 6px;
+}
+
+.emotion-4 span {
+  font-size: 12px;
+}
+
+.emotion-4.emotion-4>span>span>i {
+  font-size: 16px;
+}
+
+.emotion-4:hover {
+  color: #ababab!important;
+}
+
+.emotion-4:active {
+  color: !important;
+}
+
+.emotion-4:hover {
+  color: #27ae60!important;
+}
+
+.emotion-4.emotion-4 i {
+  font-size: 12px;
+}
+
+.emotion-5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.emotion-6 [class^='icon-'],
+.emotion-6 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-7 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="ant-color-picker-trigger emotion-1 emotion-2"
+    >
+      <div
+        class="ant-color-picker-color-block"
+      >
+        <div
+          class="ant-color-picker-color-block-inner"
+          style="background: rgb(39, 174, 96);"
+        />
+      </div>
+      <div
+        class="ant-color-picker-trigger-text"
+      >
+        #27AE60
+      </div>
+    </div>
+    <button
+      class="ant-btn emotion-2 ant-btn-text emotion-4"
+      type="button"
+    >
+      <span>
+        <span
+          class="emotion-5"
+        >
+          <span
+            class="anticon undefined emotion-6"
+          >
+            <i
+              class="icon-close_outlined emotion-7"
+            />
+          </span>
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ColorPicker resets to default color when reset button is clicked 1`] = `
+.emotion-0 {
+  position: relative;
+  line-height: 1px;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-collapse-header {
+  display: none;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-color-picker-color-block.ant-color-picker-presets-color:before {
+  border-radius: 6px;
+}
+
+.emotion-0 .ant-color-picker .ant-color-picker-inner .ant-color-picker-presets .ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
+
+.emotion-1 {
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 6px;
+  background-color: #fff;
+  box-shadow: none!important;
+  height: px;
+  border-radius: px;
+}
+
+.emotion-1 .ant-color-picker-trigger-text {
+  font-size: px;
+}
+
+.emotion-1 .ant-color-picker-color-block {
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.emotion-4 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  color: #27ae60;
+  background: transparent!important;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-4>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-4.ant-btn.ant-btn-round {
+  padding-inline: 12px;
+}
+
+.emotion-4 i {
+  font-size: 16px;
+}
+
+.emotion-4>span {
+  gap: 6px;
+}
+
+.emotion-4 span {
+  font-size: 12px;
+}
+
+.emotion-4.emotion-4>span>span>i {
+  font-size: 16px;
+}
+
+.emotion-4:hover {
+  color: #ababab!important;
+}
+
+.emotion-4:active {
+  color: !important;
+}
+
+.emotion-4:hover {
+  color: #27ae60!important;
+}
+
+.emotion-4.emotion-4 i {
+  font-size: 12px;
+}
+
+.emotion-5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.emotion-6 [class^='icon-'],
+.emotion-6 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-7 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="ant-color-picker-trigger emotion-1 emotion-2"
+    >
+      <div
+        class="ant-color-picker-color-block"
+      >
+        <div
+          class="ant-color-picker-color-block-inner"
+          style="background: rgb(39, 174, 96);"
+        />
+      </div>
+      <div
+        class="ant-color-picker-trigger-text"
+      >
+        #27AE60
+      </div>
+    </div>
+    <button
+      class="ant-btn emotion-2 ant-btn-text emotion-4"
+      type="button"
+    >
+      <span>
+        <span
+          class="emotion-5"
+        >
+          <span
+            class="anticon undefined emotion-6"
+          >
+            <i
+              class="icon-close_outlined emotion-7"
+            />
+          </span>
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ColorPicker selects color from presets when clicked 1`] = `
+.emotion-0 {
+  position: relative;
+  line-height: 1px;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-collapse-header {
+  display: none;
+}
+
+.emotion-0.emotion-0.emotion-0 .ant-color-picker-color-block.ant-color-picker-presets-color:before {
+  border-radius: 6px;
+}
+
+.emotion-0 .ant-color-picker .ant-color-picker-inner .ant-color-picker-presets .ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
+
+.emotion-1 {
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 6px;
+  background-color: #fff;
+  box-shadow: none!important;
+  height: px;
+  border-radius: px;
+}
+
+.emotion-1 .ant-color-picker-trigger-text {
+  font-size: px;
+}
+
+.emotion-1 .ant-color-picker-color-block {
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.emotion-4 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  color: #27ae60;
+  background: transparent!important;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-4>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-4.ant-btn.ant-btn-round {
+  padding-inline: 12px;
+}
+
+.emotion-4 i {
+  font-size: 16px;
+}
+
+.emotion-4>span {
+  gap: 6px;
+}
+
+.emotion-4 span {
+  font-size: 12px;
+}
+
+.emotion-4.emotion-4>span>span>i {
+  font-size: 16px;
+}
+
+.emotion-4:hover {
+  color: #ababab!important;
+}
+
+.emotion-4:active {
+  color: !important;
+}
+
+.emotion-4:hover {
+  color: #27ae60!important;
+}
+
+.emotion-4.emotion-4 i {
+  font-size: 12px;
+}
+
+.emotion-5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.emotion-6 [class^='icon-'],
+.emotion-6 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-7 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="ant-color-picker-trigger emotion-1 emotion-2"
+    >
+      <div
+        class="ant-color-picker-color-block"
+      >
+        <div
+          class="ant-color-picker-color-block-inner"
+          style="background: rgb(39, 174, 96);"
+        />
+      </div>
+      <div
+        class="ant-color-picker-trigger-text"
+      >
+        #27AE60
+      </div>
+    </div>
+    <button
+      class="ant-btn emotion-2 ant-btn-text emotion-4"
+      type="button"
+    >
+      <span>
+        <span
+          class="emotion-5"
+        >
+          <span
+            class="anticon undefined emotion-6"
+          >
+            <i
+              class="icon-close_outlined emotion-7"
+            />
+          </span>
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,54 @@
+{
+  "$id": "LCsdjrFXXE12k2usJGu7ph",
+  "$name": "reviews_stats",
+  "$type": "node_tree",
+  "defaultMeta": "service",
+  "links": null,
+  "metas": {
+    "service": {
+      "$id": "6AgAe2fPbPusXT9z9iADp5",
+      "$name": "reviews_stats_service",
+      "$type": "sql.table",
+      "schema": {
+        "$id": "reviews_stats",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "user_id",
+          "count",
+          "sum_rating"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "deleted_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "user_id": {
+            "type": "integer"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "sum_rating": {
+            "type": "number",
+            "default":  0,
+            "minimum":  0
+          }
+        }
+      }
+    }
+  },
+  "title": ""
+}
+

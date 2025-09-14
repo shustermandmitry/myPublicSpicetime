@@ -1,0 +1,98 @@
+{
+    "$id": "@treenity/repository:paypal.create-data",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "website": {
+            "type": "string"
+        },
+        "quantity": {
+            "type": "number"
+        },
+        "createDate": {
+            "type": "string"
+        },
+        "dueDate": {
+            "type": "string"
+        },
+        "lang": {
+            "type": "string"
+        },
+        "amount": {
+            "type": "number"
+        },
+        "buyerId": {
+            "type": "number"
+        },
+        "userName": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "linkParams": {
+            "type": "object",
+            "properties": {
+                "ownerId": {
+                    "type": [
+                        "string",
+                        "number"
+                    ]
+                },
+                "eventId": {
+                    "type": [
+                        "string",
+                        "number"
+                    ]
+                }
+            },
+            "required": [
+                "eventId",
+                "ownerId"
+            ]
+        },
+        "additional": {
+            "type": "object",
+            "properties": {
+                "paymentMethod": {
+                    "type": "string"
+                },
+                "customId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "customId",
+                "paymentMethod"
+            ]
+        },
+        "item": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "description",
+                "title"
+            ]
+        }
+    },
+    "required": [
+        "additional",
+        "amount",
+        "buyerId",
+        "createDate",
+        "dueDate",
+        "email",
+        "item",
+        "lang",
+        "quantity",
+        "userName"
+    ]
+}
+

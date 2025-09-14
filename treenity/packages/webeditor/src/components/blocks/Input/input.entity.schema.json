@@ -1,0 +1,34 @@
+{
+    "$id": "@treenity/webeditor:form.input",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "size": {
+            "$ref": "@treenity/webeditor:form.input#/definitions/InputStyledSize",
+            "title": "Default checked",
+            "default": "middle"
+        },
+        "placeholder": {
+            "title": "Placeholder",
+            "type": "string",
+            "default": ""
+        }
+    },
+    "required": [
+        "placeholder",
+        "size"
+    ],
+    "definitions": {
+        "InputStyledSize": {
+            "enum": [
+                "large",
+                "middle",
+                "small",
+                "x-large",
+                "x-small"
+            ],
+            "type": "string"
+        }
+    }
+}
+

@@ -1,0 +1,54 @@
+{
+  "$id": "Q2sdjrF3XE42k2usJGu7ph",
+  "$name": "request_rest",
+  "$type": "node_tree",
+  "defaultMeta": "service",
+  "$refs": [
+    { "ref": "/metas/service/connection/host", "url": "cfg:/services/request-ms/host" },
+    { "ref": "/metas/service/connection/port", "url": "cfg:/services/request-ms/port" }
+  ],
+  "links": null,
+  "metas": {
+    "service": {
+      "$id": "1AgAe2kPb24sXT3z9iADp5",
+      "$name": "request_rest_service",
+      "$type": "sys.rest",
+      "connection": {
+        "port": 2025,
+        "host": "request-ms",
+        "protocol": "http"
+      },
+      "methods": {
+        "create": {
+          "path": "/api/v1/request",
+          "method": "POST",
+          "headers": { "Content-Type": "application/json" }
+        },
+        "update": {
+          "path": "/api/v1/request",
+          "method": "PUT",
+          "headers": { "Content-Type": "application/json" }
+        },
+        "list": {
+          "path": "/api/v1/request/list",
+          "method": "POST",
+          "headers": { "Content-Type": "application/json" }
+        },
+        "getById": {
+          "path": "/api/v1/request/{id}",
+          "method": "GET"
+        },
+        "remove": {
+          "path": "/api/v1/request/{id}",
+          "method": "GET"
+        },
+        "changeStatus": {
+          "path": "/api/v1/request/change-status",
+          "method": "PUT",
+          "headers": { "Content-Type": "application/json" }
+        }
+      }
+    }
+  },
+  "title": ""
+}

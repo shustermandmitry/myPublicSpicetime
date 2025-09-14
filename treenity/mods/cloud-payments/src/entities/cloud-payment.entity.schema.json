@@ -1,0 +1,68 @@
+{
+    "$id": "@treenity/cloud-payments:cloud-payment.service.meta",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "endpoint": {
+            "type": "string"
+        },
+        "privateKey": {
+            "type": "string"
+        },
+        "publicId": {
+            "type": "string"
+        },
+        "taxationSystem": {
+            "$ref": "@treenity/cloud-payments:cloud-payment.service.meta#/definitions/TaxationSystem"
+        },
+        "inn": {
+            "type": "number"
+        },
+        "proxy": {
+            "$ref": "@treenity/cloud-payments:cloud-payment.service.meta#/definitions/CloudPaymentWebhookProxyEntity"
+        }
+    },
+    "required": [
+        "inn",
+        "privateKey",
+        "proxy",
+        "publicId",
+        "taxationSystem"
+    ],
+    "definitions": {
+        "TaxationSystem": {
+            "description": "Системы налогообложения\n\nВ таблице ниже представлены варианты систем налогообложения юридических лиц и индивидуальных предпринимателей,\nкоторые используются при формировании кассовых чеков.",
+            "type": "number",
+            "enum": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "CloudPaymentWebhookProxyEntity": {
+            "type": "object",
+            "properties": {
+                "url": {
+                    "type": "string"
+                },
+                "method": {
+                    "type": "string"
+                },
+                "headers": {
+                    "$ref": "@treenity/cloud-payments:cloud-payment.service.meta#/definitions/Record<string,string>"
+                }
+            },
+            "required": [
+                "method",
+                "url"
+            ]
+        },
+        "Record<string,string>": {
+            "type": "object"
+        }
+    }
+}
+

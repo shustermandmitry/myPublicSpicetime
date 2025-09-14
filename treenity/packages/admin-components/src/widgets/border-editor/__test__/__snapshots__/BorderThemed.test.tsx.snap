@@ -1,0 +1,1095 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BorderThemed render 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  gap: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #E9E8EE;
+}
+
+.emotion-1 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 64px;
+}
+
+.emotion-1,
+.emotion-1>div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-3 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  background: #FFF;
+  color: #26233F;
+  border-color: #E9E8EE;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-3>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-3.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-3 i {
+  color: #27ae60;
+}
+
+.emotion-3.ant-btn-default:not(:disabled):not(.emotion-3.ant-btn-disabled):hover {
+  background: #FFF;
+  color: #47BA73;
+  border-color: #E5E4EC;
+}
+
+.emotion-3.ant-btn-default:not(:disabled):not(.emotion-3.ant-btn-disabled):active {
+  background: #FFF;
+  color: #178749;
+  border-color: #E1DFE8;
+}
+
+.emotion-3 i {
+  font-size: 16px;
+}
+
+.emotion-3>span {
+  gap: 4px;
+}
+
+.emotion-3,
+.emotion-3 span {
+  line-height: 10px;
+}
+
+.emotion-3.emotion-3>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-3 i {
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-4 [class^='icon-'],
+.emotion-4 [class*=' icon-'] {
+  font-size: 15px;
+}
+
+.emotion-5 {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-11 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  border: none;
+  padding: 3px 8px;
+  -webkit-padding-start: 6px;
+  padding-inline-start: 6px;
+  border-radius: 4px;
+  height: 20px;
+  font-size: 10px;
+  width: 20px!important;
+}
+
+.emotion-11>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-11.ant-btn.ant-btn-round {
+  padding-inline: 8px;
+}
+
+.emotion-11 i {
+  font-size: 16px;
+}
+
+.emotion-11>span {
+  gap: 4px;
+}
+
+.emotion-11,
+.emotion-11 span {
+  line-height: 10px;
+}
+
+.emotion-11.emotion-11>span>span>i {
+  font-size: 12px;
+}
+
+.emotion-22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.emotion-23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 4px;
+  line-height: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.emotion-24 {
+  margin: 0;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  font-family: Manrope,sans-serif;
+  font-weight: 700;
+  width: 72px;
+  line-height: 20px;
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+}
+
+.emotion-25 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-26 {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.emotion-27 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-28 {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 8px;
+  color: #A7A2BD;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.emotion-28 span {
+  padding: 0 4px;
+}
+
+.emotion-30 {
+  height: 20px;
+  font-size: 10px;
+  border-radius: 4px;
+  padding-inline: 6px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-30.emotion-30 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-30.emotion-30 i {
+  font-size: 12px!important;
+}
+
+.emotion-30[type='number']::-webkit-inner-spin-button,
+.emotion-30 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-30.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-30 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-30 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-30.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-30.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-30.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-30.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-30.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-30.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-30.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-30.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-30.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-30.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-30.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-30.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-30.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-30.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-30.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-30.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-30.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-30.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-30.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-30 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-30 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+.emotion-34 {
+  position: relative;
+  line-height: 1px;
+}
+
+.emotion-34.emotion-34.emotion-34 .ant-collapse-header {
+  display: none;
+}
+
+.emotion-34.emotion-34.emotion-34 .ant-color-picker-color-block.ant-color-picker-presets-color:before {
+  border-radius: 6px;
+}
+
+.emotion-34 .ant-color-picker .ant-color-picker-inner .ant-color-picker-presets .ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
+
+.emotion-35 {
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  padding-left: 6px;
+  background-color: #fff;
+  box-shadow: none!important;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.emotion-35 .ant-color-picker-trigger-text {
+  font-size: 10px;
+}
+
+.emotion-35 .ant-color-picker-color-block {
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.emotion-38 {
+  box-shadow: none;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-pack: none;
+  -ms-flex-pack: none;
+  -webkit-justify-content: none;
+  justify-content: none;
+  color: #27ae60;
+  background: transparent!important;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  color: rgba(38, 35, 63, 0.88);
+}
+
+.emotion-38>span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-38.ant-btn.ant-btn-round {
+  padding-inline: 12px;
+}
+
+.emotion-38 i {
+  font-size: 16px;
+}
+
+.emotion-38>span {
+  gap: 6px;
+}
+
+.emotion-38 span {
+  font-size: 12px;
+}
+
+.emotion-38.emotion-38>span>span>i {
+  font-size: 16px;
+}
+
+.emotion-38:hover {
+  color: #ababab!important;
+}
+
+.emotion-38:active {
+  color: !important;
+}
+
+.emotion-38:hover {
+  color: #27ae60!important;
+}
+
+.emotion-38.emotion-38 i {
+  font-size: 12px;
+}
+
+.emotion-39 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.emotion-45 {
+  border: 1px solid #d9d9d9;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.emotion-45.emotion-45 {
+  border-radius: 6px;
+}
+
+.emotion-45.emotion-45.ant-segmented.ant-segmented-sm .ant-segmented-item,
+.emotion-45.emotion-45.ant-segmented.ant-segmented-sm .ant-segmented-thumb {
+  border-radius: 4px;
+}
+
+.emotion-45 i {
+  font-size: 12px;
+}
+
+.emotion-45 .ant-segmented-item-icon,
+.emotion-45 .ant-segmented-item-label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-58 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.emotion-69 {
+  height: 24px;
+  font-size: 12px;
+  border-radius: 4px;
+  padding-inline: 8px;
+  outline: none!important;
+  font-weight: 500;
+}
+
+.emotion-69.emotion-69 .ant-input-prefix {
+  -webkit-margin-end: 6px;
+  margin-inline-end: 6px;
+}
+
+.emotion-69.emotion-69 i {
+  font-size: 14px!important;
+}
+
+.emotion-69[type='number']::-webkit-inner-spin-button,
+.emotion-69 input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.emotion-69.ant-input {
+  font-weight: 500!important;
+}
+
+.emotion-69 .ant-input-prefix {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+
+.emotion-69 i {
+  color: #d9d9d9;
+  -webkit-transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transition: color 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+
+.emotion-69.ant-input-affix-wrapper-focused i {
+  color: #27ae60;
+}
+
+.emotion-69.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper,
+.emotion-69.ant-input-status-error:not(.ant-input-disabled) {
+  background-color: #eb57570a;
+  border-width: 1px;
+}
+
+.emotion-69.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i,
+.emotion-69.ant-input-status-error:not(.ant-input-disabled) i {
+  color: #eb5757;
+}
+
+.emotion-69.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper i:before,
+.emotion-69.ant-input-status-error:not(.ant-input-disabled) i:before {
+  content: '\\e91c';
+}
+
+.emotion-69.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-69.ant-input-status-error:not(.ant-input-disabled) input {
+  background: transparent;
+}
+
+.emotion-69.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-69.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-69.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-69.ant-input-status-error:not(.ant-input-disabled) input::-webkit-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-69.ant-input-status-error:not(.ant-input-disabled) input::-moz-placeholder {
+  color: #eb5757;
+}
+
+.emotion-69.ant-input-status-error:not(.ant-input-disabled) input:-ms-input-placeholder {
+  color: #eb5757;
+}
+
+.emotion-69.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input,
+.emotion-69.ant-input-status-error:not(.ant-input-disabled) input,
+.emotion-69.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(
+      .ant-input-affix-wrapper-borderless
+    ).ant-input-affix-wrapper input::placeholder,
+.emotion-69.ant-input-status-error:not(.ant-input-disabled) input::placeholder {
+  color: #eb5757;
+}
+
+.emotion-69 .ant-input-group-addon {
+  border-left: 0;
+}
+
+.emotion-69 i {
+  color: #d8d8da;
+  font-size: 12px!important;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      <div>
+        <button
+          class="ant-btn emotion-2 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-3"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <span
+              class="anticon undefined emotion-4"
+            >
+              <i
+                class="icon-border-top_outlined emotion-5"
+              />
+            </span>
+          </span>
+        </button>
+      </div>
+      <div>
+        <button
+          class="ant-btn emotion-2 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-3"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <span
+              class="anticon undefined emotion-4"
+            >
+              <i
+                class="icon-border-left_outlined emotion-5"
+              />
+            </span>
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-2 ant-btn-primary ant-btn-sm ant-btn-icon-only emotion-11"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <span
+              class="anticon undefined emotion-4"
+            >
+              <i
+                class="icon-border-all_outlined emotion-5"
+              />
+            </span>
+          </span>
+        </button>
+        <button
+          class="ant-btn emotion-2 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-3"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <span
+              class="anticon undefined emotion-4"
+            >
+              <i
+                class="icon-border-right_outlined emotion-5"
+              />
+            </span>
+          </span>
+        </button>
+      </div>
+      <div>
+        <button
+          class="ant-btn emotion-2 ant-btn-default ant-btn-sm ant-btn-icon-only emotion-3"
+          type="button"
+        >
+          <span
+            class="ant-btn-icon"
+          >
+            <span
+              class="anticon undefined emotion-4"
+            >
+              <i
+                class="icon-border-bottom_outlined emotion-5"
+              />
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="emotion-22"
+    >
+      <div
+        class="emotion-23"
+      >
+        <p
+          class="ant-typography text-content emotion-24"
+          font-weight="700"
+          size="10"
+        >
+          Width
+        </p>
+        <div
+          class="emotion-25"
+        >
+          <div
+            class="emotion-26"
+          >
+            <div
+              class="emotion-27"
+            >
+              <div
+                class="emotion-28"
+              >
+                <span
+                  class="ant-dropdown-trigger"
+                >
+                  px
+                </span>
+              </div>
+              <input
+                aria-label="Value input"
+                class="ant-input ant-input-sm emotion-2 ant-input-outlined input-with-units emotion-30"
+                placeholder="0"
+                type="text"
+                value="0"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-23"
+      >
+        <p
+          class="ant-typography text-content emotion-24"
+          font-weight="700"
+          size="10"
+        >
+          Color
+        </p>
+        <div
+          class="emotion-25"
+        >
+          <div
+            class="emotion-34"
+          >
+            <div
+              class="ant-color-picker-trigger ant-color-picker-sm emotion-35 emotion-2"
+            >
+              <div
+                class="ant-color-picker-color-block"
+              >
+                <div
+                  class="ant-color-picker-color-block-inner"
+                  style="background: rgb(0, 0, 0);"
+                />
+              </div>
+              <div
+                class="ant-color-picker-trigger-text"
+              >
+                #000000
+              </div>
+            </div>
+            <button
+              class="ant-btn emotion-2 ant-btn-text emotion-38"
+              type="button"
+            >
+              <span>
+                <span
+                  class="emotion-39"
+                >
+                  <span
+                    class="anticon undefined emotion-4"
+                  >
+                    <i
+                      class="icon-close_outlined emotion-5"
+                    />
+                  </span>
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-23"
+      >
+        <p
+          class="ant-typography text-content emotion-24"
+          font-weight="700"
+          size="10"
+        >
+          Style
+        </p>
+        <div
+          class="emotion-25"
+        >
+          <div
+            class="ant-segmented emotion-45 ant-segmented-block ant-segmented-sm emotion-2"
+          >
+            <div
+              class="ant-segmented-group"
+            >
+              <label
+                class="ant-segmented-item"
+              >
+                <input
+                  class="ant-segmented-item-input"
+                  type="radio"
+                />
+                <div
+                  class="ant-segmented-item-label"
+                >
+                  <span
+                    class="ant-segmented-item-icon"
+                  >
+                    <span
+                      class="anticon undefined emotion-4"
+                    >
+                      <i
+                        class="icon-x-axis_outlined emotion-5"
+                      />
+                    </span>
+                  </span>
+                </div>
+              </label>
+              <label
+                class="ant-segmented-item ant-segmented-item-selected"
+              >
+                <input
+                  checked=""
+                  class="ant-segmented-item-input"
+                  type="radio"
+                />
+                <div
+                  class="ant-segmented-item-label"
+                >
+                  <span
+                    class="ant-segmented-item-icon"
+                  >
+                    <span
+                      class="anticon undefined emotion-4"
+                    >
+                      <i
+                        class="icon-border-solid_outlined emotion-5"
+                      />
+                    </span>
+                  </span>
+                </div>
+              </label>
+              <label
+                class="ant-segmented-item"
+              >
+                <input
+                  class="ant-segmented-item-input"
+                  type="radio"
+                />
+                <div
+                  class="ant-segmented-item-label"
+                >
+                  <span
+                    class="ant-segmented-item-icon"
+                  >
+                    <span
+                      class="anticon undefined emotion-4"
+                    >
+                      <i
+                        class="icon-border-dash_outlined emotion-5"
+                      />
+                    </span>
+                  </span>
+                </div>
+              </label>
+              <label
+                class="ant-segmented-item"
+              >
+                <input
+                  class="ant-segmented-item-input"
+                  type="radio"
+                />
+                <div
+                  class="ant-segmented-item-label"
+                >
+                  <span
+                    class="ant-segmented-item-icon"
+                  >
+                    <span
+                      class="anticon undefined emotion-4"
+                    >
+                      <i
+                        class="icon-border-dotted_outlined emotion-5"
+                      />
+                    </span>
+                  </span>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="emotion-23"
+  >
+    <p
+      class="ant-typography text-content emotion-24"
+      font-weight="700"
+      size="10"
+    >
+      Radius
+    </p>
+    <div
+      class="emotion-25"
+    >
+      <div
+        class="emotion-58"
+        id="asdqwe"
+      >
+        <div
+          class="ant-segmented emotion-45 ant-segmented-block ant-segmented-sm emotion-2"
+        >
+          <div
+            class="ant-segmented-group"
+          >
+            <label
+              class="ant-segmented-item ant-segmented-item-selected"
+            >
+              <input
+                checked=""
+                class="ant-segmented-item-input"
+                type="radio"
+              />
+              <div
+                class="ant-segmented-item-label"
+              >
+                <span
+                  class="ant-segmented-item-icon"
+                >
+                  <span
+                    class="anticon undefined emotion-4"
+                  >
+                    <i
+                      class="icon-empty_outlined emotion-5"
+                    />
+                  </span>
+                </span>
+              </div>
+            </label>
+            <label
+              class="ant-segmented-item"
+            >
+              <input
+                class="ant-segmented-item-input"
+                type="radio"
+              />
+              <div
+                class="ant-segmented-item-label"
+              >
+                <span
+                  class="ant-segmented-item-icon"
+                >
+                  <span
+                    class="anticon undefined emotion-4"
+                  >
+                    <i
+                      class="icon-border-radius-fine-tune_outlined emotion-5"
+                    />
+                  </span>
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          class="emotion-26"
+        >
+          <div
+            class="emotion-27"
+          >
+            <div
+              class="emotion-28"
+            >
+              <span
+                class="ant-dropdown-trigger"
+              >
+                px
+              </span>
+            </div>
+            <input
+              aria-label="Value input"
+              class="ant-input emotion-2 ant-input-outlined input-with-units emotion-69"
+              placeholder="0"
+              type="text"
+              value="0"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+{
+  "$id": "4CsdjrFEWE42kiusJGu7p1",
+  "$name": "ac-1",
+  "$type": "node_tree",
+  "defaultMeta": "service",
+  "links": null,
+  "metas": {
+    "service": {
+      "$id": "21gAe2kPbPus7779iADp1",
+      "$name": "casbin_service",
+      "$type": "sys.access-control.casbin",
+      "model": {
+        "request_definition": "r = sub, obj, act",
+        "policy_definition": "p = sub, obj, act",
+        "role_definition": "g = _, _",
+        "policy_effect": "e = some(where (p.eft == allow))",
+        "matchers": "m = g(r.sub, p.sub) && keyMatch4(r.obj, p.obj) && regexMatch(r.act, p.act)"
+      }
+    }
+  },
+  "title": "",
+  "$perm": {
+    "$": ["user"]
+  }
+}

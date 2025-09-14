@@ -1,0 +1,17 @@
+{
+  "$id": "4BsdjrFEWE42kiusJGu7ph2",
+  "$name": "user",
+  "$type": "node_tree",
+  "defaultMeta": "role",
+  "links": null,
+  "metas": {
+    "role": {
+      "$id": "22gAe2kPbPus7779iADp1",
+      "$name": "no_set role",
+      "$type": "db.access-control.role",
+      "name": "no_set",
+      "inheritedFrom": "public"
+    }
+  },
+  "title": ""
+}
